@@ -1,0 +1,44 @@
+name: 每日新闻爬虫
+
+on:
+  schedule:
+    # 每天上午9点 (UTC+8 时区)
+    - cron: '0 1 * * *'  # UTC 01:00 = 北京时间 09:00
+  
+  # 手动触发
+  workflow_dispatch:
+
+jobs:
+  scrape-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout仓库
+        uses: actions/checkout@v3
+      
+      - name: 设置Python环境
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: 执行爬虫
+        run: |
+          python src/main.py
+      
+      - name: 提交更新
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/news.json
+          git commit -m "🤖 每日新闻更新 - $(date '+%Y-%m-%d %H:%M:%S')" || echo "没有新的更改"
+          git push
+      
+      - name: 发送通知 (可选)
+        if: always()
+        run: |
+          echo "✅ 新闻爬虫执行完成"

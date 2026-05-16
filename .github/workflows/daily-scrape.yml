@@ -2,10 +2,7 @@ name: 每日新闻爬虫
 
 on:
   schedule:
-    # 每天上午9点 (UTC+8 时区)
-    - cron: '0 1 * * *'  # UTC 01:00 = 北京时间 09:00
-  
-  # 手动触发
+    - cron: '0 1 * * *'
   workflow_dispatch:
 
 jobs:
@@ -15,30 +12,61 @@ jobs:
     steps:
       - name: Checkout仓库
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: 设置Python环境
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       
+      - name: 显示Python版本
+        run: |
+          python --version
+          pip --version
+      
       - name: 安装依赖
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install feedparser requests python-dateutil
+      
+      - name: 验证依赖安装
+        run: |
+          pip list | grep -E "feedparser|requests|python-dateutil"
+      
+      - name: 显示文件结构
+        run: |
+          ls -la
+          ls -la src/
       
       - name: 执行爬虫
         run: |
+          cd /home/runner/work/news-top10-scraper/news-top10-scraper
           python src/main.py
+      
+      - name: 检查输出文件
+        run: |
+          ls -la data/ || echo "data文件夹不存在"
+          cat data/news.json || echo "news.json不存在"
+      
+      - name: 配置Git
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git config --global --list
       
       - name: 提交更新
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add data/news.json || true
-          git commit -m "🤖 每日新闻更新 - $(date '+%Y-%m-%d %H:%M:%S')" || echo "没有新的更改"
-          git push
+          git status
+          if [ -f data/news.json ]; then
+            git add data/news.json
+            git commit -m "🤖 每日新闻更新 - $(date '+%Y-%m-%d %H:%M:%S')"
+            git push
+          else
+            echo "⚠️ news.json文件不存在，跳过提交"
+          fi
       
-      - name: 发送通知 (可选)
+      - name: 执行完成
         if: always()
         run: |
-          echo "✅ 新闻爬虫执行完成"
+          echo "✅ 爬虫执行完成"

@@ -1,8 +1,19 @@
 {
-  "generated_at": "2026-05-16T14:56:54.302823",
-  "total_articles": 240,
-  "top_count": 6,
+  "generated_at": "2026-05-16T15:17:52.667672",
+  "total_articles": 350,
+  "top_count": 8,
   "articles": [
+    {
+      "title": "$60B AI chip darling Cerebras almost died early on, burning $8M a month",
+      "link": "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/",
+      "source": "TechCrunch",
+      "source_weight": 1.0,
+      "published": "Sat, 16 May 2026 15:00:00 +0000",
+      "summary": "Cerebras Systems was 2026's biggest tech IPO so far. But years ago, it burned through hundreds of millions working on a chip many believed impossible.",
+      "fetch_time": "2026-05-16T15:17:46.844472",
+      "score": 0.654,
+      "category": "tech"
+    },
     {
       "title": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
       "link": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
@@ -10,7 +21,7 @@
       "source_weight": 1.0,
       "published": "Fri, 15 May 2026 16:00:00 +0000",
       "summary": "Once users connect their accounts, they will see a dashboard of their portfolio performance, spending, subscriptions, and upcoming payments.",
-      "fetch_time": "2026-05-16T14:56:50.707444",
+      "fetch_time": "2026-05-16T15:17:46.844506",
       "score": 0.645,
       "category": "tech"
     },
@@ -21,20 +32,31 @@
       "source_weight": 1.0,
       "published": "Sat, 16 May 2026 00:00:00 GMT",
       "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
-      "fetch_time": "2026-05-16T14:56:53.494400",
+      "fetch_time": "2026-05-16T15:17:51.405853",
       "score": 0.645,
       "category": "ai"
     },
     {
-      "title": "Users turn to jailbreaking their older Kindles as Amazon ends support",
-      "link": "https://techcrunch.com/2026/05/16/users-turn-to-jailbreaking-their-older-kindles-as-amazon-ends-support/",
-      "source": "TechCrunch",
-      "source_weight": 1.0,
-      "published": "Sat, 16 May 2026 14:00:00 +0000",
-      "summary": "It may be possible to jailbreak an older, end-of-support Kindle and continue adding books to it. But doing so carries risks.",
-      "fetch_time": "2026-05-16T14:56:50.707419",
-      "score": 0.64,
-      "category": "tech"
+      "title": "MicroVision Turns $33M Luminar deal into trucking LiDAR expansion",
+      "link": "https://www.freightwaves.com/news/microvision-luminar-acquisition-lidar-2-0-trucking",
+      "source": "FreightWaves",
+      "source_weight": 0.95,
+      "published": "Sat, 16 May 2026 13:00:00 +0000",
+      "summary": "<p>MicroVision acquired Luminar assets for $33 million, adding Iris and Halo LiDAR. The company’s strategy for commercial trucking includes insurance and safety savings.</p>\n<p>The post <a href=\"https",
+      "fetch_time": "2026-05-16T15:17:48.349350",
+      "score": 0.609,
+      "category": "supply_chain"
+    },
+    {
+      "title": "Volvo Autonomous Solutions, DSV launch autonomous freight operations in Texas",
+      "link": "https://www.freightwaves.com/news/volvo-dsv-autonomous-freight-dallas-houston",
+      "source": "FreightWaves",
+      "source_weight": 0.95,
+      "published": "Sat, 16 May 2026 11:00:00 +0000",
+      "summary": "<p>Volvo Autonomous Solutions and DSV have started autonomous freight operations between Dallas and Houston. Volvo Autonomous Solutions, or VAS, is deploying its Autona/freight solution for DSV. The A",
+      "fetch_time": "2026-05-16T15:17:48.349354",
+      "score": 0.609,
+      "category": "supply_chain"
     },
     {
       "title": "A new personal finance experience in ChatGPT",
@@ -43,7 +65,7 @@
       "source_weight": 1.0,
       "published": "Fri, 15 May 2026 00:00:00 GMT",
       "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goa",
-      "fetch_time": "2026-05-16T14:56:53.494424",
+      "fetch_time": "2026-05-16T15:17:51.405877",
       "score": 0.581,
       "category": "ai"
     },
@@ -54,7 +76,7 @@
       "source_weight": 0.9,
       "published": "",
       "summary": "Vice President Kamala Harris, a former US senator from California who previously served as the state's attorney general, could be the first Black woman and Asian American to lead a major party ticket ",
-      "fetch_time": "2026-05-16T14:56:52.702740",
+      "fetch_time": "2026-05-16T15:17:49.392068",
       "score": 0.496,
       "category": "politics"
     },
@@ -65,7 +87,7 @@
       "source_weight": 0.9,
       "published": "",
       "summary": "The political news you need to know, in 10 minutes or less. Hosted by David Chalian.",
-      "fetch_time": "2026-05-16T14:56:52.702683",
+      "fetch_time": "2026-05-16T15:17:49.392012",
       "score": 0.479,
       "category": "politics"
     }

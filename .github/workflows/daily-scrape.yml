@@ -11,6 +11,8 @@ on:
 jobs:
   scrape-news:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
       - uses: actions/checkout@v4
@@ -19,55 +21,18 @@ jobs:
         with:
           python-version: '3.11'
       
-      - name: 检查Python
-        run: |
-          echo "=== Python版本 ==="
-          python --version
-          which python
-          
       - name: 安装依赖
         run: |
-          echo "=== 安装依赖 ==="
           python -m pip install --upgrade pip
           pip install feedparser requests python-dateutil
-          echo "=== 验证安装 ==="
-          pip list
-      
-      - name: 检查文件结构
-        run: |
-          echo "=== 当前目录 ==="
-          pwd
-          ls -la
-          echo "=== src目录 ==="
-          ls -la src/
       
       - name: 执行爬虫
-        run: |
-          echo "=== 执行爬虫 ==="
-          python src/main.py
-          echo "=== 爬虫执行完成 ==="
+        run: python src/main.py
       
-      - name: 检查输出
+      - name: 提交结果
         run: |
-          echo "=== 检查data目录 ==="
-          if [ -d data ]; then
-            ls -la data/
-            if [ -f data/news.json ]; then
-              echo "✅ news.json存在"
-              echo "=== 文件内容 (前50行) ==="
-              head -50 data/news.json
-            else
-              echo "❌ news.json不存在"
-            fi
-          else
-            echo "❌ data目录不存在"
-          fi
-      
-      - name: 上传日志
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: debug-logs
-          path: |
-            data/
-            src/
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add data/news.json
+          git commit -m "🤖 自动更新新闻 $(date +'%Y-%m-%d %H:%M:%S')" || true
+          git push

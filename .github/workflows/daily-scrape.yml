@@ -1,5 +1,8 @@
 name: 每日新闻爬虫
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   schedule:
     - cron: '0 1 * * *'
@@ -16,13 +19,55 @@ jobs:
         with:
           python-version: '3.11'
       
-      - run: |
+      - name: 检查Python
+        run: |
+          echo "=== Python版本 ==="
+          python --version
+          which python
+          
+      - name: 安装依赖
+        run: |
+          echo "=== 安装依赖 ==="
           python -m pip install --upgrade pip
           pip install feedparser requests python-dateutil
+          echo "=== 验证安装 ==="
+          pip list
       
-      - run: python src/main.py
+      - name: 检查文件结构
+        run: |
+          echo "=== 当前目录 ==="
+          pwd
+          ls -la
+          echo "=== src目录 ==="
+          ls -la src/
       
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - name: 执行爬虫
+        run: |
+          echo "=== 执行爬虫 ==="
+          python src/main.py
+          echo "=== 爬虫执行完成 ==="
+      
+      - name: 检查输出
+        run: |
+          echo "=== 检查data目录 ==="
+          if [ -d data ]; then
+            ls -la data/
+            if [ -f data/news.json ]; then
+              echo "✅ news.json存在"
+              echo "=== 文件内容 (前50行) ==="
+              head -50 data/news.json
+            else
+              echo "❌ news.json不存在"
+            fi
+          else
+            echo "❌ data目录不存在"
+          fi
+      
+      - name: 上传日志
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
-          commit_message: "🤖 每日新闻更新"
-          file_pattern: data/news.json
+          name: debug-logs
+          path: |
+            data/
+            src/

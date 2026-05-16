@@ -14,12 +14,12 @@ jobs:
     
     steps:
       - name: Checkout仓库
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       - name: 设置Python环境
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
       
       - name: 安装依赖
         run: |
@@ -34,7 +34,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/news.json
+          git add data/news.json || true
           git commit -m "🤖 每日新闻更新 - $(date '+%Y-%m-%d %H:%M:%S')" || echo "没有新的更改"
           git push
       

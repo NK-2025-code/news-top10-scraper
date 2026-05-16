@@ -255,7 +255,7 @@
         // 从GitHub获取news.json数据
         async function loadNews() {
             try {
-                const response = await fetch('../data/news.json');
+               const response = await fetch('https://raw.githubusercontent.com/NK-2025-code/news-top10-scraper/main/data/news.json');
                 
                 if (!response.ok) {
                     throw new Error('无法获取数据');

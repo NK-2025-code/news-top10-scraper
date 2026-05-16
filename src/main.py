@@ -33,12 +33,21 @@ def main():
     # 取一个极大的 top_n 值（如 10000），让评分器返回所有去重并打好分的文章
     all_scored_articles = scorer.rank_articles(articles, top_n=10000)
     
+    # 🔧 新增：建立 "新闻源名称" -> "分类" 的映射字典
+    # 修复 scraper 可能没有将 category 写进文章数据里的问题
+    source_to_category = {s['name']: s['category'] for s in RSS_SOURCES if 'name' in s and 'category' in s}
+    
     # 第3步：按类别分组并强制提取每个分类的 Top 2
     target_categories = ['tech', 'supply_chain', 'politics', 'ai', 'business']
     articles_by_category = defaultdict(list)
     
     for article in all_scored_articles:
+        # 尝试获取分类，如果没有，通过映射表从 source 查出来并补全
         cat = article.get('category')
+        if not cat:
+            cat = source_to_category.get(article.get('source'))
+            article['category'] = cat  # 补充回字典中，这样前端也能正确识别颜色和标签了
+            
         if cat in target_categories:
             articles_by_category[cat].append(article)
             

@@ -8,12 +8,17 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from scraper import RSSscraper
 from scorer import NewsScorer
-from config import RSS_SOURCES, OUTPUT_FILE, TOP_N
+# 🔧 修复 1：修改这里的导入，引入字典配置
+from config import RSS_SOURCES, OUTPUT_CONFIG, SCORING_CONFIG
 
 def main():
     print("=" * 60)
     print("开始抓取Top 10新闻")
     print("=" * 60)
+    
+    # 🔧 修复 2：从 OUTPUT_CONFIG 中提取输出路径和数量
+    OUTPUT_FILE = OUTPUT_CONFIG['output_file']
+    TOP_N = OUTPUT_CONFIG['top_n']
     
     # 第1步：抓取所有RSS源
     scraper = RSSscraper(RSS_SOURCES)
@@ -24,7 +29,8 @@ def main():
         return
     
     # 第2步：评分和排序
-    scorer = NewsScorer()
+    # 🔧 修复 3：必须将 SCORING_CONFIG 传给 NewsScorer
+    scorer = NewsScorer(SCORING_CONFIG)
     top_articles = scorer.rank_articles(articles, TOP_N)
     
     # 第3步：生成结果

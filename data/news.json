@@ -1,6 +1,73 @@
 {
-  "generated_at": "2026-05-16T14:51:58.602033",
+  "generated_at": "2026-05-16T14:56:54.302823",
   "total_articles": 240,
-  "top_count": 0,
-  "articles": []
+  "top_count": 6,
+  "articles": [
+    {
+      "title": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
+      "link": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+      "source": "TechCrunch",
+      "source_weight": 1.0,
+      "published": "Fri, 15 May 2026 16:00:00 +0000",
+      "summary": "Once users connect their accounts, they will see a dashboard of their portfolio performance, spending, subscriptions, and upcoming payments.",
+      "fetch_time": "2026-05-16T14:56:50.707444",
+      "score": 0.645,
+      "category": "tech"
+    },
+    {
+      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "link": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "source": "OpenAI Blog",
+      "source_weight": 1.0,
+      "published": "Sat, 16 May 2026 00:00:00 GMT",
+      "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
+      "fetch_time": "2026-05-16T14:56:53.494400",
+      "score": 0.645,
+      "category": "ai"
+    },
+    {
+      "title": "Users turn to jailbreaking their older Kindles as Amazon ends support",
+      "link": "https://techcrunch.com/2026/05/16/users-turn-to-jailbreaking-their-older-kindles-as-amazon-ends-support/",
+      "source": "TechCrunch",
+      "source_weight": 1.0,
+      "published": "Sat, 16 May 2026 14:00:00 +0000",
+      "summary": "It may be possible to jailbreak an older, end-of-support Kindle and continue adding books to it. But doing so carries risks.",
+      "fetch_time": "2026-05-16T14:56:50.707419",
+      "score": 0.64,
+      "category": "tech"
+    },
+    {
+      "title": "A new personal finance experience in ChatGPT",
+      "link": "https://openai.com/index/personal-finance-chatgpt",
+      "source": "OpenAI Blog",
+      "source_weight": 1.0,
+      "published": "Fri, 15 May 2026 00:00:00 GMT",
+      "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goa",
+      "fetch_time": "2026-05-16T14:56:53.494424",
+      "score": 0.581,
+      "category": "ai"
+    },
+    {
+      "title": "",
+      "link": "https://www.cnn.com/2021/01/08/politics/gallery/kamala-harris/index.html",
+      "source": "CNN Politics",
+      "source_weight": 0.9,
+      "published": "",
+      "summary": "Vice President Kamala Harris, a former US senator from California who previously served as the state's attorney general, could be the first Black woman and Asian American to lead a major party ticket ",
+      "fetch_time": "2026-05-16T14:56:52.702740",
+      "score": 0.496,
+      "category": "politics"
+    },
+    {
+      "title": "CNN Political Briefing",
+      "link": "https://www.cnn.com/audio/podcasts/political-briefing",
+      "source": "CNN Politics",
+      "source_weight": 0.9,
+      "published": "",
+      "summary": "The political news you need to know, in 10 minutes or less. Hosted by David Chalian.",
+      "fetch_time": "2026-05-16T14:56:52.702683",
+      "score": 0.479,
+      "category": "politics"
+    }
+  ]
 }

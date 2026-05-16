@@ -1,0 +1,10 @@
+# Jekyll configuration for GitHub Pages
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-github-metadata
+  - jekyll-seo-tag
+
+# Disable Jekyll processing for static files
+exclude:
+  - '*.json'
+  - 'README.md'

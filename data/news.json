@@ -1,18 +1,8 @@
 {
-  "generated_at": "2026-05-16T12:38:22.059990",
-  "total_articles": 20,
+  "generated_at": "2026-05-16T14:44:01.471148",
+  "total_articles": 240,
   "top_count": 10,
   "articles": [
-    {
-      "title": "OpenAI is reportedly preparing legal action against Apple; it wouldn’t be the first partner to feel burned",
-      "link": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
-      "source": "TechCrunch",
-      "source_weight": 1.0,
-      "published": "Thu, 14 May 2026 19:12:03 +0000",
-      "summary": "OpenAI is so frustrated with Apple over a ChatGPT integration that failed to deliver the subscribers and prominence it expected that the company is now actively exploring legal action against the iPho",
-      "fetch_time": "2026-05-16T12:38:21.931344",
-      "score": 0.79
-    },
     {
       "title": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
       "link": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
@@ -20,18 +10,28 @@
       "source_weight": 1.0,
       "published": "Fri, 15 May 2026 16:00:00 +0000",
       "summary": "Once users connect their accounts, they will see a dashboard of their portfolio performance, spending, subscriptions, and upcoming payments.",
-      "fetch_time": "2026-05-16T12:38:21.931294",
-      "score": 0.71
+      "fetch_time": "2026-05-16T14:43:57.980073",
+      "score": 0.645
     },
     {
-      "title": "Indian Uber rival Rapido raises $240M at $3B valuation",
-      "link": "https://techcrunch.com/2026/05/15/indian-uber-rival-rapido-raises-240m-at-3b-valuation/",
+      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "link": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "source": "OpenAI Blog",
+      "source_weight": 1.0,
+      "published": "Sat, 16 May 2026 00:00:00 GMT",
+      "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
+      "fetch_time": "2026-05-16T14:44:00.589943",
+      "score": 0.645
+    },
+    {
+      "title": "Users turn to jailbreaking their older Kindles as Amazon ends support",
+      "link": "https://techcrunch.com/2026/05/16/users-turn-to-jailbreaking-their-older-kindles-as-amazon-ends-support/",
       "source": "TechCrunch",
       "source_weight": 1.0,
-      "published": "Fri, 15 May 2026 11:24:12 +0000",
-      "summary": "Rapido has driven its growth by enabling ride-hailing for lower-cost and more flexible modes of transport such as motorbikes and auto-rickshaws.",
-      "fetch_time": "2026-05-16T12:38:21.931323",
-      "score": 0.71
+      "published": "Sat, 16 May 2026 14:00:00 +0000",
+      "summary": "It may be possible to jailbreak an older, end-of-support Kindle and continue adding books to it. But doing so carries risks.",
+      "fetch_time": "2026-05-16T14:43:57.980045",
+      "score": 0.64
     },
     {
       "title": "RJ Scaringe has raised more than $12B across three startups and investors still want more",
@@ -40,8 +40,8 @@
       "source_weight": 1.0,
       "published": "Fri, 15 May 2026 20:30:20 +0000",
       "summary": "Investors can't seem to get enough of RJ Scaringe or his ideas. Storytelling and communication are one of his superpowers, according to Jiten Behl, who joined Rivian when the company had just a handfu",
-      "fetch_time": "2026-05-16T12:38:21.931273",
-      "score": 0.7
+      "fetch_time": "2026-05-16T14:43:57.980056",
+      "score": 0.615
     },
     {
       "title": "General Catalyst posted VC rage bait and it worked, especially on a16z",
@@ -50,8 +50,8 @@
       "source_weight": 1.0,
       "published": "Fri, 15 May 2026 20:25:35 +0000",
       "summary": "Compulsive X user Marc Andreessen himself couldn't resist responding, many, many times.",
-      "fetch_time": "2026-05-16T12:38:21.931281",
-      "score": 0.7
+      "fetch_time": "2026-05-16T14:43:57.980060",
+      "score": 0.615
     },
     {
       "title": "A hotel check-in system left a million passports and driver’s licenses open for anyone to see",
@@ -60,8 +60,8 @@
       "source_weight": 1.0,
       "published": "Fri, 15 May 2026 18:51:33 +0000",
       "summary": "The tech company that maintains the hotel check-in system set its cloud storage to public, allowing anyone to access customers' data without a password.",
-      "fetch_time": "2026-05-16T12:38:21.931284",
-      "score": 0.7
+      "fetch_time": "2026-05-16T14:43:57.980063",
+      "score": 0.615
     },
     {
       "title": "Silicon Valley’s vacationland needs a new energy provider just as AI is driving prices up",
@@ -70,8 +70,18 @@
       "source_weight": 1.0,
       "published": "Fri, 15 May 2026 18:14:44 +0000",
       "summary": "Lake Tahoe, Silicon Valley's favorite vacation spot, is about to get hit with higher energy prices as AI drives demand for electricity.",
-      "fetch_time": "2026-05-16T12:38:21.931287",
-      "score": 0.7
+      "fetch_time": "2026-05-16T14:43:57.980066",
+      "score": 0.615
+    },
+    {
+      "title": "Tesla reveals two Robotaxi crashes involving teleoperators",
+      "link": "https://techcrunch.com/2026/05/15/tesla-reveals-two-robotaxi-crashes-involving-teleoperators/",
+      "source": "TechCrunch",
+      "source_weight": 1.0,
+      "published": "Fri, 15 May 2026 17:13:26 +0000",
+      "summary": "Newly unredacted crash reports reveal some of the troubles Tesla has had as it tries to scale its robotaxis.",
+      "fetch_time": "2026-05-16T14:43:57.980070",
+      "score": 0.615
     },
     {
       "title": "Power prices are up 76% on America’s biggest grid, and a watchdog is pointing fingers",
@@ -80,8 +90,8 @@
       "source_weight": 1.0,
       "published": "Fri, 15 May 2026 15:45:53 +0000",
       "summary": "The price spike is a reminder of a deeper problem: The U.S. power grid was not designed for the electricity demands of an AI-driven economy, and the gap between what the grid can deliver and what the ",
-      "fetch_time": "2026-05-16T12:38:21.931297",
-      "score": 0.7
+      "fetch_time": "2026-05-16T14:43:57.980083",
+      "score": 0.615
     },
     {
       "title": "US orders travelers on Air Force One to throw away gifts, pins, and burner phones after China trip",
@@ -90,18 +100,8 @@
       "source_weight": 1.0,
       "published": "Fri, 15 May 2026 15:42:11 +0000",
       "summary": "While the summit appeared cordial, China remains a key adversary of the United States, given its advanced intelligence and espionage capabilities.",
-      "fetch_time": "2026-05-16T12:38:21.931307",
-      "score": 0.7
-    },
-    {
-      "title": "Runway started by helping filmmakers — now it wants to beat Google at AI",
-      "link": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
-      "source": "TechCrunch",
-      "source_weight": 1.0,
-      "published": "Fri, 15 May 2026 14:00:00 +0000",
-      "summary": "AI video-generation startup Runway is betting that video generation is the path to world models. And that being an AI outsider is an advantage, not a liability.",
-      "fetch_time": "2026-05-16T12:38:21.931311",
-      "score": 0.7
+      "fetch_time": "2026-05-16T14:43:57.980087",
+      "score": 0.615
     }
   ]
 }

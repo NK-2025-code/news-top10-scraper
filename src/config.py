@@ -35,23 +35,23 @@ RSS_SOURCES = [
         'category': 'tech'
     },
     
-    # 📦 供应链 (3个源) - 🚀 权重已提升，与科技类完全对齐
+    # 📦 供应链 (3个全球顶级原生源，不会被拦截)
     {
-        'name': '供应链管理',
-        'url': 'https://rsshub.app/scm/news',
-        'weight': 1.0,   # 提升至 1.0 (原0.85)
+        'name': 'Supply Chain Dive',
+        'url': 'https://www.supplychaindive.com/feeds/news/',
+        'weight': 1.0,
         'category': 'supply_chain'
     },
     {
-        'name': '物流新闻',
-        'url': 'https://rsshub.app/logistics/news',
-        'weight': 0.95,  # 提升至 0.95 (原0.8)
+        'name': 'FreightWaves',
+        'url': 'https://www.freightwaves.com/news/feed',
+        'weight': 0.95,
         'category': 'supply_chain'
     },
     {
-        'name': '贸易资讯',
-        'url': 'https://rsshub.app/trade/news',
-        'weight': 0.9,   # 提升至 0.9 (原0.8)
+        'name': 'Logistics Mgmt',
+        'url': 'https://www.logisticsmgmt.com/rss',
+        'weight': 0.9,
         'category': 'supply_chain'
     },
     
@@ -69,9 +69,9 @@ RSS_SOURCES = [
         'category': 'politics'
     },
     {
-        'name': '人民日报',
-        'url': 'https://rsshub.app/people/politics',
-        'weight': 0.85,
+        'name': 'China Daily',
+        'url': 'https://www.chinadaily.com.cn/rss/china_rss.xml',
+        'weight': 0.9,
         'category': 'politics'
     },
     

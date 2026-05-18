@@ -361,7 +361,7 @@
         const translations = {
             zh: {
                 title: '📰 每日Top 10新闻',
-                subtitle: '智能新闻聚合 · 每天早上9点自动更新',
+                subtitle: '智能新闻聚合 · 每天自动更新',
                 total_articles: '📊 总文章数',
                 top_articles: '🎯 精选新闻',
                 news_sources: '🌍 新闻源',
@@ -382,7 +382,7 @@
             },
             en: {
                 title: '📰 Daily Top 10 News',
-                subtitle: 'Intelligent News Aggregation · Updated daily at 9 AM',
+                subtitle: 'Intelligent News Aggregation',
                 total_articles: '📊 Total Articles',
                 top_articles: '🎯 Featured News',
                 news_sources: '🌍 News Sources',
@@ -461,7 +461,18 @@
                 }
                 
                 const apiData = await response.json();
-                const content = atob(apiData.content);
+                
+                // 🔧 修复乱码问题的核心代码：
+                // 弃用直接的 atob()，改用 Uint8Array 结合 TextDecoder 正确解码包含中文的 UTF-8 数据
+                const binaryString = atob(apiData.content);
+                const bytes = new Uint8Array(binaryString.length);
+                for (let i = 0; i < binaryString.length; i++) {
+                    bytes[i] = binaryString.charCodeAt(i);
+                }
+                const decoder = new TextDecoder('utf-8');
+                const content = decoder.decode(bytes);
+                // -----------------------------------------------------
+
                 const data = JSON.parse(content);
                 allArticles = data.articles || [];
                 

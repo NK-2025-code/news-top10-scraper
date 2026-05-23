@@ -55,17 +55,17 @@ RSS_SOURCES = [
         'category': 'supply_chain'
     },
     
-    # 🏛️ 政治 (4个顶级源，替换CNN，更专业客观)
+    # 🏛️ 政治 (4个顶级源，更专业客观)
     {
-        'name': 'BBC News',
-        'url': 'http://feeds.bbc.co.uk/news/world/rss.xml',
+        'name': 'Reuters',
+        'url': 'https://www.reutersagency.com/feed/?best-topics=political-general&post_type=best',
         'weight': 0.95,
         'category': 'politics'
     },
     {
         'name': 'The Guardian',
         'url': 'https://www.theguardian.com/world/rss',
-        'weight': 0.95,
+        'weight': 0.9,
         'category': 'politics'
     },
     {
@@ -77,7 +77,7 @@ RSS_SOURCES = [
     {
         'name': 'China Daily',
         'url': 'https://www.chinadaily.com.cn/rss/china_rss.xml',
-        'weight': 0.9,
+        'weight': 0.95,
         'category': 'politics'
     },
     

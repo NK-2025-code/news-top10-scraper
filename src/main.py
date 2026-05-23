@@ -1,6 +1,6 @@
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from collections import defaultdict
 
@@ -63,7 +63,8 @@ def main():
     
     # 第4步：生成结果
     result = {
-        'generated_at': datetime.now().isoformat(),
+        # 🔧 修复时区问题：强制指定为 UTC 时区，以便前端正确转换为北京时间
+        'generated_at': datetime.now(timezone.utc).isoformat(),
         'total_articles': len(articles),
         'top_count': len(top_articles),
         'articles': top_articles

@@ -139,3 +139,189 @@ SCORING_CONFIG = {
         'hours_1': 1.0,          # 1小时内
         'hours_6': 0.95,         # 6小时内
         'hours_24': 0.9,         # 24小时内
+        'hours_72': 0.7,         # 72小时内
+        'days_7': 0.3            # 7天以上
+    },
+    
+    # 🔥 2025-2026前沿趋势词库 + 敏感词脱敏 + 航运大宗扩充
+    # 评分逻辑: Combos(8分) > Actions(6-7分) > Bases(5分)
+    'keywords': {
+        
+        # ================= 📦 供应链 (Supply Chain) =================
+        '供应链韧性': {'weight': 8, 'category': 'supply_chain'},
+        'supply chain resilience': {'weight': 8, 'category': 'supply_chain'},
+        '碳边境税': {'weight': 8, 'category': 'supply_chain'},
+        'cbam': {'weight': 8, 'category': 'supply_chain'},
+        '低空物流': {'weight': 8, 'category': 'supply_chain'},
+        'evtol': {'weight': 8, 'category': 'supply_chain'},
+        '巴拿马运河': {'weight': 8, 'category': 'supply_chain'},
+        'panama canal': {'weight': 8, 'category': 'supply_chain'},
+        '苏伊士运河': {'weight': 8, 'category': 'supply_chain'},
+        'suez canal': {'weight': 8, 'category': 'supply_chain'},
+        '运价指数': {'weight': 8, 'category': 'supply_chain'},
+        'freight rate': {'weight': 8, 'category': 'supply_chain'},
+        '近岸外包': {'weight': 8, 'category': 'supply_chain'},
+        'nearshoring': {'weight': 8, 'category': 'supply_chain'},
+        '进口': {'weight': 7, 'category': 'supply_chain'},
+        'import': {'weight': 7, 'category': 'supply_chain'},
+        '出口': {'weight': 7, 'category': 'supply_chain'},
+        'export': {'weight': 7, 'category': 'supply_chain'},
+        '吞吐量': {'weight': 7, 'category': 'supply_chain'},
+        'throughput': {'weight': 7, 'category': 'supply_chain'},
+        '断供': {'weight': 7, 'category': 'supply_chain'},
+        '罢工': {'weight': 7, 'category': 'supply_chain'},
+        'strike': {'weight': 7, 'category': 'supply_chain'},
+        '墨西哥制造': {'weight': 5, 'category': 'supply_chain'},
+        'made in mexico': {'weight': 5, 'category': 'supply_chain'},
+        '石油': {'weight': 5, 'category': 'supply_chain'},
+        'oil': {'weight': 5, 'category': 'supply_chain'},
+        '集装箱': {'weight': 5, 'category': 'supply_chain'},
+        'container': {'weight': 5, 'category': 'supply_chain'},
+        '台积电': {'weight': 5, 'category': 'supply_chain'},
+        'tsmc': {'weight': 5, 'category': 'supply_chain'},
+
+        # ================= 🔧 科技 (Tech) =================
+        '人形机器人': {'weight': 8, 'category': 'tech'},
+        'humanoid robot': {'weight': 8, 'category': 'tech'},
+        '端侧ai': {'weight': 8, 'category': 'tech'},
+        'on-device ai': {'weight': 8, 'category': 'tech'},
+        'ai pc': {'weight': 8, 'category': 'tech'},
+        'ai手机': {'weight': 8, 'category': 'tech'},
+        '固态电池': {'weight': 8, 'category': 'tech'},
+        'solid-state battery': {'weight': 8, 'category': 'tech'},
+        '自动驾驶 v13': {'weight': 8, 'category': 'tech'},
+        'fsd': {'weight': 8, 'category': 'tech'},
+        '星舰商业化': {'weight': 8, 'category': 'tech'},
+        'starship': {'weight': 8, 'category': 'tech'},
+        '量产': {'weight': 7, 'category': 'tech'},
+        'mass production': {'weight': 7, 'category': 'tech'},
+        '突破': {'weight': 6, 'category': 'tech'},
+        'breakthrough': {'weight': 6, 'category': 'tech'},
+        '英伟达': {'weight': 5, 'category': 'tech'},
+        'nvidia': {'weight': 5, 'category': 'tech'},
+        '苹果': {'weight': 5, 'category': 'tech'},
+        'apple': {'weight': 5, 'category': 'tech'},
+        '华为': {'weight': 5, 'category': 'tech'},
+        '特斯拉': {'weight': 5, 'category': 'tech'},
+        'tesla': {'weight': 5, 'category': 'tech'},
+        '先进封装': {'weight': 5, 'category': 'tech'},
+        'advanced packaging': {'weight': 5, 'category': 'tech'},
+
+        # ================= 🤖 AI 专题 (AI) =================
+        'ai推理': {'weight': 8, 'category': 'ai'},
+        'ai reasoning': {'weight': 8, 'category': 'ai'},
+        '智能体工作流': {'weight': 8, 'category': 'ai'},
+        'agentic workflow': {'weight': 8, 'category': 'ai'},
+        '具身智能': {'weight': 8, 'category': 'ai'},
+        'embodied ai': {'weight': 8, 'category': 'ai'},
+        '多模态': {'weight': 8, 'category': 'ai'},
+        'multimodal': {'weight': 8, 'category': 'ai'},
+        'sora': {'weight': 8, 'category': 'ai'},
+        'agi': {'weight': 8, 'category': 'ai'},
+        '开源模型': {'weight': 7, 'category': 'ai'},
+        'open source model': {'weight': 7, 'category': 'ai'},
+        '模型评测': {'weight': 6, 'category': 'ai'},
+        'benchmark': {'weight': 6, 'category': 'ai'},
+        'gpt-5': {'weight': 5, 'category': 'ai'},
+        'claude 3.5': {'weight': 5, 'category': 'ai'},
+        'gemini 3': {'weight': 5, 'category': 'ai'},
+        'deepseek': {'weight': 5, 'category': 'ai'},
+        'llama 3': {'weight': 5, 'category': 'ai'},
+        'llama 4': {'weight': 5, 'category': 'ai'},
+        '大模型': {'weight': 5, 'category': 'ai'},
+        'llm': {'weight': 5, 'category': 'ai'},
+
+        # ================= 💼 商业 (Business) =================
+        'ai投资回报': {'weight': 8, 'category': 'business'},
+        'ai roi': {'weight': 8, 'category': 'business'},
+        '降本增效': {'weight': 8, 'category': 'business'},
+        'cost reduction': {'weight': 8, 'category': 'business'},
+        '太空经济': {'weight': 8, 'category': 'business'},
+        'space economy': {'weight': 8, 'category': 'business'},
+        '出海2.0': {'weight': 8, 'category': 'business'},
+        'global expansion': {'weight': 8, 'category': 'business'},
+        '反垄断拆分': {'weight': 8, 'category': 'business'},
+        'antitrust breakup': {'weight': 8, 'category': 'business'},
+        '财报超预期': {'weight': 7, 'category': 'business'},
+        'earnings beat': {'weight': 7, 'category': 'business'},
+        '并购': {'weight': 7, 'category': 'business'},
+        'm&a': {'weight': 7, 'category': 'business'},
+        'ipo复苏': {'weight': 6, 'category': 'business'},
+        'ipo revival': {'weight': 6, 'category': 'business'},
+        '字节跳动': {'weight': 5, 'category': 'business'},
+        'bytedance': {'weight': 5, 'category': 'business'},
+        '拼多多': {'weight': 5, 'category': 'business'},
+        'pdd': {'weight': 5, 'category': 'business'},
+        'openai': {'weight': 5, 'category': 'business'},
+
+        # ================= 🏛️ 政治 (Politics) =================
+        'ai安全法案': {'weight': 8, 'category': 'politics'},
+        'ai safety act': {'weight': 8, 'category': 'politics'},
+        '小院高墙': {'weight': 8, 'category': 'politics'},
+        'small yard high fence': {'weight': 8, 'category': 'politics'},
+        '关税壁垒': {'weight': 8, 'category': 'politics'},
+        'tariff barriers': {'weight': 8, 'category': 'politics'},
+        '出口管制': {'weight': 8, 'category': 'politics'},
+        'export control': {'weight': 8, 'category': 'politics'},
+        '科技冷战': {'weight': 8, 'category': 'politics'},
+        'tech cold war': {'weight': 8, 'category': 'politics'},
+        '制裁升级': {'weight': 7, 'category': 'politics'},
+        'sanction': {'weight': 7, 'category': 'politics'},
+        '否决': {'weight': 7, 'category': 'politics'},
+        'veto': {'weight': 7, 'category': 'politics'},
+        '补贴战': {'weight': 6, 'category': 'politics'},
+        'subsidy war': {'weight': 6, 'category': 'politics'},
+        '中方高层': {'weight': 5, 'category': 'politics'},
+        'chinese leadership': {'weight': 5, 'category': 'politics'},
+        '美国政府': {'weight': 5, 'category': 'politics'},
+        'us administration': {'weight': 5, 'category': 'politics'},
+        '欧盟委员会': {'weight': 5, 'category': 'politics'},
+        'eu commission': {'weight': 5, 'category': 'politics'}
+    }
+}
+
+# ==================== 输出配置 ====================
+OUTPUT_CONFIG = {
+    'output_file': 'data/news.json',
+    'top_n': 10,              # 输出Top N篇
+    'min_score': 0.5,         # 最低分数要求
+    'max_articles': 1000      # 处理的最大文章数
+}
+
+# 向下兼容 main.py
+OUTPUT_FILE = OUTPUT_CONFIG['output_file']
+TOP_N = OUTPUT_CONFIG['top_n']
+
+# ==================== 分类显示配置 ====================
+CATEGORY_CONFIG = {
+    'tech': {
+        'name_zh': '科技类',
+        'name_en': 'Technology',
+        'emoji': '🔧',
+        'color': '#667eea'
+    },
+    'supply_chain': {
+        'name_zh': '供应链',
+        'name_en': 'Supply Chain',
+        'emoji': '📦',
+        'color': '#f093fb'
+    },
+    'politics': {
+        'name_zh': '政治',
+        'name_en': 'Politics',
+        'emoji': '🏛️',
+        'color': '#4facfe'
+    },
+    'ai': {
+        'name_zh': 'AI专题',
+        'name_en': 'AI',
+        'emoji': '🤖',
+        'color': '#43e97b'
+    },
+    'business': {
+        'name_zh': '商业类',
+        'name_en': 'Business',
+        'emoji': '💼',
+        'color': '#fa709a'
+    }
+}

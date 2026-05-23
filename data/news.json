@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T09:17:33.777383+00:00",
+  "generated_at": "2026-05-23T09:28:22.136456+00:00",
   "total_articles": 393,
   "top_count": 10,
   "articles": [
@@ -10,7 +10,7 @@
       "source_weight": 1.0,
       "published": "Sat, 23 May 2026 07:01:00 +0000",
       "summary": "Peec, which helps brands track their presence in AI searches, offers proof of a key trend among European startups.",
-      "fetch_time": "2026-05-23T09:15:23.613047",
+      "fetch_time": "2026-05-23T09:26:12.413392",
       "score": 0.628,
       "category": "tech"
     },
@@ -21,7 +21,7 @@
       "source_weight": 1.0,
       "published": "Fri, 22 May 2026 22:55:57 +0000",
       "summary": "The company had a mostly successful first launch of its upgraded Starship V3, which it needs to power its many ambitious goals in the years to come.",
-      "fetch_time": "2026-05-23T09:15:23.613060",
+      "fetch_time": "2026-05-23T09:26:12.413405",
       "score": 0.618,
       "category": "tech"
     },
@@ -32,7 +32,7 @@
       "source_weight": 1.0,
       "published": "Fri, 22 May 2026 11:35:00 -0400",
       "summary": "<p>The shipping option has added customer flexibility and freed up drivers&rsquo; time despite early hurdles, executives said at Home Delivery World 2026.</p>",
-      "fetch_time": "2026-05-23T09:15:24.426880",
+      "fetch_time": "2026-05-23T09:26:13.268191",
       "score": 0.615,
       "category": "supply_chain"
     },
@@ -43,7 +43,7 @@
       "source_weight": 1.0,
       "published": "Fri, 22 May 2026 11:03:00 -0400",
       "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/S1FcF_BdOkcGNNc_YDlClKrze8rPiACrzmj3__O8W5U/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9BSS1Qb3dlcmVkX0ludGVsbGlnZW50X1F1YWxp",
-      "fetch_time": "2026-05-23T09:15:24.426888",
+      "fetch_time": "2026-05-23T09:26:13.268199",
       "score": 0.615,
       "category": "supply_chain"
     },
@@ -54,7 +54,7 @@
       "source_weight": 0.9,
       "published": "Sat, 23 May 2026 06:03:37 GMT",
       "summary": "<p>Australia joins the UK, Italy, France, Germany, Canada, Norway, the Netherlands and New Zealand in condemning illegal settlements</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-ne",
-      "fetch_time": "2026-05-23T09:15:25.631551",
+      "fetch_time": "2026-05-23T09:26:14.458611",
       "score": 0.612,
       "category": "politics"
     },
@@ -65,9 +65,20 @@
       "source_weight": 0.9,
       "published": "Sat, 23 May 2026 05:18:24 GMT",
       "summary": "<p>The premier is offering 2,000 apprenticeships at the revived State Electricity Commission as part of a pre-election push</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters",
-      "fetch_time": "2026-05-23T09:15:25.631554",
+      "fetch_time": "2026-05-23T09:26:14.458614",
       "score": 0.612,
       "category": "politics"
+    },
+    {
+      "title": "【数智周报】  谷歌推出Gemini 3.5系列模型；阿里发布新一代千问旗舰模型Qwen3.7-Max；Meta内部文件曝光：拟裁员10%，全面转向AI架构",
+      "link": "https://www.tmtpost.com/7999893.html",
+      "source": "钛媒体",
+      "source_weight": 0.85,
+      "published": "Sat, 23 May 2026 17:06:40 +0800",
+      "summary": "（5月18日~5月23日）中国信通院启动首批“人工智能营销客服平台能力”测评；华大基因启用“华大时空智惠健康中心”；xAI推出Skills；谷歌推出全天候AI代理Gemini Spark",
+      "fetch_time": "2026-05-23T09:26:20.214115",
+      "score": 0.588,
+      "category": "business"
     },
     {
       "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
@@ -76,7 +87,7 @@
       "source_weight": 1.0,
       "published": "Fri, 22 May 2026 00:00:00 GMT",
       "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
-      "fetch_time": "2026-05-23T09:15:27.534703",
+      "fetch_time": "2026-05-23T09:26:16.742623",
       "score": 0.57,
       "category": "ai"
     },
@@ -87,18 +98,7 @@
       "source_weight": 0.8,
       "published": "Sat, 23 May 2026 17:05:49 +0800",
       "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664253426029700_a580x330.png\" /><p>韩国总统李在明5月23日说，将坚定不移地走韩朝和平共存与共同发展的道路。李在明当天出席前总统卢武铉去世17周年追悼仪式时作上述表态。在提及包含努力构建朝鲜半岛无核化与和平",
-      "fetch_time": "2026-05-23T09:17:33.734321",
-      "score": 0.568,
-      "category": "business"
-    },
-    {
-      "title": "消息人士：以色列没有参与美伊停火前的讨论",
-      "link": "https://www.jiemian.com/article/14473948.html",
-      "source": "界面新闻",
-      "source_weight": 0.8,
-      "published": "Sat, 23 May 2026 17:03:28 +0800",
-      "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664253426029700_a580x330.png\" /><p>当地时间5月23日，据美国方面消息，两名以色列国防官员透露，美国几乎完全将以色列排除在与伊朗的谈判之外。消息称，以色列根本没有参与停火前的讨论，而是通过其他手段了解美伊谈",
-      "fetch_time": "2026-05-23T09:17:33.734334",
+      "fetch_time": "2026-05-23T09:28:22.094354",
       "score": 0.568,
       "category": "business"
     },
@@ -109,7 +109,7 @@
       "source_weight": 1.0,
       "published": "Thu, 21 May 2026 12:00:00 GMT",
       "summary": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
-      "fetch_time": "2026-05-23T09:15:27.534719",
+      "fetch_time": "2026-05-23T09:26:16.742638",
       "score": 0.567,
       "category": "ai"
     }

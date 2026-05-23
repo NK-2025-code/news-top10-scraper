@@ -1,30 +1,8 @@
 {
-  "generated_at": "2026-05-23T08:56:41.521681+00:00",
+  "generated_at": "2026-05-23T09:17:33.777383+00:00",
   "total_articles": 393,
   "top_count": 10,
   "articles": [
-    {
-      "title": "Albanese joins coalition of nations calling for an end to Israeli settlement expansion in the West Bank",
-      "link": "https://www.theguardian.com/australia-news/2026/may/23/albanese-joins-coalition-of-nations-calling-for-an-end-to-israeli-settlement-expansion-in-the-west-bank-ntwnfb",
-      "source": "The Guardian",
-      "source_weight": 0.95,
-      "published": "Sat, 23 May 2026 06:03:37 GMT",
-      "summary": "<p>Australia joins the UK, Italy, France, Germany, Canada, Norway, the Netherlands and New Zealand in condemning illegal settlements</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-ne",
-      "fetch_time": "2026-05-23T08:54:32.898292",
-      "score": 0.629,
-      "category": "politics"
-    },
-    {
-      "title": "Jacinta Allan launches state-sponsored apprenticeships at Victoria’s Labor conference ahead of election",
-      "link": "https://www.theguardian.com/australia-news/2026/may/23/state-sponsored-apprenticeships-and-decriminalising-cannabis-on-the-bill-at-victorias-labor-conference",
-      "source": "The Guardian",
-      "source_weight": 0.95,
-      "published": "Sat, 23 May 2026 05:18:24 GMT",
-      "summary": "<p>The premier is offering 2,000 apprenticeships at the revived State Electricity Commission as part of a pre-election push</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters",
-      "fetch_time": "2026-05-23T08:54:32.898297",
-      "score": 0.629,
-      "category": "politics"
-    },
     {
       "title": "Peec, one of Berlin’s rising startups, more than doubled annualized revenue in months to $10M, sources say",
       "link": "https://techcrunch.com/2026/05/23/peec-one-of-berlins-rising-startups-more-than-doubled-annualized-revenue-in-months-to-10m-sources-say/",
@@ -32,7 +10,7 @@
       "source_weight": 1.0,
       "published": "Sat, 23 May 2026 07:01:00 +0000",
       "summary": "Peec, which helps brands track their presence in AI searches, offers proof of a key trend among European startups.",
-      "fetch_time": "2026-05-23T08:54:30.196165",
+      "fetch_time": "2026-05-23T09:15:23.613047",
       "score": 0.628,
       "category": "tech"
     },
@@ -43,7 +21,7 @@
       "source_weight": 1.0,
       "published": "Fri, 22 May 2026 22:55:57 +0000",
       "summary": "The company had a mostly successful first launch of its upgraded Starship V3, which it needs to power its many ambitious goals in the years to come.",
-      "fetch_time": "2026-05-23T08:54:30.196178",
+      "fetch_time": "2026-05-23T09:15:23.613060",
       "score": 0.618,
       "category": "tech"
     },
@@ -54,7 +32,7 @@
       "source_weight": 1.0,
       "published": "Fri, 22 May 2026 11:35:00 -0400",
       "summary": "<p>The shipping option has added customer flexibility and freed up drivers&rsquo; time despite early hurdles, executives said at Home Delivery World 2026.</p>",
-      "fetch_time": "2026-05-23T08:54:31.225329",
+      "fetch_time": "2026-05-23T09:15:24.426880",
       "score": 0.615,
       "category": "supply_chain"
     },
@@ -65,9 +43,31 @@
       "source_weight": 1.0,
       "published": "Fri, 22 May 2026 11:03:00 -0400",
       "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/S1FcF_BdOkcGNNc_YDlClKrze8rPiACrzmj3__O8W5U/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9BSS1Qb3dlcmVkX0ludGVsbGlnZW50X1F1YWxp",
-      "fetch_time": "2026-05-23T08:54:31.225338",
+      "fetch_time": "2026-05-23T09:15:24.426888",
       "score": 0.615,
       "category": "supply_chain"
+    },
+    {
+      "title": "Albanese joins coalition of nations calling for an end to Israeli settlement expansion in the West Bank",
+      "link": "https://www.theguardian.com/australia-news/2026/may/23/albanese-joins-coalition-of-nations-calling-for-an-end-to-israeli-settlement-expansion-in-the-west-bank-ntwnfb",
+      "source": "The Guardian",
+      "source_weight": 0.9,
+      "published": "Sat, 23 May 2026 06:03:37 GMT",
+      "summary": "<p>Australia joins the UK, Italy, France, Germany, Canada, Norway, the Netherlands and New Zealand in condemning illegal settlements</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-ne",
+      "fetch_time": "2026-05-23T09:15:25.631551",
+      "score": 0.612,
+      "category": "politics"
+    },
+    {
+      "title": "Jacinta Allan launches state-sponsored apprenticeships at Victoria’s Labor conference ahead of election",
+      "link": "https://www.theguardian.com/australia-news/2026/may/23/state-sponsored-apprenticeships-and-decriminalising-cannabis-on-the-bill-at-victorias-labor-conference",
+      "source": "The Guardian",
+      "source_weight": 0.9,
+      "published": "Sat, 23 May 2026 05:18:24 GMT",
+      "summary": "<p>The premier is offering 2,000 apprenticeships at the revived State Electricity Commission as part of a pre-election push</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters",
+      "fetch_time": "2026-05-23T09:15:25.631554",
+      "score": 0.612,
+      "category": "politics"
     },
     {
       "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
@@ -76,29 +76,29 @@
       "source_weight": 1.0,
       "published": "Fri, 22 May 2026 00:00:00 GMT",
       "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
-      "fetch_time": "2026-05-23T08:54:35.536159",
+      "fetch_time": "2026-05-23T09:15:27.534703",
       "score": 0.57,
       "category": "ai"
     },
     {
-      "title": "山西绛县一石灰窑发生工人一氧化碳中毒事件，造成1人死亡2人重伤",
-      "link": "https://www.jiemian.com/article/14473863.html",
+      "title": "韩国总统说将坚定不移走韩朝和平共存与共同发展的道路",
+      "link": "https://www.jiemian.com/article/14473952.html",
       "source": "界面新闻",
       "source_weight": 0.8,
-      "published": "Sat, 23 May 2026 16:20:11 +0800",
-      "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20221201/166989213487138900_a580x330.png\" /><p>记者从山西省运城市绛县相关部门了解到，5月23日上午，该县一石灰窑发生一起工人一氧化碳中毒事件，造成1人死亡、2人重伤、3人轻伤。（新华社）</p>",
-      "fetch_time": "2026-05-23T08:56:41.478890",
+      "published": "Sat, 23 May 2026 17:05:49 +0800",
+      "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664253426029700_a580x330.png\" /><p>韩国总统李在明5月23日说，将坚定不移地走韩朝和平共存与共同发展的道路。李在明当天出席前总统卢武铉去世17周年追悼仪式时作上述表态。在提及包含努力构建朝鲜半岛无核化与和平",
+      "fetch_time": "2026-05-23T09:17:33.734321",
       "score": 0.568,
       "category": "business"
     },
     {
-      "title": "美国夏威夷州发生6.0级地震，震源深度20千米",
-      "link": "https://www.jiemian.com/article/14473854.html",
+      "title": "消息人士：以色列没有参与美伊停火前的讨论",
+      "link": "https://www.jiemian.com/article/14473948.html",
       "source": "界面新闻",
       "source_weight": 0.8,
-      "published": "Sat, 23 May 2026 16:18:37 +0800",
-      "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664253426029700_a580x330.png\" /><p>中国地震台网正式测定：05月23日15时46分在美国夏威夷州（北纬19.40度，西经155.80度）发生6.0级地震，震源深度20千米。</p>",
-      "fetch_time": "2026-05-23T08:56:41.478902",
+      "published": "Sat, 23 May 2026 17:03:28 +0800",
+      "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664253426029700_a580x330.png\" /><p>当地时间5月23日，据美国方面消息，两名以色列国防官员透露，美国几乎完全将以色列排除在与伊朗的谈判之外。消息称，以色列根本没有参与停火前的讨论，而是通过其他手段了解美伊谈",
+      "fetch_time": "2026-05-23T09:17:33.734334",
       "score": 0.568,
       "category": "business"
     },
@@ -109,7 +109,7 @@
       "source_weight": 1.0,
       "published": "Thu, 21 May 2026 12:00:00 GMT",
       "summary": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
-      "fetch_time": "2026-05-23T08:54:35.536177",
+      "fetch_time": "2026-05-23T09:15:27.534719",
       "score": 0.567,
       "category": "ai"
     }

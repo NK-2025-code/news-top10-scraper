@@ -1,29 +1,95 @@
 {
-  "generated_at": "2026-05-30T04:53:47.493522+00:00",
-  "total_articles": 392,
+  "generated_at": "2026-05-31T05:18:46.280406+00:00",
+  "total_articles": 391,
   "top_count": 10,
   "articles": [
     {
-      "title": "I went to the so-called ‘steroid Olympics,’ to understand why Silicon Valley is obsessed with peptides",
-      "link": "https://techcrunch.com/2026/05/29/i-went-to-the-so-called-steroid-olympics-to-understand-why-silicon-valley-is-obsessed-with-peptides/",
-      "source": "TechCrunch",
-      "source_weight": 1.0,
-      "published": "Sat, 30 May 2026 00:39:13 +0000",
-      "summary": "The Enhanced Games — a singular sporting competition where a majority of the athletes were on performance enhancing drugs — may herald a new business model that the tech industry is ready to embrace.",
-      "fetch_time": "2026-05-30T04:51:29.844790",
-      "score": 0.648,
+      "title": "Ahoy, DECmate II the little PDP-8 that could",
+      "link": "http://oldvcr.blogspot.com/2026/05/ahoy-decmate-ii-little-pdp-8-that-could.html",
+      "source": "Hacker News",
+      "source_weight": 0.95,
+      "published": "Sun, 31 May 2026 04:42:14 +0000",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48343078\">Comments</a>",
+      "fetch_time": "2026-05-31T05:16:36.095223",
+      "score": 0.622,
       "category": "tech"
     },
     {
-      "title": "Founders seize on Indian court ruling to revive criticism of Google’s ad business",
-      "link": "https://techcrunch.com/2026/05/29/founders-seize-on-indian-court-ruling-to-revive-criticism-of-googles-ad-business/",
-      "source": "TechCrunch",
-      "source_weight": 1.0,
-      "published": "Sat, 30 May 2026 02:00:00 +0000",
-      "summary": "The ruling drew support from founders, while lawyers said it could force platforms to revisit how they handle trademarked keywords.",
-      "fetch_time": "2026-05-30T04:51:29.844781",
-      "score": 0.628,
+      "title": "Building a LangGraph pipeline for production data engineering",
+      "link": "https://labyrinthanalyticsconsulting.com/blog/building-first-langgraph-pipeline",
+      "source": "Hacker News",
+      "source_weight": 0.95,
+      "published": "Sun, 31 May 2026 04:38:25 +0000",
+      "summary": "<a href=\"https://news.ycombinator.com/item?id=48343061\">Comments</a>",
+      "fetch_time": "2026-05-31T05:16:36.095241",
+      "score": 0.622,
       "category": "tech"
+    },
+    {
+      "title": "“One of the Worst Software Releases I’ve Ever Witnessed.” Users Are Not Holding Back on FMCSA’s New MOTUS System",
+      "link": "https://www.freightwaves.com/news/one-of-the-worst-software-releases-ive-ever-witnessed-users-are-not-holding-back-on-fmcsas-new-motus-system",
+      "source": "FreightWaves",
+      "source_weight": 0.95,
+      "published": "Sat, 30 May 2026 13:06:52 +0000",
+      "summary": "<p>Two weeks ago, the Federal Motor Carrier Safety Administration flipped the switch on the biggest overhaul of its registration infrastructure in decades. The legacy systems carriers had used for yea",
+      "fetch_time": "2026-05-31T05:16:37.350014",
+      "score": 0.617,
+      "category": "supply_chain"
+    },
+    {
+      "title": "C.H. Robinson Is Removing Carriers Based on Safety Scores. A Supreme Court Decision Two Weeks Ago May Explain Why.",
+      "link": "https://www.freightwaves.com/news/c-h-robinson-is-removing-carriers-based-on-safety-scores-a-supreme-court-decision-two-weeks-ago-may-explain-why",
+      "source": "FreightWaves",
+      "source_weight": 0.95,
+      "published": "Sat, 30 May 2026 12:29:50 +0000",
+      "summary": "<p>A notice has been going out to carriers in the C.H. Robinson network, and it is worth reading carefully because of what may sit behind it. The message, branded under C.H. Robinson and titled &#8220",
+      "fetch_time": "2026-05-31T05:16:37.350017",
+      "score": 0.617,
+      "category": "supply_chain"
+    },
+    {
+      "title": "Israel pursuing ‘scorched earth’ policy, says Lebanon PM, as IDF pushes deeper into country’s south",
+      "link": "https://www.theguardian.com/world/2026/may/31/israel-pursuing-scorced-earth-policy-says-lebanon-pm-as-more-airstrikes-hit-countrys-south",
+      "source": "The Guardian",
+      "source_weight": 0.9,
+      "published": "Sun, 31 May 2026 02:37:12 GMT",
+      "summary": "<p>Nawaf Salam says Israel collectively punishing southern Lebanon and forcing people ‘into exile’ but defends security talks with Tel Aviv</p><p></p><p>Lebanon’s prime minister accused Israel on Satu",
+      "fetch_time": "2026-05-31T05:16:38.385444",
+      "score": 0.612,
+      "category": "politics"
+    },
+    {
+      "title": "Japan defence minister rebuffs claims of ‘new militarism’ levelled by China",
+      "link": "https://www.theguardian.com/world/2026/may/31/japan-defence-minister-rebuffs-claims-of-new-militarism-levelled-by-china",
+      "source": "The Guardian",
+      "source_weight": 0.9,
+      "published": "Sun, 31 May 2026 05:02:39 GMT",
+      "summary": "<p>Shinjiro Koizumi says Japan valued as a ‘peace-loving’ nation while China expands military capabilities ‘without sufficient transparency’</p><p>Japan’s defence minister took a veiled swipe at China",
+      "fetch_time": "2026-05-31T05:16:38.385392",
+      "score": 0.604,
+      "category": "politics"
+    },
+    {
+      "title": "AI写小说的套路被扒光了： Claude爱平铺，GPT总做梦，Gemini只会“他如何如何”",
+      "link": "https://www.tmtpost.com/8008644.html",
+      "source": "钛媒体",
+      "source_weight": 0.85,
+      "published": "Sun, 31 May 2026 08:56:12 +0800",
+      "summary": "马里兰大学联手Google DeepMind发表重磅研究StoryScope，仅用30个叙事特征，检测AI写作的准确率高达93.2%。Claude、GPT、Gemini、DeepSeek、Kimi各有各的写作套路，一抓一个准。",
+      "fetch_time": "2026-05-31T05:16:44.404200",
+      "score": 0.576,
+      "category": "business"
+    },
+    {
+      "title": "Edge AI Daily 早报（5月31日）",
+      "link": "https://www.tmtpost.com/8008870.html",
+      "source": "钛媒体",
+      "source_weight": 0.85,
+      "published": "Sun, 31 May 2026 08:30:41 +0800",
+      "summary": "全球AI基础设施投资呈现爆发式增长，软银宣布750亿欧元法国AI数据中心计划，OpenRouter完成1.13亿美元B轮融资，月处理token量达100万亿。AI巨头战略级布局密集发布，Meta推出史上最大AI可穿戴设备计划，目标2026年下半年销售1000万台。",
+      "fetch_time": "2026-05-31T05:16:44.404203",
+      "score": 0.574,
+      "category": "business"
     },
     {
       "title": "Boston Children’s uses AI to unlock new diagnoses",
@@ -32,8 +98,8 @@
       "source_weight": 1.0,
       "published": "Fri, 29 May 2026 12:00:00 GMT",
       "summary": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
-      "fetch_time": "2026-05-30T04:51:34.611012",
-      "score": 0.617,
+      "fetch_time": "2026-05-31T05:16:40.664620",
+      "score": 0.567,
       "category": "ai"
     },
     {
@@ -43,75 +109,9 @@
       "source_weight": 1.0,
       "published": "Fri, 29 May 2026 12:00:00 GMT",
       "summary": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
-      "fetch_time": "2026-05-30T04:51:34.611024",
-      "score": 0.617,
+      "fetch_time": "2026-05-31T05:16:40.664633",
+      "score": 0.567,
       "category": "ai"
-    },
-    {
-      "title": "USTR initiates Section 301 probe of Vietnam",
-      "link": "https://www.supplychaindive.com/news/ustr-initiates-section-301-probe-of-vietnam/821558/",
-      "source": "Supply Chain Dive",
-      "source_weight": 1.0,
-      "published": "Fri, 29 May 2026 17:22:00 -0400",
-      "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/d04cfQht-4YBcFDqjCJGUuL5zAGsLHzhyOICMtMrQjQ/g:nowe:0:0/c:3200:1807/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMj",
-      "fetch_time": "2026-05-30T04:51:30.654723",
-      "score": 0.615,
-      "category": "supply_chain"
-    },
-    {
-      "title": "US sets Taiwan tariffs at 15% on auto parts, wood, aircraft parts",
-      "link": "https://www.supplychaindive.com/news/us-sets-taiwan-tariffs-at-15-on-auto-parts-wood-aircraft-parts/821553/",
-      "source": "Supply Chain Dive",
-      "source_weight": 1.0,
-      "published": "Fri, 29 May 2026 14:15:00 -0400",
-      "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/o8QG3ZV8ypxxEtJAWozpy7GZnMrfYJQj-YJs13XX_cg/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjA4NDY5MDgwLmpwZw==",
-      "fetch_time": "2026-05-30T04:51:30.654732",
-      "score": 0.615,
-      "category": "supply_chain"
-    },
-    {
-      "title": "‘Essentially diving in coffee’: Australian diver among team rushing to rescue people trapped in flooded Laos cave",
-      "link": "https://www.theguardian.com/world/2026/may/29/essentially-diving-in-coffee-australian-diver-among-team-rushing-to-rescue-people-trapped-in-flooded-laos-cave",
-      "source": "The Guardian",
-      "source_weight": 0.9,
-      "published": "Sat, 30 May 2026 01:53:55 GMT",
-      "summary": "<p>Josh Richards joins international mission to help five found alive and search for missing divers, with one person extracted successfully </p><ul><li><p>Get our <a href=\"https://www.theguardian.com/",
-      "fetch_time": "2026-05-30T04:51:32.418054",
-      "score": 0.612,
-      "category": "politics"
-    },
-    {
-      "title": "Trump says he has ‘no interest’ in Kennedy Center after judge orders his name removed from memorial – as it happened",
-      "link": "https://www.theguardian.com/us-news/live/2026/may/29/donald-trump-pam-bondi-jeffrey-epstein-iran-redistricting-latest-news-updates",
-      "source": "The Guardian",
-      "source_weight": 0.9,
-      "published": "Sat, 30 May 2026 02:02:42 GMT",
-      "summary": "<p>This live blog is now closed.</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQ",
-      "fetch_time": "2026-05-30T04:51:32.418163",
-      "score": 0.612,
-      "category": "politics"
-    },
-    {
-      "title": "一手实测，Opus 4.8 Vs ChatGPT 5.5 Vs Kimi 2.6 ，谁最可用？",
-      "link": "https://www.tmtpost.com/8008060.html",
-      "source": "钛媒体",
-      "source_weight": 0.85,
-      "published": "Sat, 30 May 2026 09:42:00 +0800",
-      "summary": "Anthropic：这一代更会主动标出自己没把握的地方，不下没有依据的结论，写代码时漏判 bug 的概率比上一代低了大约四倍。",
-      "fetch_time": "2026-05-30T04:51:38.167517",
-      "score": 0.574,
-      "category": "business"
-    },
-    {
-      "title": "国家电网与南方电网举行会谈",
-      "link": "https://www.jiemian.com/article/14509290.html",
-      "source": "界面新闻",
-      "source_weight": 0.8,
-      "published": "Sat, 30 May 2026 12:21:22 +0800",
-      "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664251748738900_a580x330.png\" /><p></p>",
-      "fetch_time": "2026-05-30T04:53:47.440491",
-      "score": 0.568,
-      "category": "business"
     }
   ]
 }

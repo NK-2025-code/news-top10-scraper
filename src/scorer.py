@@ -1,15 +1,25 @@
 # -*- coding: utf-8 -*-
 """
 评分器：计算新闻的综合评分
-新评分顺序: 热度(35%) > 新鲜度(25%) > 关键词(20%) > 源权重(15%) > 长度(5%)
+新评分顺序: 关键词(45%) > 新鲜度(30%) > 源权重(20%) > 长度(5%)
+关键词按文章语言分别匹配（中文文章匹配中文词，英文文章匹配英文词），避免跨语言命中率为零。
 """
 
+import math
 from datetime import datetime, timedelta
-import re
 from typing import List, Dict
 import logging
 
 logger = logging.getLogger(__name__)
+
+
+def _is_chinese(text: str) -> bool:
+    """中文字符占比超过15%即视为中文文章"""
+    if not text:
+        return False
+    chinese_chars = sum(1 for c in text if '一' <= c <= '鿿')
+    return chinese_chars / max(len(text), 1) > 0.15
+
 
 class NewsScorer:
     def __init__(self, config):
@@ -17,37 +27,22 @@ class NewsScorer:
         self.score_weights = config['weights']
         self.freshness_levels = config['freshness_levels']
         self.keywords = config['keywords']
-    
-    def calculate_engagement_score(self, source_weight: float, keyword_count: int) -> float:
-        """
-        计算热度分数 (0-1)
-        热度 = 源权重(60%) + 关键词数量(40%)
-        """
-        keyword_score = min(keyword_count / len(self.keywords), 1.0)
-        engagement = source_weight * 0.6 + keyword_score * 0.4
-        return min(engagement, 1.0)
-    
+
+        # 预分离中英文关键词，避免每篇文章重复计算
+        self._cn_keywords = {k: v for k, v in self.keywords.items()
+                             if any('一' <= c <= '鿿' for c in k)}
+        self._en_keywords = {k: v for k, v in self.keywords.items()
+                             if not any('一' <= c <= '鿿' for c in k)}
+
     def calculate_freshness_score(self, published_str: str) -> float:
-        """
-        计算新鲜度分数 (0-1)
-        越新的文章分数越高
-        """
         try:
             if not published_str:
-                return 0.5
-            
-            # 尝试解析发布时间
-            try:
-                # 尝试多种时间格式
-                from dateutil import parser
-                published_time = parser.parse(published_str)
-            except:
-                return 0.5
-            
+                return 0.4
+            from dateutil import parser
+            published_time = parser.parse(published_str)
             now = datetime.now(published_time.tzinfo) if published_time.tzinfo else datetime.now()
             delta = now - published_time
-            
-            # 根据时间差返回分数
+
             if delta <= timedelta(hours=1):
                 return self.freshness_levels['hours_1']
             elif delta <= timedelta(hours=6):
@@ -58,103 +53,74 @@ class NewsScorer:
                 return self.freshness_levels['hours_72']
             else:
                 return self.freshness_levels['days_7']
-        
         except Exception as e:
             logger.warning(f"计算新鲜度分数失败: {str(e)}")
-            return 0.5
-    
-    def calculate_keyword_score(self, title: str, summary: str) -> tuple:
+            return 0.4
+
+    def calculate_keyword_score(self, title: str, summary: str) -> float:
         """
-        计算关键词分数和匹配数量
-        返回 (分数, 关键词数量)
+        按文章语言分别匹配关键词，返回 0-1 分数。
+        用 sqrt 压缩原始命中比例，保留区分度的同时避免零命中文章得分过低。
         """
         text = f"{title} {summary}".lower()
-        matched_keywords = []
-        total_weight = 0
-        
-        for keyword, info in self.keywords.items():
-            if keyword.lower() in text:
-                matched_keywords.append(keyword)
-                total_weight += info['weight']
-        
-        # 分数 = 匹配的关键词权重总和 / 最大可能权重
-        max_weight = sum(info['weight'] for info in self.keywords.values())
-        keyword_score = min(total_weight / max_weight if max_weight > 0 else 0, 1.0)
-        
-        return keyword_score, len(matched_keywords)
-    
+        is_cn = _is_chinese(text)
+        pool = self._cn_keywords if is_cn else self._en_keywords
+
+        if not pool:
+            return 0.0
+
+        total_weight = sum(info['weight'] for kw, info in pool.items() if kw.lower() in text)
+        max_possible = sum(info['weight'] for info in pool.values())
+
+        raw = total_weight / max_possible if max_possible > 0 else 0.0
+        return round(min(math.sqrt(raw) * 1.2, 1.0), 4)
+
     def calculate_length_score(self, text: str) -> float:
-        """
-        计算内容长度分数
-        最优长度: 300-800字
-        """
         length = len(text)
-        
         if length < 100:
             return 0.2
-        elif 100 <= length < 300:
+        elif length < 300:
             return 0.6
-        elif 300 <= length <= 800:
-            return 1.0  # 完美长度
-        elif 800 < length <= 1500:
+        elif length <= 800:
+            return 1.0
+        elif length <= 1500:
             return 0.8
         else:
-            return 0.5  # 过长
-    
+            return 0.5
+
     def score_article(self, article: Dict) -> float:
-        """
-        计算单篇文章的综合分数
-        顺序: 热度 > 新鲜度 > 关键词 > 源权重 > 长度
-        """
         source_weight = article.get('source_weight', 0.8)
-        keyword_score, keyword_count = self.calculate_keyword_score(
+        keyword_score = self.calculate_keyword_score(
             article.get('title', ''),
             article.get('summary', '')
         )
-        
-        # 热度 = 源权重(60%) + 关键词(40%)
-        engagement = self.calculate_engagement_score(source_weight, keyword_count)
-        
         freshness = self.calculate_freshness_score(article.get('published', ''))
-        
         length = self.calculate_length_score(
             f"{article.get('title', '')} {article.get('summary', '')}"
         )
-        
-        # 综合分数计算
+
         total_score = (
-            engagement * self.score_weights['engagement'] +      # 热度: 35%
-            freshness * self.score_weights['freshness'] +        # 新鲜度: 25%
-            keyword_score * self.score_weights['keywords'] +     # 关键词: 20%
-            source_weight * self.score_weights['source'] +       # 源权重: 15%
-            length * self.score_weights['length']                # 长度: 5%
+            keyword_score * self.score_weights['keywords'] +
+            freshness     * self.score_weights['freshness'] +
+            source_weight * self.score_weights['source'] +
+            length        * self.score_weights['length']
         )
-        
         return round(total_score, 3)
-    
-    def rank_articles(self, articles: List[Dict], top_n: int = 10) -> List[Dict]:
-        """
-        给文章排序，返回Top N
-        """
-        # 去重（按title）
+
+    def rank_articles(self, articles: List[Dict], top_n: int = 10000) -> List[Dict]:
         unique_articles = {}
         for article in articles:
             title = article['title']
             if title not in unique_articles:
                 unique_articles[title] = article
-        
-        # 评分
+
         for article in unique_articles.values():
             article['score'] = self.score_article(article)
-        
-        # 排序（按分数降序）
-        ranked = sorted(
-            unique_articles.values(),
-            key=lambda x: x['score'],
-            reverse=True
-        )
-        
-        logger.info(f"排序完成，返回Top {top_n}新闻")
-        logger.info(f"评分范围: {ranked[0]['score']:.2f} - {ranked[min(top_n-1, len(ranked)-1)]['score']:.2f}")
-        
+
+        ranked = sorted(unique_articles.values(), key=lambda x: x['score'], reverse=True)
+
+        if ranked:
+            end = min(top_n - 1, len(ranked) - 1)
+            logger.info(f"评分范围: {ranked[0]['score']:.3f} - {ranked[end]['score']:.3f}")
+
         return ranked[:top_n]

@@ -9,116 +9,188 @@
 # category: 分类 (tech/supply_chain/politics/ai/business)
 
 RSS_SOURCES = [
-    # 🔧 科技类 (4个源)
+
+    # ===================== 🇨🇳 中国新闻源 =====================
+
+    # 科技 (china)
+    {
+        'name': '36氪',
+        'url': 'https://36kr.com/feed',
+        'weight': 1.0,
+        'category': 'tech',
+        'region': 'china'
+    },
+    {
+        'name': '钛媒体',
+        'url': 'https://www.tmtpost.com/rss.xml',
+        'weight': 0.9,
+        'category': 'tech',
+        'region': 'china'
+    },
+    {
+        'name': '虎嗅',
+        'url': 'https://www.huxiu.com/rss/0.xml',
+        'weight': 0.9,
+        'category': 'tech',
+        'region': 'china'
+    },
+
+    # 商业/财经 (china)
+    {
+        'name': '界面新闻',
+        'url': 'https://a.jiemian.com/index.php?m=article&a=rss',
+        'weight': 0.85,
+        'category': 'business',
+        'region': 'china'
+    },
+    {
+        'name': '财新网',
+        'url': 'https://www.caixin.com/rss/caixinonline.xml',
+        'weight': 0.95,
+        'category': 'business',
+        'region': 'china'
+    },
+
+    # 政治/时事 (china)
+    {
+        'name': 'China Daily',
+        'url': 'https://www.chinadaily.com.cn/rss/china_rss.xml',
+        'weight': 0.9,
+        'category': 'politics',
+        'region': 'china'
+    },
+    {
+        'name': '人民网',
+        'url': 'http://www.people.com.cn/rss/politics.xml',
+        'weight': 0.85,
+        'category': 'politics',
+        'region': 'china'
+    },
+
+    # AI/供应链 (china)
+    {
+        'name': '机器之心',
+        'url': 'https://www.jiqizhixin.com/rss',
+        'weight': 0.95,
+        'category': 'ai',
+        'region': 'china'
+    },
+    {
+        'name': '运联智库',
+        'url': 'https://www.yunliansmart.com/feed',
+        'weight': 0.85,
+        'category': 'supply_chain',
+        'region': 'china'
+    },
+
+    # ===================== 🌍 国外新闻源 =====================
+
+    # 科技 (global)
     {
         'name': 'TechCrunch',
         'url': 'https://techcrunch.com/feed/',
         'weight': 1.0,
-        'category': 'tech'
+        'category': 'tech',
+        'region': 'global'
     },
     {
         'name': 'Hacker News',
         'url': 'https://news.ycombinator.com/rss',
         'weight': 0.95,
-        'category': 'tech'
+        'category': 'tech',
+        'region': 'global'
     },
     {
         'name': 'The Verge',
         'url': 'https://www.theverge.com/rss/index.xml',
         'weight': 0.9,
-        'category': 'tech'
+        'category': 'tech',
+        'region': 'global'
     },
     {
-        'name': 'ArXiv CS',
+        'name': 'ArXiv CS.AI',
         'url': 'http://arxiv.org/rss/cs.AI',
         'weight': 0.85,
-        'category': 'tech'
+        'category': 'ai',
+        'region': 'global'
     },
-    
-    # 📦 供应链 (3个全球顶级原生源，不会被拦截)
+
+    # 供应链 (global)
     {
         'name': 'Supply Chain Dive',
         'url': 'https://www.supplychaindive.com/feeds/news/',
         'weight': 1.0,
-        'category': 'supply_chain'
+        'category': 'supply_chain',
+        'region': 'global'
     },
     {
         'name': 'FreightWaves',
         'url': 'https://www.freightwaves.com/news/feed',
         'weight': 0.95,
-        'category': 'supply_chain'
+        'category': 'supply_chain',
+        'region': 'global'
     },
     {
         'name': 'Logistics Mgmt',
         'url': 'https://www.logisticsmgmt.com/rss',
         'weight': 0.9,
-        'category': 'supply_chain'
+        'category': 'supply_chain',
+        'region': 'global'
     },
-    
-    # 🏛️ 政治 (4个顶级源，更专业客观)
+
+    # 政治/时事 (global)
     {
         'name': 'Reuters',
         'url': 'https://www.reutersagency.com/feed/?best-topics=political-general&post_type=best',
         'weight': 0.95,
-        'category': 'politics'
+        'category': 'politics',
+        'region': 'global'
     },
     {
         'name': 'The Guardian',
         'url': 'https://www.theguardian.com/world/rss',
         'weight': 0.9,
-        'category': 'politics'
+        'category': 'politics',
+        'region': 'global'
     },
     {
         'name': 'Politico',
         'url': 'https://rss.politico.com/politics-news.xml',
         'weight': 0.9,
-        'category': 'politics'
+        'category': 'politics',
+        'region': 'global'
     },
-    {
-        'name': 'China Daily',
-        'url': 'https://www.chinadaily.com.cn/rss/china_rss.xml',
-        'weight': 0.95,
-        'category': 'politics'
-    },
-    
-    # 🤖 AI专题 (3个源)
+
+    # AI (global)
     {
         'name': 'OpenAI Blog',
         'url': 'https://openai.com/blog/rss.xml',
         'weight': 1.0,
-        'category': 'ai'
+        'category': 'ai',
+        'region': 'global'
     },
     {
         'name': 'DeepMind Blog',
         'url': 'https://deepmind.com/blog/feed/basic/',
         'weight': 0.95,
-        'category': 'ai'
+        'category': 'ai',
+        'region': 'global'
+    },
+
+    # 商业 (global)
+    {
+        'name': 'Bloomberg Tech',
+        'url': 'https://feeds.bloomberg.com/technology/news.rss',
+        'weight': 1.0,
+        'category': 'business',
+        'region': 'global'
     },
     {
-        'name': 'AI News',
-        'url': 'https://rsshub.app/ainews',
-        'weight': 0.9,
-        'category': 'ai'
-    },
-    
-    # 💼 商业类 (3个原生源，替代RSSHub防止拦截)
-    {
-        'name': '钛媒体',
-        'url': 'https://www.tmtpost.com/rss.xml',
-        'weight': 0.85,
-        'category': 'business'
-    },
-    {
-        'name': '虎嗅',
-        'url': 'https://www.huxiu.com/rss/0.xml',
-        'weight': 0.85,
-        'category': 'business'
-    },
-    {
-        'name': '界面新闻',
-        'url': 'https://a.jiemian.com/index.php?m=article&a=rss',
-        'weight': 0.8,
-        'category': 'business'
+        'name': 'WSJ Business',
+        'url': 'https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml',
+        'weight': 0.95,
+        'category': 'business',
+        'region': 'global'
     },
 ]
 
@@ -127,20 +199,19 @@ RSS_SOURCES = [
 
 SCORING_CONFIG = {
     'weights': {
-        'engagement': 0.35,      # 热度 (最重要) - 35%
-        'freshness': 0.25,       # 新鲜度 - 25%
-        'keywords': 0.20,        # 关键词 - 20%
-        'source': 0.15,          # 源权重 - 15%
-        'length': 0.05           # 长度 (最不重要) - 5%
+        'keywords': 0.45,        # 关键词相关度 (最重要，决定内容质量) - 45%
+        'freshness': 0.30,       # 新鲜度 - 30%
+        'source': 0.20,          # 源权重 - 20%
+        'length': 0.05           # 长度 - 5%
     },
-    
-    # 新鲜度等级设置
+
+    # 新鲜度等级设置（拉大梯度，区分度更强）
     'freshness_levels': {
         'hours_1': 1.0,          # 1小时内
-        'hours_6': 0.95,         # 6小时内
-        'hours_24': 0.9,         # 24小时内
-        'hours_72': 0.7,         # 72小时内
-        'days_7': 0.3            # 7天以上
+        'hours_6': 0.85,         # 6小时内
+        'hours_24': 0.65,        # 24小时内
+        'hours_72': 0.35,        # 72小时内
+        'days_7': 0.1            # 7天以上
     },
     
     # 🔥 2025-2026前沿趋势词库 + 敏感词脱敏 + 航运大宗扩充

@@ -25,6 +25,8 @@ class RSSscraper:
                     'link': entry.get('link', ''),
                     'source': source['name'],
                     'source_weight': source['weight'],
+                    'category': source.get('category', ''),
+                    'region': source.get('region', 'global'),
                     'published': entry.get('published', ''),
                     'summary': entry.get('summary', '')[:200],  # 摘要前200字
                     'fetch_time': datetime.now().isoformat()

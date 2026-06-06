@@ -4,93 +4,121 @@ from datetime import datetime, timezone
 from pathlib import Path
 from collections import defaultdict
 
-# 添加src目录到路径
 sys.path.insert(0, str(Path(__file__).parent))
 
 from scraper import RSSscraper
 from scorer import NewsScorer
-# 引入字典配置
 from config import RSS_SOURCES, OUTPUT_CONFIG, SCORING_CONFIG
+
+# 每个 region 按分类配额各取 N 篇，保证多样性
+CATEGORY_QUOTA = {
+    'tech': 2,
+    'ai': 2,
+    'supply_chain': 2,
+    'politics': 2,
+    'business': 2,
+}
+
+def pick_top_by_quota(scored_articles, quota):
+    """
+    从已按分数降序排列的文章中，按分类配额选取。
+    配额满后剩余篇数从高分文章里补全，确保总数达到目标。
+    """
+    by_cat = defaultdict(list)
+    for a in scored_articles:
+        by_cat[a.get('category', 'unknown')].append(a)
+
+    selected = []
+    used_titles = set()
+
+    # 第一轮：按配额各取
+    for cat, limit in quota.items():
+        count = 0
+        for a in by_cat[cat]:
+            if count >= limit:
+                break
+            if a['title'] not in used_titles:
+                selected.append(a)
+                used_titles.add(a['title'])
+                count += 1
+
+    # 第二轮：配额不足时用剩余高分文章补全
+    target = sum(quota.values())
+    if len(selected) < target:
+        for a in scored_articles:
+            if len(selected) >= target:
+                break
+            if a['title'] not in used_titles:
+                selected.append(a)
+                used_titles.add(a['title'])
+
+    return sorted(selected, key=lambda x: x['score'], reverse=True)
+
 
 def main():
     print("=" * 60)
-    print("开始抓取并生成各分类 Top 2 新闻")
+    print("开始抓取 — 中国新闻 & 国外新闻各 Top 10")
     print("=" * 60)
-    
+
     OUTPUT_FILE = OUTPUT_CONFIG['output_file']
-    
-    # 第1步：抓取所有RSS源
+
+    # 抓取
     scraper = RSSscraper(RSS_SOURCES)
     articles = scraper.scrape_all()
-    
+
     if not articles:
         print("❌ 未能抓取到任何文章")
         return
-    
-    # 第2步：评分和全量排序
-    # 必须将 SCORING_CONFIG 传给 NewsScorer
+
+    # 评分（全量）
     scorer = NewsScorer(SCORING_CONFIG)
-    # 取一个极大的 top_n 值（如 10000），让评分器返回所有去重并打好分的文章
-    all_scored_articles = scorer.rank_articles(articles, top_n=10000)
-    
-    # 🔧 新增：建立 "新闻源名称" -> "分类" 的映射字典
-    # 修复 scraper 可能没有将 category 写进文章数据里的问题
-    source_to_category = {s['name']: s['category'] for s in RSS_SOURCES if 'name' in s and 'category' in s}
-    
-    # 第3步：按类别分组并强制提取每个分类的 Top 2
-    target_categories = ['tech', 'supply_chain', 'politics', 'ai', 'business']
-    articles_by_category = defaultdict(list)
-    
-    for article in all_scored_articles:
-        # 尝试获取分类，如果没有，通过映射表从 source 查出来并补全
-        cat = article.get('category')
-        if not cat:
-            cat = source_to_category.get(article.get('source'))
-            article['category'] = cat  # 补充回字典中，这样前端也能正确识别颜色和标签了
-            
-        if cat in target_categories:
-            articles_by_category[cat].append(article)
-            
-    top_articles = []
-    for cat in target_categories:
-        # 因为 all_scored_articles 已经是按分数降序排列好的
-        # 这里直接取前2篇即为该类别的最高分文章
-        cat_top2 = articles_by_category[cat][:2]
-        top_articles.extend(cat_top2)
-        
-    # 将提取出的10篇文章，再按总分做一次全局降序排序，保证最终榜单质量最高的内容在最前
-    top_articles = sorted(top_articles, key=lambda x: x['score'], reverse=True)
-    
-    # 第4步：生成结果
+    all_scored = scorer.rank_articles(articles, top_n=10000)
+
+    # 建立 source -> region/category 映射，补全缺失字段
+    source_meta = {s['name']: s for s in RSS_SOURCES}
+    for a in all_scored:
+        meta = source_meta.get(a.get('source'), {})
+        if not a.get('region'):
+            a['region'] = meta.get('region', 'global')
+        if not a.get('category'):
+            a['category'] = meta.get('category', 'tech')
+
+    # 按 region 分组
+    china_articles  = [a for a in all_scored if a.get('region') == 'china']
+    global_articles = [a for a in all_scored if a.get('region') == 'global']
+
+    china_top10  = pick_top_by_quota(china_articles,  CATEGORY_QUOTA)
+    global_top10 = pick_top_by_quota(global_articles, CATEGORY_QUOTA)
+
+    # 输出结构
     result = {
-        # 🔧 修复时区问题：强制指定为 UTC 时区，以便前端正确转换为北京时间
         'generated_at': datetime.now(timezone.utc).isoformat(),
         'total_articles': len(articles),
-        'top_count': len(top_articles),
-        'articles': top_articles
+        'china': {
+            'count': len(china_top10),
+            'articles': china_top10
+        },
+        'global': {
+            'count': len(global_top10),
+            'articles': global_top10
+        }
     }
-    
-    # 第5步：保存到文件
+
     output_path = Path(OUTPUT_FILE)
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
-    
-    # 打印结果
-    print("\n" + "=" * 60)
-    print("✅ 各分类 Top 2 榜单生成完毕")
+
+    # 打印预览
+    for region_key, label in [('china', '🇨🇳 中国新闻'), ('global', '🌍 国外新闻')]:
+        print(f"\n{'='*60}\n{label} Top 10\n{'='*60}")
+        for i, a in enumerate(result[region_key]['articles'], 1):
+            print(f"{i}. [{a.get('category','?').upper()} | {a['source']}] 评分:{a['score']}")
+            print(f"   {a['title']}")
+
+    print(f"\n✅ 结果已保存到: {OUTPUT_FILE}")
     print("=" * 60)
-    for i, article in enumerate(top_articles, 1):
-        # 终端展示时加上类别前缀以便检查
-        cat_display = article.get('category', 'unknown').upper()
-        print(f"\n{i}. 【{cat_display} | {article['source']}】 评分: {article['score']}")
-        print(f"   标题: {article['title']}")
-        print(f"   链接: {article['link']}")
-        print(f"   摘要: {article['summary'][:80]}...")
-    
-    print(f"\n结果已保存到: {OUTPUT_FILE}")
-    print("=" * 60)
+
 
 if __name__ == '__main__':
     main()

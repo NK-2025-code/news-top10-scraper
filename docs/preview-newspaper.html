@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Push --News</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=IM+Fell+English:ital@0;1&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --paper:   #f5f0e8;
+            --paper2:  #ede8dc;
+            --ink:     #1a1209;
+            --ink-mid: #3d3020;
+            --ink-dim: #7a6a50;
+            --rule:    #2a1f0e;
+            --red:     #8b1a1a;
+            --serif: 'IM Fell English', Georgia, serif;
+            --display: 'Playfair Display', Georgia, serif;
+            --frak: 'UnifrakturMaguntia', cursive;
+        }
+
+        html, body {
+            height: 100%;
+            background: #d4c9b0;
+            font-family: var(--serif);
+            color: var(--ink);
+            overflow: hidden;
+        }
+
+        /* aged paper texture via repeating gradients */
+        body::before {
+            content: '';
+            position: fixed; inset: 0;
+            background-image:
+                repeating-linear-gradient(0deg, transparent, transparent 27px, rgba(42,31,14,0.04) 28px),
+                repeating-linear-gradient(90deg, transparent, transparent 27px, rgba(42,31,14,0.02) 28px);
+            pointer-events: none; z-index: 0;
+        }
+
+        /* ===== MASTHEAD ===== */
+        #masthead {
+            position: fixed; top: 0; left: 0; right: 0;
+            background: var(--paper);
+            border-bottom: 4px double var(--rule);
+            z-index: 100;
+            text-align: center;
+            padding: 6px 24px 4px;
+        }
+        #masthead-top {
+            display: flex; justify-content: space-between; align-items: center;
+            border-bottom: 1px solid var(--rule);
+            padding-bottom: 3px; margin-bottom: 4px;
+            font-size: 0.7rem; letter-spacing: 1px; text-transform: uppercase;
+            color: var(--ink-dim);
+        }
+        #masthead-title {
+            font-family: var(--frak);
+            font-size: 2.4rem;
+            line-height: 1;
+            color: var(--ink);
+            letter-spacing: 2px;
+        }
+        #masthead-sub {
+            font-size: 0.65rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--ink-dim);
+            border-top: 1px solid var(--rule);
+            margin-top: 3px; padding-top: 3px;
+        }
+        #stats-row {
+            display: flex; justify-content: center; gap: 24px;
+            font-size: 0.62rem; letter-spacing: 1.5px; text-transform: uppercase;
+            color: var(--ink-dim); padding-top: 2px;
+        }
+        .lang-btn {
+            font-family: var(--serif); font-size: 0.65rem;
+            letter-spacing: 1px; text-transform: uppercase;
+            border: 1px solid var(--ink-dim);
+            background: transparent; color: var(--ink-dim);
+            padding: 1px 8px; cursor: pointer;
+            transition: all 0.15s;
+        }
+        .lang-btn.active, .lang-btn:hover {
+            background: var(--ink); color: var(--paper);
+            border-color: var(--ink);
+        }
+
+        /* ===== LAYOUT ===== */
+        #stage {
+            position: fixed;
+            top: 100px; /* masthead height */
+            bottom: 0; left: 0; right: 0;
+            display: flex;
+            align-items: stretch;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        /* ===== LEFT COLUMN: the two front-page blocks ===== */
+        #front {
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            width: 100%;
+            padding: 28px 0;
+            align-items: center;
+            justify-content: center;
+            gap: 0;
+            /* spring-overshoot as the column snaps into sidebar */
+            transition: width 0.65s cubic-bezier(0.34,1.3,0.64,1),
+                        padding 0.5s cubic-bezier(0.4,0,0.2,1);
+            background: var(--paper);
+            border-right: 0px solid var(--rule);
+            overflow: hidden;
+        }
+        #stage.open #front {
+            width: 260px;
+            padding: 16px 0;
+            border-right-width: 3px;
+        }
+
+        /* The two section cards */
+        .section-card {
+            width: 380px;
+            max-width: 92vw;
+            border: 2px solid var(--rule);
+            background: var(--paper);
+            cursor: pointer;
+            position: relative;
+            padding: 20px 24px 16px;
+            transition: background 0.2s, box-shadow 0.2s, width 0.6s cubic-bezier(0.34,1.4,0.64,1),
+                        padding 0.5s, transform 0.18s cubic-bezier(0.34,1.6,0.64,1);
+            user-select: none;
+            transform-origin: center center;
+        }
+        .section-card:hover { background: var(--paper2); transform: translateY(-3px) scale(1.01); box-shadow: 0 6px 20px rgba(26,18,9,0.14); }
+        /* press-down flash on click */
+        .section-card:active { transform: translateY(2px) scale(0.98) !important; box-shadow: none !important; transition-duration: 0.08s !important; }
+        .section-card.active { background: var(--ink); cursor: default; transform: none; box-shadow: none; }
+        .section-card.active:hover { transform: none; }
+
+        /* separator rule between two cards */
+        .section-divider {
+            width: 380px; max-width: 92vw;
+            border: none; border-top: 3px double var(--rule);
+            margin: 0;
+            transition: width 0.6s cubic-bezier(0.4,0,0.2,1);
+        }
+
+        #stage.open .section-card,
+        #stage.open .section-divider {
+            width: 240px;
+            max-width: 240px;
+        }
+        #stage.open .section-card { padding: 14px 16px 12px; }
+
+        /* card content */
+        .card-eyebrow {
+            font-size: 0.6rem; letter-spacing: 2px; text-transform: uppercase;
+            color: var(--ink-dim); margin-bottom: 4px;
+            transition: color 0.2s;
+        }
+        .section-card.active .card-eyebrow { color: rgba(245,240,232,0.6); }
+
+        .card-flag {
+            font-size: 2rem; line-height: 1;
+            transition: font-size 0.5s;
+        }
+        #stage.open .card-flag { font-size: 1.4rem; }
+
+        .card-headline {
+            font-family: var(--display);
+            font-size: 1.6rem; font-weight: 900;
+            line-height: 1.1; margin-top: 6px;
+            color: var(--ink);
+            transition: color 0.2s, font-size 0.5s;
+        }
+        .section-card.active .card-headline { color: var(--paper); }
+        #stage.open .card-headline { font-size: 1.1rem; }
+
+        .card-deck {
+            font-size: 0.75rem; font-style: italic;
+            color: var(--ink-dim); margin-top: 5px;
+            line-height: 1.4;
+            transition: color 0.2s, font-size 0.5s, opacity 0.4s;
+        }
+        .section-card.active .card-deck { color: rgba(245,240,232,0.7); }
+        #stage.open .card-deck { font-size: 0.65rem; opacity: 0.85; }
+
+        .card-rule {
+            border: none; border-top: 1px solid var(--rule);
+            margin: 10px 0 8px;
+            transition: border-color 0.2s;
+        }
+        .section-card.active .card-rule { border-color: rgba(245,240,232,0.3); }
+
+        .card-meta {
+            display: flex; justify-content: space-between; align-items: center;
+            font-size: 0.62rem; letter-spacing: 1px; text-transform: uppercase;
+            color: var(--ink-dim);
+            transition: color 0.2s;
+        }
+        .section-card.active .card-meta { color: rgba(245,240,232,0.55); }
+
+        .card-arrow {
+            font-size: 1.1rem;
+            transition: transform 0.3s, color 0.2s;
+        }
+        .section-card.active .card-arrow { color: var(--paper); transform: rotate(90deg); }
+        #stage.open .card-arrow { font-size: 0.9rem; }
+
+        /* ===== RIGHT COLUMN: news detail ===== */
+        #detail {
+            flex: 1;
+            background: var(--paper);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            width: 0;
+            opacity: 0;
+            /* slight rightward offset fades in after left col finishes */
+            transform: translateX(18px);
+            transition: opacity 0.38s 0.28s, transform 0.42s 0.25s cubic-bezier(0.34,1.2,0.64,1);
+        }
+        #stage.open #detail {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* detail masthead strip */
+        #detail-header {
+            flex-shrink: 0;
+            border-bottom: 3px double var(--rule);
+            padding: 10px 28px 8px;
+            display: flex; align-items: baseline; gap: 14px;
+        }
+        #detail-flag { font-size: 1.6rem; }
+        #detail-title {
+            font-family: var(--display);
+            font-size: 1.5rem; font-weight: 900;
+            color: var(--ink);
+        }
+        #detail-sub {
+            font-size: 0.62rem; letter-spacing: 2px;
+            text-transform: uppercase; color: var(--ink-dim);
+            margin-left: auto;
+        }
+
+        /* category filter */
+        #detail-filter {
+            flex-shrink: 0;
+            display: flex; flex-wrap: wrap; gap: 6px;
+            padding: 8px 28px;
+            border-bottom: 1px solid var(--rule);
+        }
+        .cat-btn {
+            font-family: var(--serif);
+            font-size: 0.62rem; letter-spacing: 1px; text-transform: uppercase;
+            border: 1px solid var(--rule);
+            background: transparent; color: var(--ink-mid);
+            padding: 2px 10px; cursor: pointer; transition: all 0.15s;
+        }
+        .cat-btn:hover { background: var(--ink-mid); color: var(--paper); }
+        .cat-btn.active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+
+        /* news scroll */
+        #detail-scroll {
+            flex: 1;
+            overflow-y: auto;
+            padding: 0 28px 40px;
+            scrollbar-width: thin;
+            scrollbar-color: var(--ink-dim) transparent;
+        }
+        #detail-scroll::-webkit-scrollbar { width: 4px; }
+        #detail-scroll::-webkit-scrollbar-thumb { background: var(--ink-dim); }
+
+        /* newspaper column grid */
+        #news-grid {
+            column-count: 2;
+            column-gap: 24px;
+            column-rule: 1px solid var(--rule);
+            padding-top: 16px;
+        }
+
+        /* each item animates in with staggered delay (set via JS) */
+        .news-item {
+            animation: itemIn 0.4s both cubic-bezier(0.34,1.2,0.64,1);
+        }
+        @keyframes itemIn {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 900px) { #news-grid { column-count: 1; } }
+
+        /* news article item */
+        .news-item {
+            break-inside: avoid;
+            padding: 14px 0;
+            border-bottom: 1px solid rgba(42,31,14,0.2);
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        .news-item:last-child { border-bottom: none; }
+        .news-item:hover { background: var(--paper2); }
+
+        .item-kicker {
+            font-size: 0.58rem; letter-spacing: 2px; text-transform: uppercase;
+            margin-bottom: 4px; display: flex; align-items: center; gap: 8px;
+        }
+        .item-cat {
+            color: var(--red); font-weight: bold;
+        }
+        .item-source { color: var(--ink-dim); }
+        .item-score { margin-left: auto; color: var(--ink-dim); }
+
+        .item-headline {
+            font-family: var(--display);
+            font-size: 1rem; font-weight: 700;
+            line-height: 1.25; margin-bottom: 5px;
+            color: var(--ink);
+        }
+        .news-item:hover .item-headline { text-decoration: underline; }
+
+        .item-summary {
+            font-size: 0.75rem; font-style: italic;
+            line-height: 1.55; color: var(--ink-mid);
+            display: -webkit-box;
+            -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+            overflow: hidden; margin-bottom: 6px;
+        }
+
+        .item-link {
+            font-size: 0.62rem; letter-spacing: 1px; text-transform: uppercase;
+            color: var(--red); text-decoration: none;
+            border-bottom: 1px solid var(--red);
+            padding-bottom: 1px;
+            transition: color 0.15s, border-color 0.15s;
+        }
+        .item-link:hover { color: var(--ink); border-color: var(--ink); }
+
+        /* section header inside grid */
+        .grid-section-head {
+            column-span: all;
+            text-align: center;
+            border-top: 3px double var(--rule);
+            border-bottom: 1px solid var(--rule);
+            padding: 6px 0 4px;
+            margin-bottom: 2px;
+        }
+        .grid-section-head h2 {
+            font-family: var(--display);
+            font-size: 1.8rem; font-weight: 900;
+            letter-spacing: 2px;
+        }
+
+        /* ===== LOADER ===== */
+        .loader-wrap {
+            position: absolute; inset: 0;
+            display: flex; flex-direction: column;
+            align-items: center; justify-content: center; gap: 10px;
+            background: var(--paper);
+            z-index: 50; transition: opacity 0.4s;
+        }
+        .loader-wrap.hidden { opacity: 0; pointer-events: none; }
+        .loader-dots { font-family: var(--display); font-size: 2rem; letter-spacing: 6px; animation: blink 1.2s infinite; }
+        @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.2} }
+        .loader-text { font-size: 0.7rem; letter-spacing: 3px; text-transform: uppercase; color: var(--ink-dim); }
+
+        /* ===== NO DATA / ERROR ===== */
+        .empty-state {
+            column-span: all;
+            text-align: center; padding: 40px;
+            font-style: italic; color: var(--ink-dim);
+        }
+    </style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<header id="masthead">
+    <div id="masthead-top">
+        <div style="display:flex;gap:6px">
+            <button class="lang-btn active" data-lang="zh">中文</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <div id="stat-date">— — —</div>
+        <div id="stat-total" style="letter-spacing:1px">— — —</div>
+    </div>
+    <div id="masthead-title">Git Push ❧ News</div>
+    <div id="masthead-sub" data-i18n="sub">The Daily Dispatch of Signal Over Noise</div>
+    <div id="stats-row">
+        <span id="stat-picks">·</span>
+        <span>❧</span>
+        <span id="stat-sources">·</span>
+    </div>
+</header>
+
+<!-- STAGE -->
+<div id="stage">
+
+    <div class="loader-wrap" id="main-loader">
+        <div class="loader-dots">· · ·</div>
+        <div class="loader-text" data-i18n="loading">Setting the type&hellip;</div>
+    </div>
+
+    <!-- LEFT: two front-page section cards -->
+    <div id="front">
+        <div class="section-card" id="card-china" onclick="openSection('china')">
+            <div class="card-eyebrow" data-i18n="china_eyebrow">Domestic Report</div>
+            <div class="card-flag">🇨🇳</div>
+            <h2 class="card-headline" data-i18n="china_title">中国新闻</h2>
+            <p class="card-deck" data-i18n="china_deck">精选来自中国媒体的十篇要闻，涵盖科技、商业、政治与供应链动态。</p>
+            <hr class="card-rule">
+            <div class="card-meta">
+                <span>Top 10</span>
+                <span class="card-arrow">→</span>
+            </div>
+        </div>
+
+        <hr class="section-divider">
+
+        <div class="section-card" id="card-global" onclick="openSection('global')">
+            <div class="card-eyebrow" data-i18n="global_eyebrow">Foreign Correspondence</div>
+            <div class="card-flag">🌍</div>
+            <h2 class="card-headline" data-i18n="global_title">国外新闻</h2>
+            <p class="card-deck" data-i18n="global_deck">精选来自全球媒体的十篇要闻，覆盖科技、AI、供应链与国际政治。</p>
+            <hr class="card-rule">
+            <div class="card-meta">
+                <span>Top 10</span>
+                <span class="card-arrow">→</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT: news detail panel -->
+    <div id="detail">
+        <div id="detail-header">
+            <span id="detail-flag">🇨🇳</span>
+            <span id="detail-title">中国新闻</span>
+            <span id="detail-sub">Top 10</span>
+        </div>
+        <div id="detail-filter">
+            <button class="cat-btn active" onclick="filterCat('all')" data-cat="all">All</button>
+            <button class="cat-btn" onclick="filterCat('tech')" data-cat="tech">Tech</button>
+            <button class="cat-btn" onclick="filterCat('ai')" data-cat="ai">AI</button>
+            <button class="cat-btn" onclick="filterCat('business')" data-cat="business">Biz</button>
+            <button class="cat-btn" onclick="filterCat('supply_chain')" data-cat="supply_chain">SCM</button>
+            <button class="cat-btn" onclick="filterCat('politics')" data-cat="politics">Politics</button>
+        </div>
+        <div id="detail-scroll">
+            <div id="news-grid"></div>
+        </div>
+    </div>
+
+</div><!-- /stage -->
+
+<script>
+// ===== i18n =====
+const T = {
+    zh: {
+        sub: 'The Daily Dispatch of Signal Over Noise',
+        loading: '正在排版…',
+        china_eyebrow: '国内要闻', china_title: '中国新闻',
+        china_deck: '精选来自中国媒体的十篇要闻，涵盖科技、商业、政治与供应链动态。',
+        global_eyebrow: '海外电讯', global_title: '国外新闻',
+        global_deck: '精选来自全球媒体的十篇要闻，覆盖科技、AI、供应链与国际政治。',
+        read_more: '阅读原文', no_data: '暂无内容',
+        error: '加载失败，请检查 GitHub Action 是否正常运行。',
+        total: '全网抓取', picks: '精选要闻', sources: '信息来源',
+        cats: { all:'全部', tech:'科技', ai:'AI', business:'商业', supply_chain:'供应链', politics:'政治' }
+    },
+    en: {
+        sub: 'The Daily Dispatch of Signal Over Noise',
+        loading: 'Setting the type…',
+        china_eyebrow: 'Domestic Report', china_title: 'China News',
+        china_deck: 'Ten curated dispatches from Chinese media: tech, business, politics, and supply chain.',
+        global_eyebrow: 'Foreign Correspondence', global_title: 'Global News',
+        global_deck: 'Ten curated dispatches from global media: tech, AI, supply chain, and world affairs.',
+        read_more: 'Read more', no_data: 'No articles',
+        error: 'Failed to load. Check GitHub Actions.',
+        total: 'Scraped', picks: 'Picks', sources: 'Sources',
+        cats: { all:'All', tech:'Tech', ai:'AI', business:'Biz', supply_chain:'SCM', politics:'Politics' }
+    }
+};
+let lang = localStorage.getItem('lang') || 'zh';
+const t  = k => T[lang][k] || k;
+const tc = k => (T[lang].cats && T[lang].cats[k]) || k;
+
+function applyLang() {
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const v = T[lang][el.dataset.i18n];
+        if (v !== undefined) el.textContent = v;
+    });
+    document.querySelectorAll('.lang-btn').forEach(b =>
+        b.classList.toggle('active', b.dataset.lang === lang));
+    document.querySelectorAll('.cat-btn').forEach(b => {
+        b.textContent = tc(b.dataset.cat);
+    });
+    if (lastData) { updateStats(lastData); if (activeRegion) renderDetail(activeRegion); }
+}
+document.querySelectorAll('.lang-btn').forEach(b => b.addEventListener('click', () => {
+    lang = b.dataset.lang; localStorage.setItem('lang', lang); applyLang();
+}));
+
+// ===== STATE =====
+let lastData = null;
+let activeRegion = null;
+let activeCat = 'all';
+
+// ===== SECTION OPEN =====
+function openSection(region) {
+    if (activeRegion === region) return;
+    activeRegion = region;
+    activeCat = 'all';
+
+    // update card styles
+    document.getElementById('card-china').classList.toggle('active', region === 'china');
+    document.getElementById('card-global').classList.toggle('active', region === 'global');
+
+    // update detail header
+    const isCN = region === 'china';
+    document.getElementById('detail-flag').textContent  = isCN ? '🇨🇳' : '🌍';
+    document.getElementById('detail-title').textContent = isCN ? t('china_title') : t('global_title');
+
+    // reset cat filter
+    document.querySelectorAll('.cat-btn').forEach(b =>
+        b.classList.toggle('active', b.dataset.cat === 'all'));
+
+    // open stage
+    document.getElementById('stage').classList.add('open');
+
+    if (lastData) renderDetail(region);
+}
+
+// ===== CAT FILTER =====
+function filterCat(cat) {
+    activeCat = cat;
+    document.querySelectorAll('.cat-btn').forEach(b =>
+        b.classList.toggle('active', b.dataset.cat === cat));
+    if (lastData && activeRegion) renderDetail(activeRegion);
+}
+
+// ===== RENDER =====
+const catLabel = {
+    tech:'Tech', ai:'AI', business:'Biz', supply_chain:'SCM', politics:'Pol'
+};
+const stars = s => { const n = Math.round(s*5); return '★'.repeat(n)+'☆'.repeat(5-n); };
+
+function renderDetail(region) {
+    const src = lastData[region]?.articles
+        || (lastData.articles||[]).filter(a=>a.region===region);
+    const list = activeCat === 'all' ? src : src.filter(a=>a.category===activeCat);
+    const grid = document.getElementById('news-grid');
+
+    if (!list || !list.length) {
+        grid.innerHTML = `<div class="empty-state">${t('no_data')}</div>`;
+        return;
+    }
+
+    // clear first to retrigger CSS animation when switching sections
+    grid.innerHTML = '';
+    void grid.offsetWidth;
+    grid.innerHTML = list.map((a, i) => {
+        const cat     = a.category || 'tech';
+        const score   = a.score || 0;
+        const summary = (a.summary || '').replace(/<[^>]+>/g,'').trim();
+        return `
+        <div class="news-item" style="animation-delay:${i * 0.06}s" onclick="window.open('${a.link}','_blank')">
+            <div class="item-kicker">
+                <span class="item-cat">${tc(cat)}</span>
+                <span class="item-source">${a.source}</span>
+                <span class="item-score">${stars(score)}</span>
+            </div>
+            <div class="item-headline">${a.title}</div>
+            <div class="item-summary">${summary || '—'}</div>
+            <a class="item-link" href="${a.link}" target="_blank" onclick="event.stopPropagation()">
+                ${t('read_more')} ↗
+            </a>
+        </div>`;
+    }).join('');
+}
+
+// ===== STATS =====
+function updateStats(data) {
+    const cn = data.china?.articles?.length  || 0;
+    const gl = data.global?.articles?.length || 0;
+    const allA = [...(data.china?.articles||[]), ...(data.global?.articles||[])];
+
+    const d = new Date(data.generated_at);
+    const dateStr = d.toLocaleDateString(lang==='zh'?'zh-CN':'en-US',
+        { month:'long', day:'numeric', year:'numeric', timeZone:'Asia/Shanghai' });
+    document.getElementById('stat-date').textContent = dateStr;
+    document.getElementById('stat-total').textContent =
+        `${t('total')}: ${data.total_articles||0}`;
+    document.getElementById('stat-picks').textContent =
+        `${t('picks')}: ${cn+gl}`;
+    document.getElementById('stat-sources').textContent =
+        `${t('sources')}: ${new Set(allA.map(a=>a.source)).size}`;
+}
+
+// ===== LOAD =====
+async function loadNews() {
+    try {
+        const res = await fetch(
+            `https://api.github.com/repos/NK-2025-code/news-top10-scraper/contents/data/news.json?t=${Date.now()}`
+        );
+        if (!res.ok) throw new Error();
+        const api = await res.json();
+        const bytes = new Uint8Array([...atob(api.content)].map(c=>c.charCodeAt(0)));
+        const data = JSON.parse(new TextDecoder('utf-8').decode(bytes));
+
+        lastData = data;
+        updateStats(data);
+        document.getElementById('main-loader').classList.add('hidden');
+
+        // auto-open china on first load
+        openSection('china');
+    } catch(e) {
+        document.getElementById('main-loader').classList.add('hidden');
+        document.getElementById('news-grid').innerHTML =
+            `<div class="empty-state">${t('error')}</div>`;
+        document.getElementById('stage').classList.add('open');
+        document.getElementById('card-china').classList.add('active');
+    }
+}
+
+loadNews();
+setInterval(loadNews, 5*60*1000);
+</script>
+</body>
+</html>

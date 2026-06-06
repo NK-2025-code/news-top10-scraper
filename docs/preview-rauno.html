@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Push --News · Rauno Style</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg:       #f7f5f2;
+            --surface:  #ffffff;
+            --border:   rgba(0,0,0,0.08);
+            --border-h: rgba(0,0,0,0.18);
+            --text:     rgba(0,0,0,0.85);
+            --text-dim: rgba(0,0,0,0.35);
+            --text-mid: rgba(0,0,0,0.55);
+            --accent:   #1a1a1a;
+            --red:      #c0392b;
+            --blue:     #2563eb;
+            --glow-r:   rgba(192,57,43,0.08);
+            --glow-b:   rgba(37,99,235,0.08);
+            --font: 'Inter', -apple-system, sans-serif;
+            --spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+            --ease:   cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        html, body { height: 100%; background: var(--bg); font-family: var(--font); color: var(--text); overflow: hidden; }
+
+        /* ── CURSOR GLOW ── */
+        #cursor-glow {
+            pointer-events: none;
+            position: fixed;
+            width: 320px; height: 320px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(0,0,0,0.03) 0%, transparent 70%);
+            transform: translate(-50%, -50%);
+            transition: opacity 0.3s;
+            z-index: 0;
+            mix-blend-mode: multiply;
+        }
+
+        /* ── TOPBAR ── */
+        #topbar {
+            position: fixed; top: 0; left: 0; right: 0; height: 60px;
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 0 24px;
+            border-bottom: 1px solid var(--border);
+            background: rgba(247,245,242,0.85);
+            backdrop-filter: blur(20px);
+            z-index: 100;
+        }
+        #logo {
+            font-size: 1.35rem; font-weight: 700;
+            letter-spacing: -0.8px; color: var(--text);
+            font-feature-settings: 'ss01';
+        }
+        #logo span { font-weight: 300; color: var(--text-mid); }
+        #stats-bar { display: flex; gap: 20px; align-items: baseline; }
+        .stat { font-size: 0.82rem; color: var(--text-dim); }
+        .stat b { color: var(--text); font-weight: 600; }
+        #stat-time {
+            font-size: 0.8rem;
+            font-variant-numeric: oldstyle-nums;
+            letter-spacing: 0.3px;
+            color: var(--text-mid);
+            font-style: italic;
+        }
+        #lang-row { display: flex; gap: 6px; }
+        .lang-btn {
+            font-size: 0.72rem; font-family: var(--font);
+            padding: 3px 10px; border-radius: 6px;
+            border: 1px solid var(--border);
+            background: transparent; color: var(--text-dim); cursor: pointer;
+            transition: all 0.15s;
+        }
+        .lang-btn.active, .lang-btn:hover { background: var(--surface); color: var(--text); border-color: var(--border-h); }
+
+        /* ── STAGE ── */
+        #stage {
+            position: fixed; top: 60px; bottom: 36px; left: 0; right: 0;
+            display: flex; overflow: hidden; z-index: 1;
+        }
+
+        /* ── FRONT: two cards centred ── */
+        #front {
+            display: flex; flex-direction: column;
+            align-items: center; justify-content: center;
+            gap: 12px;
+            flex-shrink: 0;
+            width: 100%;
+            padding: 32px 24px;
+            transition: width 0.55s var(--ease);
+            overflow: hidden;
+        }
+        #stage.open #front { width: 280px; padding: 20px 16px; justify-content: flex-start; padding-top: 28px; }
+
+        /* ── SECTION CARD ── */
+        .section-card {
+            width: 360px; max-width: 100%;
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            background: rgba(255,255,255,0.7);
+            backdrop-filter: blur(12px) saturate(1.2);
+            -webkit-backdrop-filter: blur(12px) saturate(1.2);
+            padding: 22px 24px;
+            cursor: pointer;
+            position: relative;
+            overflow: visible; /* allow glow to spill outside */
+            transition:
+                border-color 0.35s var(--ease),
+                box-shadow   0.4s  var(--ease),
+                transform    0.4s  var(--spring),
+                width        0.55s var(--ease),
+                padding      0.4s  var(--ease);
+            will-change: transform;
+        }
+
+        /* diffuse glow layer — sits BEHIND the card via a pseudo pushed back */
+        .section-card::after {
+            content: '';
+            position: absolute;
+            inset: -20px;
+            border-radius: 28px;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.45s var(--ease);
+            z-index: -1;
+            filter: blur(24px);
+        }
+        #card-china::after  { background: radial-gradient(ellipse at 50% 60%, rgba(192,57,43,0.22), transparent 70%); }
+        #card-global::after { background: radial-gradient(ellipse at 50% 60%, rgba(37,99,235,0.18), transparent 70%); }
+
+        /* tilt gradient — stays inside the card */
+        .section-card::before {
+            content: '';
+            position: absolute; inset: 0;
+            border-radius: inherit;
+            opacity: 0;
+            transition: opacity 0.35s var(--ease);
+            pointer-events: none;
+            z-index: 0;
+        }
+        #card-china::before  { background: radial-gradient(circle at var(--mx,50%) var(--my,50%), rgba(192,57,43,0.08), transparent 65%); }
+        #card-global::before { background: radial-gradient(circle at var(--mx,50%) var(--my,50%), rgba(37,99,235,0.07), transparent 65%); }
+
+        .section-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--border-h);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.08), 0 2px 8px rgba(0,0,0,0.04);
+        }
+        .section-card:hover::before { opacity: 1; }
+        .section-card:hover::after  { opacity: 1; }
+        .section-card.active {
+            border-color: rgba(0,0,0,0.14);
+            background: rgba(255,255,255,0.55);
+            backdrop-filter: blur(16px) saturate(1.4);
+            -webkit-backdrop-filter: blur(16px) saturate(1.4);
+            cursor: default;
+            transform: none !important;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.06), inset 0 1px 0 rgba(255,255,255,0.8);
+        }
+        .section-card.active::after { opacity: 0 !important; }
+        .section-card:not(.active):active { transform: translateY(-1px) scale(0.98) !important; transition-duration: 0.1s !important; }
+
+        #stage.open .section-card { width: 100%; padding: 14px 16px; border-radius: 12px; }
+
+        /* card inner */
+        .card-top { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+        .card-flag {
+            font-size: 1.5rem;
+            display: inline-flex; align-items: center; justify-content: center;
+            transition: font-size 0.4s var(--ease), transform 0.35s var(--spring);
+            transform-origin: center;
+        }
+        .section-card:hover .card-flag { transform: scale(1.1); }
+        .section-card.active .card-flag { transform: none; }
+        #stage.open .card-flag { font-size: 1.1rem; }
+
+        .card-label {
+            font-size: 0.7rem; font-weight: 500;
+            letter-spacing: 0.5px; text-transform: uppercase;
+            color: var(--text-dim);
+        }
+        .section-card.active .card-label { color: var(--text-dim); }
+
+        .card-title {
+            font-size: 1.35rem; font-weight: 600;
+            letter-spacing: -0.5px; line-height: 1.2;
+            color: var(--text);
+            transition: font-size 0.4s;
+        }
+        #stage.open .card-title { font-size: 0.95rem; }
+
+        .card-desc {
+            font-size: 0.78rem; color: var(--text-dim);
+            line-height: 1.5; margin-top: 6px;
+            transition: font-size 0.4s, opacity 0.3s;
+        }
+        #stage.open .card-desc { font-size: 0.68rem; }
+
+        .card-footer {
+            display: flex; align-items: center; justify-content: space-between;
+            margin-top: 14px; padding-top: 12px;
+            border-top: 1px solid var(--border);
+            font-size: 0.68rem; color: var(--text-dim);
+            transition: border-color 0.2s;
+        }
+        .section-card.active .card-footer { border-color: rgba(0,0,0,0.1); }
+        .section-card.active .card-arrow  { background: rgba(0,0,0,0.06); border-color: rgba(0,0,0,0.15); }
+
+        .card-arrow {
+            display: flex; align-items: center; justify-content: center;
+            width: 26px; height: 26px;
+            border-radius: 50%; border: 1px solid var(--border);
+            font-size: 0.8rem;
+            transition: transform 0.4s var(--spring), border-color 0.2s, background 0.2s;
+        }
+        .section-card:hover .card-arrow { border-color: var(--border-h); background: rgba(255,255,255,0.04); }
+        .section-card.active .card-arrow { transform: rotate(90deg); background: rgba(255,255,255,0.06); }
+        #stage.open .card-footer { margin-top: 8px; padding-top: 8px; }
+
+        /* ── DIVIDER ── */
+        .front-divider {
+            width: 360px; max-width: 100%;
+            height: 1px; background: var(--border);
+            transition: width 0.55s var(--ease);
+        }
+        #stage.open .front-divider { width: 100%; }
+
+        /* ── DETAIL ── */
+        #detail {
+            flex: 1;
+            display: flex; flex-direction: column;
+            border-left: 1px solid var(--border);
+            overflow: hidden;
+            opacity: 0;
+            transform: translateX(24px);
+            transition: opacity 0.35s 0.2s, transform 0.4s 0.18s var(--spring);
+        }
+        #stage.open #detail { opacity: 1; transform: translateX(0); }
+
+        /* detail header */
+        #detail-header {
+            flex-shrink: 0;
+            display: flex; align-items: center; gap: 10px;
+            padding: 16px 28px 14px;
+            border-bottom: 1px solid var(--border);
+        }
+        #detail-flag { font-size: 1.3rem; }
+        #detail-title { font-size: 1rem; font-weight: 600; letter-spacing: -0.3px; }
+        #detail-count { font-size: 0.72rem; color: var(--text-dim); margin-left: auto; }
+
+        /* cat filter */
+        #detail-filter {
+            flex-shrink: 0;
+            display: flex; gap: 6px; flex-wrap: wrap;
+            padding: 10px 28px;
+            border-bottom: 1px solid var(--border);
+        }
+        .cat-btn {
+            font-family: var(--font); font-size: 0.68rem; font-weight: 500;
+            padding: 4px 12px; border-radius: 20px;
+            border: 1px solid var(--border);
+            background: transparent; color: var(--text-dim); cursor: pointer;
+            transition: all 0.15s var(--ease);
+        }
+        .cat-btn:hover { color: var(--text); border-color: var(--border-h); background: rgba(255,255,255,0.04); }
+        .cat-btn.active { background: rgba(255,255,255,0.08); color: var(--text); border-color: var(--border-h); }
+
+        /* scroll */
+        #detail-scroll {
+            flex: 1; overflow-y: auto; padding: 8px 28px 40px;
+            scrollbar-width: thin; scrollbar-color: var(--border) transparent;
+        }
+        #detail-scroll::-webkit-scrollbar { width: 4px; }
+        #detail-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+        /* news items */
+        .news-item {
+            padding: 14px 0;
+            border-bottom: 1px solid var(--border);
+            cursor: pointer;
+            position: relative;
+            transition: transform 0.25s cubic-bezier(0.34,1.56,0.64,1);
+            animation: fadeUp 0.4s both var(--spring);
+        }
+        .news-item:last-child { border-bottom: none; }
+        .news-item:hover { transform: translateY(-3px); }
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(10px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        /* hover accent bar */
+        .news-item::before {
+            content: '';
+            position: absolute; left: -28px; top: 0; bottom: 0;
+            width: 2px; border-radius: 2px;
+            background: var(--accent);
+            opacity: 0;
+            transition: opacity 0.15s;
+        }
+        .news-item:hover::before { opacity: 0.3; }
+
+        .item-meta {
+            display: flex; align-items: center; gap: 8px;
+            margin-bottom: 5px;
+            font-size: 0.65rem; color: var(--text-dim);
+            text-transform: uppercase; letter-spacing: 0.5px;
+        }
+        .item-cat-dot {
+            width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0;
+        }
+        .dot-tech     { background: #2563eb; }
+        .dot-ai       { background: #c0392b; }
+        .dot-business { background: #7c3aed; }
+        .dot-supply_chain { background: #c2590a; }
+        .dot-politics { background: #047857; }
+
+        .item-headline {
+            font-size: 0.92rem; font-weight: 500;
+            line-height: 1.4; letter-spacing: -0.2px;
+            color: var(--text); margin-bottom: 5px;
+            transition: color 0.2s, font-weight 0.2s;
+        }
+        .news-item:hover .item-headline {
+            font-weight: 600;
+            color: #000;
+        }
+
+        .item-summary {
+            font-size: 0.76rem; color: var(--text-dim);
+            line-height: 1.55;
+            display: -webkit-box; -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical; overflow: hidden;
+            margin-bottom: 8px;
+        }
+
+        .item-link {
+            font-size: 0.65rem; font-weight: 500;
+            letter-spacing: 0.3px; text-transform: uppercase;
+            color: var(--text-dim); text-decoration: none;
+            transition: color 0.15s;
+            display: inline-flex; align-items: center; gap: 4px;
+        }
+        .item-link:hover { color: var(--text); }
+
+        /* ── LOADER ── */
+        .loader-wrap {
+            position: absolute; inset: 0;
+            display: flex; flex-direction: column;
+            align-items: center; justify-content: center; gap: 12px;
+            background: var(--bg); z-index: 50; transition: opacity 0.5s;
+        }
+        .loader-wrap.hidden { opacity: 0; pointer-events: none; }
+        .spinner {
+            width: 20px; height: 20px;
+            border: 1.5px solid var(--border);
+            border-top-color: var(--text-mid);
+            border-radius: 50%; animation: spin 0.7s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .loader-text { font-size: 0.72rem; color: var(--text-dim); letter-spacing: 1px; }
+
+        .empty-state { text-align: center; padding: 48px; font-size: 0.82rem; color: var(--text-dim); }
+
+        /* ── FOOTER BAR ── */
+        #footer-bar {
+            position: fixed; bottom: 0; left: 0; right: 0;
+            height: 36px;
+            display: flex; align-items: center; justify-content: center; gap: 20px;
+            border-top: 1px solid var(--border);
+            background: rgba(247,245,242,0.85);
+            backdrop-filter: blur(20px);
+            z-index: 100;
+        }
+        .foot-stat { font-size: 0.72rem; color: var(--text-dim); }
+        .foot-stat b { color: var(--text-mid); font-weight: 600; }
+        .foot-sep { font-size: 0.6rem; color: var(--border); }
+    </style>
+</head>
+<body>
+
+<div id="cursor-glow"></div>
+
+<!-- TOPBAR -->
+<header id="topbar">
+    <div id="logo">git push <span>--news</span></div>
+    <div id="stats-bar">
+        <div class="stat" id="stat-time">···</div>
+    </div>
+    <div id="lang-row">
+        <button class="lang-btn active" data-lang="zh">中文</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+</header>
+
+<div id="stage">
+    <div class="loader-wrap" id="main-loader">
+        <div class="spinner"></div>
+        <div class="loader-text" data-i18n="loading">Loading…</div>
+    </div>
+
+    <div id="front">
+        <div class="section-card" id="card-china" onclick="openSection('china')">
+            <div class="card-top">
+                <span class="card-flag">🇨🇳</span>
+                <span class="card-label" data-i18n="china_label">中文媒体</span>
+            </div>
+            <div class="card-title" data-i18n="china_title">中文媒体</div>
+            <div class="card-desc" data-i18n="china_desc">精选来自中文媒体的十篇要闻</div>
+            <div class="card-footer">
+                <span>Top 10</span>
+                <span class="card-arrow">→</span>
+            </div>
+        </div>
+
+        <div class="front-divider"></div>
+
+        <div class="section-card" id="card-global" onclick="openSection('global')">
+            <div class="card-top">
+                <span class="card-flag">🌍</span>
+                <span class="card-label" data-i18n="global_label">英文媒体</span>
+            </div>
+            <div class="card-title" data-i18n="global_title">英文媒体</div>
+            <div class="card-desc" data-i18n="global_desc">精选来自英文媒体的十篇要闻</div>
+            <div class="card-footer">
+                <span>Top 10</span>
+                <span class="card-arrow">→</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="detail">
+        <div id="detail-header">
+            <span id="detail-flag">🇨🇳</span>
+            <span id="detail-title">中国新闻</span>
+            <span id="detail-count"></span>
+        </div>
+        <div id="detail-filter">
+            <button class="cat-btn active" onclick="filterCat('all')" data-cat="all">All</button>
+            <button class="cat-btn" onclick="filterCat('tech')" data-cat="tech">Tech</button>
+            <button class="cat-btn" onclick="filterCat('ai')" data-cat="ai">AI</button>
+            <button class="cat-btn" onclick="filterCat('business')" data-cat="business">Biz</button>
+            <button class="cat-btn" onclick="filterCat('supply_chain')" data-cat="supply_chain">SCM</button>
+            <button class="cat-btn" onclick="filterCat('politics')" data-cat="politics">Politics</button>
+        </div>
+        <div id="detail-scroll">
+            <div id="news-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+// ── i18n ──
+const T = {
+    zh: {
+        loading:'加载中…', china_label:'中文媒体', global_label:'英文媒体',
+        china_title:'中文媒体', global_title:'英文媒体',
+        china_desc:'精选来自中文媒体的十篇要闻',
+        global_desc:'精选来自英文媒体的十篇要闻',
+        read_more:'阅读原文', no_data:'暂无内容', error:'加载失败',
+        total:'抓取', picks:'精选', sources:'来源',
+        cats:{all:'全部',tech:'科技',ai:'AI',business:'商业',supply_chain:'供应链',politics:'政治'}
+    },
+    en: {
+        loading:'Loading…', china_label:'Chinese Media', global_label:'English Media',
+        china_title:'Chinese Media', global_title:'English Media',
+        china_desc:'Ten curated picks from Chinese-language sources',
+        global_desc:'Ten curated picks from English-language sources',
+        read_more:'Read', no_data:'No articles', error:'Failed to load',
+        total:'scraped', picks:'picks', sources:'sources',
+        cats:{all:'All',tech:'Tech',ai:'AI',business:'Biz',supply_chain:'SCM',politics:'Politics'}
+    }
+};
+let lang = localStorage.getItem('lang')||'zh';
+const t  = k => T[lang][k]||k;
+const tc = k => T[lang].cats?.[k]||k;
+
+function applyLang() {
+    document.querySelectorAll('[data-i18n]').forEach(el => { const v=T[lang][el.dataset.i18n]; if(v) el.textContent=v; });
+    document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang===lang));
+    document.querySelectorAll('.cat-btn').forEach(b => b.textContent=tc(b.dataset.cat));
+    if(lastData){ updateStats(lastData); if(activeRegion) renderDetail(activeRegion); }
+}
+document.querySelectorAll('.lang-btn').forEach(b => b.addEventListener('click',()=>{ lang=b.dataset.lang; localStorage.setItem('lang',lang); applyLang(); }));
+
+// ── cursor glow ──
+const glow = document.getElementById('cursor-glow');
+document.addEventListener('mousemove', e => {
+    glow.style.left = e.clientX + 'px';
+    glow.style.top  = e.clientY + 'px';
+});
+
+// ── card tilt ──
+document.querySelectorAll('.section-card').forEach(card => {
+    card.addEventListener('mousemove', e => {
+        if(card.classList.contains('active')) return;
+        const r  = card.getBoundingClientRect();
+        const x  = (e.clientX - r.left) / r.width  - 0.5;
+        const y  = (e.clientY - r.top)  / r.height - 0.5;
+        card.style.transform = `perspective(600px) rotateY(${x*8}deg) rotateX(${-y*8}deg) translateZ(4px)`;
+        // update gradient position
+        const px = ((e.clientX - r.left)/r.width*100).toFixed(1);
+        const py = ((e.clientY - r.top) /r.height*100).toFixed(1);
+        card.style.setProperty('--mx', px+'%');
+        card.style.setProperty('--my', py+'%');
+    });
+    card.addEventListener('mouseleave', e => {
+        if(card.classList.contains('active')) return;
+        card.style.transform = '';
+    });
+});
+
+// ── state ──
+let lastData=null, activeRegion=null, activeCat='all';
+
+function openSection(region) {
+    if(activeRegion===region) return;
+    activeRegion=region; activeCat='all';
+    document.getElementById('card-china').classList.toggle('active', region==='china');
+    document.getElementById('card-global').classList.toggle('active', region==='global');
+    // remove tilt from active card
+    document.getElementById('card-'+region).style.transform='';
+    const isCN = region==='china';
+    document.getElementById('detail-flag').textContent  = isCN?'🇨🇳':'🌍';
+    document.getElementById('detail-title').textContent = isCN?t('china_title'):t('global_title');
+    document.querySelectorAll('.cat-btn').forEach(b=>b.classList.toggle('active',b.dataset.cat==='all'));
+    document.getElementById('stage').classList.add('open');
+    if(lastData) renderDetail(region);
+}
+
+function filterCat(cat) {
+    activeCat=cat;
+    document.querySelectorAll('.cat-btn').forEach(b=>b.classList.toggle('active',b.dataset.cat===cat));
+    if(lastData&&activeRegion) renderDetail(activeRegion);
+}
+
+const dotClass = {tech:'dot-tech',ai:'dot-ai',business:'dot-business',supply_chain:'dot-supply_chain',politics:'dot-politics'};
+
+function renderDetail(region) {
+    const src  = lastData[region]?.articles || (lastData.articles||[]).filter(a=>a.region===region);
+    const list = activeCat==='all' ? src : src.filter(a=>a.category===activeCat);
+    const el   = document.getElementById('news-list');
+    document.getElementById('detail-count').textContent = list.length ? `${list.length} articles` : '';
+    el.innerHTML='';
+    void el.offsetWidth;
+    if(!list.length){ el.innerHTML=`<div class="empty-state">${t('no_data')}</div>`; return; }
+    el.innerHTML = list.map((a,i)=>{
+        const cat     = a.category||'tech';
+        const summary = (a.summary||'').replace(/<[^>]+>/g,'').trim();
+        const score   = a.score||0;
+        const stars   = '★'.repeat(Math.round(score*5))+'☆'.repeat(5-Math.round(score*5));
+        return `<div class="news-item" style="animation-delay:${i*0.05}s" onclick="window.open('${a.link}','_blank')">
+            <div class="item-meta">
+                <span class="item-cat-dot ${dotClass[cat]||'dot-tech'}"></span>
+                <span>${tc(cat)}</span>
+                <span>${a.source}</span>
+                <span style="margin-left:auto;font-size:0.6rem">${stars} ${score.toFixed(2)}</span>
+            </div>
+            <div class="item-headline">${a.title}</div>
+            <div class="item-summary">${summary||'—'}</div>
+            <a class="item-link" href="${a.link}" target="_blank" onclick="event.stopPropagation()">${t('read_more')} ↗</a>
+        </div>`;
+    }).join('');
+}
+
+function updateStats(data) {
+    // 兼容新旧两种数据格式
+    const cnArr  = data.china?.articles  || (data.articles||[]).filter(a=>a.region==='china');
+    const glArr  = data.global?.articles || (data.articles||[]).filter(a=>a.region==='global');
+    const cn=cnArr.length, gl=glArr.length;
+    const all=[...cnArr,...glArr];
+    document.getElementById('foot-total').innerHTML=`<b>${data.total_articles||0}</b> ${t('total')}`;
+    document.getElementById('foot-picks').innerHTML=`<b>${cn+gl}</b> ${t('picks')}`;
+    const d=new Date(data.generated_at);
+    const dateStr = d.toLocaleDateString(lang==='zh'?'zh-CN':'en-US', {
+        weekday:'long', year:'numeric', month:'long', day:'numeric', timeZone:'Asia/Shanghai'
+    });
+    const timeStr = d.toLocaleTimeString(lang==='zh'?'zh-CN':'en-US', {
+        hour:'2-digit', minute:'2-digit', timeZone:'Asia/Shanghai', hour12:false
+    });
+    document.getElementById('stat-time').textContent = `${dateStr} · ${timeStr} BJT`;
+}
+
+async function loadNews() {
+    try {
+        // 本地预览用相对路径，部署后自动走 GitHub API
+        let data;
+        try {
+            const localRes = await fetch(`../data/news.json?t=${Date.now()}`);
+            if (localRes.ok) {
+                data = await localRes.json();
+            } else { throw new Error('local fallback'); }
+        } catch {
+            const res=await fetch(`https://api.github.com/repos/NK-2025-code/news-top10-scraper/contents/data/news.json?t=${Date.now()}`);
+            if(!res.ok) throw new Error();
+            const api=await res.json();
+            const bytes=new Uint8Array([...atob(api.content)].map(c=>c.charCodeAt(0)));
+            data=JSON.parse(new TextDecoder('utf-8').decode(bytes));
+        }
+        lastData=data; updateStats(data);
+        document.getElementById('main-loader').classList.add('hidden');
+        openSection('china');
+    } catch(e) {
+        document.getElementById('main-loader').classList.add('hidden');
+        document.getElementById('news-list').innerHTML=`<div class="empty-state">${t('error')}</div>`;
+        document.getElementById('stage').classList.add('open');
+        document.getElementById('card-china').classList.add('active');
+    }
+}
+loadNews();
+setInterval(loadNews,5*60*1000);
+</script>
+
+<footer id="footer-bar">
+    <div class="foot-stat" id="foot-total">···</div>
+    <div class="foot-sep">·</div>
+    <div class="foot-stat" id="foot-picks">···</div>
+</footer>
+</body>
+</html>

@@ -1,117 +1,254 @@
 {
-  "generated_at": "2026-06-06T04:53:10.473225+00:00",
-  "total_articles": 444,
-  "top_count": 10,
-  "articles": [
-    {
-      "title": "The Number the Dealer Shows You Is Not What the Truck Costs: How to Calculate the Real Price of Financing",
-      "link": "https://www.freightwaves.com/news/the-number-the-dealer-shows-you-is-not-what-the-truck-costs-how-to-calculate-the-real-price-of-financing",
-      "source": "FreightWaves",
-      "source_weight": 0.95,
-      "published": "Fri, 05 Jun 2026 19:20:44 +0000",
-      "summary": "<p>Why the Monthly Payment Is the Wrong Number to Focus On The monthly payment is a cash flow number. It tells you whether you can keep the lights on week to week. It tells you almost nothing about wh",
-      "fetch_time": "2026-06-06T04:51:58.383400",
-      "score": 0.617,
-      "category": "supply_chain"
-    },
-    {
-      "title": "Gulf countries targeted by Iran after exchange of fire with US, in latest threat to fragile ceasefire",
-      "link": "https://www.theguardian.com/world/2026/jun/06/us-says-iran-radar-sites-struck-and-drones-intercepted-in-latest-threat-to-fragile-ceasefire",
-      "source": "The Guardian",
-      "source_weight": 0.9,
-      "published": "Fri, 05 Jun 2026 23:53:02 GMT",
-      "summary": "<p>Kuwait and Bahrain issued air raid alerts as Iran targeted American bases, after the US shot down drones and struck Iranian radar sites </p><p>The US and Iran exchanged a series of strikes on Satur",
-      "fetch_time": "2026-06-06T04:51:59.495356",
-      "score": 0.617,
-      "category": "politics"
-    },
-    {
-      "title": "Reid Hoffman is leaving Microsoft’s board to go ‘founder mode’ with  startup Manus",
-      "link": "https://techcrunch.com/2026/06/05/reid-hoffman-is-leaving-microsofts-board-to-go-founder-mode-with-startup-manus/",
-      "source": "TechCrunch",
-      "source_weight": 1.0,
-      "published": "Fri, 05 Jun 2026 22:35:01 +0000",
-      "summary": "After a very profitable decade on Microsoft's board, Reid Hoffman is stepping down to focus on his AI drug discovery startup Manus.",
-      "fetch_time": "2026-06-06T04:51:56.868883",
-      "score": 0.615,
-      "category": "tech"
-    },
-    {
-      "title": "Founders share VC horror stories, and some are naming names",
-      "link": "https://techcrunch.com/2026/06/05/founders-share-vc-horror-stories-and-some-are-naming-names/",
-      "source": "TechCrunch",
-      "source_weight": 1.0,
-      "published": "Fri, 05 Jun 2026 21:47:56 +0000",
-      "summary": "A massive viral conversation sharing VC horror stories has taken place this week on X. Some are weird. Some are infuriating.",
-      "fetch_time": "2026-06-06T04:51:56.868892",
-      "score": 0.615,
-      "category": "tech"
-    },
-    {
-      "title": "Can AI gains give alternative delivery providers an edge?",
-      "link": "https://www.supplychaindive.com/news/can-ai-gains-give-alternative-delivery-providers-an-edge/821623/",
-      "source": "Supply Chain Dive",
-      "source_weight": 1.0,
-      "published": "Fri, 05 Jun 2026 10:04:33 -0400",
-      "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/NzmyUZ4OUvpWbr6Vq3tg5nT6o-aRbTW3U3ldt9KhOoU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDk3MjA5NDg3LmpwZw==",
-      "fetch_time": "2026-06-06T04:51:58.056707",
-      "score": 0.615,
-      "category": "supply_chain"
-    },
-    {
-      "title": "Doctor’s ‘grossly irresponsible prescribing’ played direct role in two deaths, Tasmanian coroner finds",
-      "link": "https://www.theguardian.com/australia-news/2026/jun/06/doctors-grossly-irresponsible-prescribing-played-direct-role-in-two-deaths-tasmanian-coroner-finds-ntwnfb",
-      "source": "The Guardian",
-      "source_weight": 0.9,
-      "published": "Sat, 06 Jun 2026 03:41:03 GMT",
-      "summary": "<p>Dr David Jackson gave ‘effectively an unlimited supply for a drug binge’ to one addict, inquest finds</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">brea",
-      "fetch_time": "2026-06-06T04:51:59.495301",
-      "score": 0.612,
-      "category": "politics"
-    },
-    {
-      "title": "联合国呼吁筹集资金援助黎巴嫩",
-      "link": "https://www.jiemian.com/article/14546061.html",
-      "source": "界面新闻",
-      "source_weight": 0.8,
-      "published": "Sat, 06 Jun 2026 12:43:48 +0800",
-      "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664253426029700_a580x330.png\" /><p></p>",
-      "fetch_time": "2026-06-06T04:53:10.426018",
-      "score": 0.568,
-      "category": "business"
-    },
-    {
-      "title": "“爱达·魔都号”今日将开启国内首次无目的地海上游",
-      "link": "https://www.jiemian.com/article/14546057.html",
-      "source": "界面新闻",
-      "source_weight": 0.8,
-      "published": "Sat, 06 Jun 2026 12:40:17 +0800",
-      "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664251748738900_a580x330.png\" /><p>6月6日下午，中国首艘国产大型邮轮“爱达·魔都号”将搭载4000多名旅客从上海吴淞口国际邮轮港启航，开启国内首次无目的地海上游。与传统邮轮航线不同，无目的地海上游是指邮轮",
-      "fetch_time": "2026-06-06T04:53:10.426031",
-      "score": 0.568,
-      "category": "business"
-    },
-    {
-      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
-      "link": "https://openai.com/index/wasmer",
-      "source": "OpenAI Blog",
-      "source_weight": 1.0,
-      "published": "Wed, 03 Jun 2026 12:00:00 GMT",
-      "summary": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
-      "fetch_time": "2026-06-06T04:52:01.991180",
-      "score": 0.567,
-      "category": "ai"
-    },
-    {
-      "title": "OpenAI public policy agenda",
-      "link": "https://openai.com/index/public-policy-agenda",
-      "source": "OpenAI Blog",
-      "source_weight": 1.0,
-      "published": "Wed, 03 Jun 2026 10:00:00 GMT",
-      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-      "fetch_time": "2026-06-06T04:52:01.991184",
-      "score": 0.567,
-      "category": "ai"
-    }
-  ]
+  "generated_at": "2026-06-06T08:27:19.705644+00:00",
+  "total_articles": 575,
+  "china": {
+    "count": 10,
+    "articles": [
+      {
+        "title": "字节跳动：没有造车或推出汽车品牌的计划",
+        "link": "https://36kr.com/newsflashes/3841237523859972?f=rss",
+        "source": "36氪",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "china",
+        "published": "2026-06-06 13:08:52  +0800",
+        "summary": "6月6日，字节跳动官微发布声明，我们注意到，近期有部分报道将“赛豆”解读为“豆包汽车品牌”或“字节跳动造车”：1.相关说法不准确，字节跳动没有造车或推出汽车品牌的计划。2.赛豆不是字节跳动或豆包推出的汽车品牌，字节和赛豆没有股权合作。3.豆包、火山引擎与汽车行业伙伴的合作，主要是给行业伙伴提供豆包大模型、智能座舱等技术服务，帮助合作伙伴提升车载智能交互体验。（每日经济新闻）",
+        "fetch_time": "2026-06-06T08:25:03.279874",
+        "score": 0.571
+      },
+      {
+        "title": "加息预期升温科技股遭抛售 隔夜美股市值一夜损失近2.3万亿美元",
+        "link": "https://36kr.com/newsflashes/3841127080970503?f=rss",
+        "source": "36氪",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "china",
+        "published": "2026-06-06 11:16:31  +0800",
+        "summary": "美国劳工部强劲就业报告推高了对美联储下一步利率动作将是加息的押注，科技股抛售以及债券收益率走高冲击美股，纳斯达克100指数创逾一年最大跌幅，标普500指数终结九周连涨。隔夜美股重挫总市值一夜损失近2.3万亿美元，大型科技股集体下跌，其中英伟达跌超6%，市值跌去3000亿美元，博通、Meta、特斯拉市值合计损失3300亿美元。（财联社）",
+        "fetch_time": "2026-06-06T08:25:03.279880",
+        "score": 0.571
+      },
+      {
+        "title": "吴清：力争“十五五”期间建设一流投资机构取得突破性进展",
+        "link": "https://www.jiemian.com/article/14546510.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Sat, 06 Jun 2026 16:20:07 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664251748738900_a580x330.png\" /><p>证监会主席吴清在中国证券投资基金业协会第四届会员代表大会上致辞。吴清表示，当前和今后一个时期，全行业要深入贯彻“十五五”规划纲要，全面落实新“国九条”和资本市场“1+N”",
+        "fetch_time": "2026-06-06T08:27:08.774813",
+        "score": 0.567
+      },
+      {
+        "title": "网传比亚迪自研人形机器人代号“尧舜禹”、年内自用2万台 比亚迪否认",
+        "link": "https://36kr.com/newsflashes/3841124276423176?f=rss",
+        "source": "36氪",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "china",
+        "published": "2026-06-06 11:13:40  +0800",
+        "summary": "日前，比亚迪自研��形机器人的消息引发广泛关注。网传其自研人形机器人代号“尧舜禹”，计划于2026年在内部部署2万台。对此，记者向比亚迪方面求证，对方表示：“‘比亚迪人形机器人代号尧舜禹’‘第七代原型机在深圳和长沙工厂实地测试’‘约150台上岗，目标年内自用2万台’等消息均不属实。” (每日经济新闻)",
+        "fetch_time": "2026-06-06T08:25:03.279882",
+        "score": 0.562
+      },
+      {
+        "title": "“模界场”在上海静安启幕，目标构建视听+AI生态枢纽",
+        "link": "https://www.jiemian.com/article/14542504.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Sat, 06 Jun 2026 14:21:37 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20260605/178065716213979400_a580x330.png\" /><p>“模界场”将聚焦“超高清视听+多模态大模型”方向，构建从底层技术研发到影视、游戏、文旅等应用场景的完整链路。</p>",
+        "fetch_time": "2026-06-06T08:27:08.774900",
+        "score": 0.553
+      },
+      {
+        "title": "算得更快更准 全球海洋现象智能预报大模型“琅琊”2.0发布",
+        "link": "https://36kr.com/newsflashes/3841255177079303?f=rss",
+        "source": "36氪",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "china",
+        "published": "2026-06-06 13:26:49  +0800",
+        "summary": "由中国科学院海洋研究所自主研发的全球海洋现象智能预报大模型——“琅琊”2.0今日发布。该海洋预报大模型将为海洋防灾减灾、航运安全保障等提供智能化科技支撑。“琅琊”2.0把多源观测、机理认知和人工智能推理连接起来，推动海洋预报向更快速、更精细、更可交互方向发展。它的发布标志着“琅琊”系列大模型在全球海洋状态变量预报基础上，进一步迈向复杂海洋现象智能预报新阶段，使海洋预报从专业变量走向可感知、可应用、",
+        "fetch_time": "2026-06-06T08:25:03.279871",
+        "score": 0.546
+      },
+      {
+        "title": "英伟达新品被指内存容量“缩水”海内外存储股应声重挫",
+        "link": "https://36kr.com/newsflashes/3841116245854468?f=rss",
+        "source": "36氪",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "china",
+        "published": "2026-06-06 11:05:30  +0800",
+        "summary": "2026年以来，存储上市公司市值不断创新高，市场正在尝试将存储资产从传统“周期股”转变为“AI时代核心基础设施资产”。在此估值切换窗口，海外调研机构SemiAnalysis一则关于英伟达新一代Vera Rubin AI服务器平台的内存降配、成本下降的研报，引发海内外存储概念股集体回调。据业内分析，本次报告中所指降配仅限于CPU侧系统内存，与GPU算力核心并无关系，这是基于英伟达兼顾供应链、功耗、成",
+        "fetch_time": "2026-06-06T08:25:03.279885",
+        "score": 0.546
+      },
+      {
+        "title": "英伟达给联想递了张「牌」",
+        "link": "https://www.tmtpost.com/8016993.html",
+        "source": "钛媒体",
+        "source_weight": 0.9,
+        "category": "tech",
+        "region": "china",
+        "published": "Sat, 06 Jun 2026 10:37:30 +0800",
+        "summary": "英伟达更像搭台者，联想、面壁，以及所有试图在端侧AI重写规则的人，才是主角。",
+        "fetch_time": "2026-06-06T08:25:07.002279",
+        "score": 0.543
+      },
+      {
+        "title": "Satellite lofted for first Arab country",
+        "link": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+        "source": "China Daily",
+        "source_weight": 0.9,
+        "category": "politics",
+        "region": "china",
+        "published": "2017-12-12T00:27:08.000+0000",
+        "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+        "fetch_time": "2026-06-06T08:27:11.832477",
+        "score": 0.309
+      },
+      {
+        "title": "International group praises green revival",
+        "link": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f2701a3108bc8c6721a16.html",
+        "source": "China Daily",
+        "source_weight": 0.9,
+        "category": "politics",
+        "region": "china",
+        "published": "2017-12-12T00:46:57.000+0000",
+        "summary": "A high-level international advisory body applauded China's efforts to improve the environment and suggested a 15-year strategy against pollution in a draft recommendation report on Monday.",
+        "fetch_time": "2026-06-06T08:27:11.832411",
+        "score": 0.24
+      }
+    ]
+  },
+  "global": {
+    "count": 10,
+    "articles": [
+      {
+        "title": "PSEBench: A Controllable and Verifiable Benchmark for Evaluating LLMs in Patient Safety Event Triage",
+        "link": "https://arxiv.org/abs/2606.05463",
+        "source": "ArXiv CS.AI",
+        "source_weight": 0.85,
+        "category": "ai",
+        "region": "global",
+        "published": "Sat, 06 Jun 2026 00:00:00 -0400",
+        "summary": "arXiv:2606.05463v1 Announce Type: new \nAbstract: Patient safety event triage, determining whether a clinical event is reportable under jurisdiction-specific policy, is a high-stakes task typically per",
+        "fetch_time": "2026-06-06T08:27:15.847550",
+        "score": 0.561
+      },
+      {
+        "title": "I Know What You Meme, Even If it Emerged Today: Understanding Evolving Memes through Open-World Knowledge Acquisition",
+        "link": "https://arxiv.org/abs/2606.05316",
+        "source": "ArXiv CS.AI",
+        "source_weight": 0.85,
+        "category": "ai",
+        "region": "global",
+        "published": "Sat, 06 Jun 2026 00:00:00 -0400",
+        "summary": "arXiv:2606.05316v1 Announce Type: new \nAbstract: Multimodal memes are dynamic and often require up to date background knowledge for interpretation. Existing methods often overlook such knowledge or re",
+        "fetch_time": "2026-06-06T08:27:15.847472",
+        "score": 0.549
+      },
+      {
+        "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+        "link": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+        "source": "Hacker News",
+        "source_weight": 0.95,
+        "category": "tech",
+        "region": "global",
+        "published": "Sat, 06 Jun 2026 04:38:36 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=48421442\">Comments</a>",
+        "fetch_time": "2026-06-06T08:27:14.899380",
+        "score": 0.533
+      },
+      {
+        "title": "Why Susquehanna Is Building a Prediction Markets Business",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-06/how-susquehanna-is-expanding-into-prediction-markets",
+        "source": "Bloomberg Tech",
+        "source_weight": 1.0,
+        "category": "business",
+        "region": "global",
+        "published": "Sat, 06 Jun 2026 08:00:35 GMT",
+        "summary": "<p>Creating an asset class for bets on anything.</p>",
+        "fetch_time": "2026-06-06T08:27:19.350085",
+        "score": 0.53
+      },
+      {
+        "title": "Odd Lots: Why Susquehanna Builds Prediction Markets (Podcast)",
+        "link": "https://www.bloomberg.com/news/audio/2026-06-06/odd-lots-why-susquehanna-builds-prediction-markets-podcast",
+        "source": "Bloomberg Tech",
+        "source_weight": 1.0,
+        "category": "business",
+        "region": "global",
+        "published": "Sat, 06 Jun 2026 08:00:00 GMT",
+        "summary": "Prediction markets that enable you to bet on pretty much everything are everywhere nowadays. But there’s still a big question over whether they can expand to include larger institutional investors lik",
+        "fetch_time": "2026-06-06T08:27:19.350098",
+        "score": 0.53
+      },
+      {
+        "title": "Gulf countries targeted by Iran after exchange of fire with US, in latest threat to fragile ceasefire",
+        "link": "https://www.theguardian.com/world/2026/jun/06/us-says-iran-radar-sites-struck-and-drones-intercepted-in-latest-threat-to-fragile-ceasefire",
+        "source": "The Guardian",
+        "source_weight": 0.9,
+        "category": "politics",
+        "region": "global",
+        "published": "Fri, 05 Jun 2026 23:53:02 GMT",
+        "summary": "<p>Kuwait and Bahrain issued air raid alerts as Iran targeted American bases, after the US shot down drones and struck Iranian radar sites </p><p>The US and Iran exchanged a series of strikes on Satur",
+        "fetch_time": "2026-06-06T08:27:17.208684",
+        "score": 0.526
+      },
+      {
+        "title": "Man dies after shark attack off Western Australia coast near Albany",
+        "link": "https://www.theguardian.com/australia-news/2026/jun/06/man-fighting-for-life-after-being-bitten-by-shark-off-western-australian-coast",
+        "source": "The Guardian",
+        "source_weight": 0.9,
+        "category": "politics",
+        "region": "global",
+        "published": "Sat, 06 Jun 2026 07:47:50 GMT",
+        "summary": "<p>Government department says man was in the water around Michaelmas Island, near Albany, when he was bitten by a suspected 4.5-metre shark</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/e",
+        "fetch_time": "2026-06-06T08:27:17.208648",
+        "score": 0.51
+      },
+      {
+        "title": "Pre-Modern Armies for Worldbuilders, Part I: Why They Fight",
+        "link": "https://acoup.blog/2026/06/05/collections-pre-modern-armies-for-worldbuilders-part-i-why-they-fight/",
+        "source": "Hacker News",
+        "source_weight": 0.95,
+        "category": "tech",
+        "region": "global",
+        "published": "Sat, 06 Jun 2026 03:41:32 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=48421171\">Comments</a>",
+        "fetch_time": "2026-06-06T08:27:14.899384",
+        "score": 0.475
+      },
+      {
+        "title": "The Number the Dealer Shows You Is Not What the Truck Costs: How to Calculate the Real Price of Financing",
+        "link": "https://www.freightwaves.com/news/the-number-the-dealer-shows-you-is-not-what-the-truck-costs-how-to-calculate-the-real-price-of-financing",
+        "source": "FreightWaves",
+        "source_weight": 0.95,
+        "category": "supply_chain",
+        "region": "global",
+        "published": "Fri, 05 Jun 2026 19:20:44 +0000",
+        "summary": "<p>Why the Monthly Payment Is the Wrong Number to Focus On The monthly payment is a cash flow number. It tells you whether you can keep the lights on week to week. It tells you almost nothing about wh",
+        "fetch_time": "2026-06-06T08:27:16.197779",
+        "score": 0.435
+      },
+      {
+        "title": "Can AI gains give alternative delivery providers an edge?",
+        "link": "https://www.supplychaindive.com/news/can-ai-gains-give-alternative-delivery-providers-an-edge/821623/",
+        "source": "Supply Chain Dive",
+        "source_weight": 1.0,
+        "category": "supply_chain",
+        "region": "global",
+        "published": "Fri, 05 Jun 2026 10:04:33 -0400",
+        "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/NzmyUZ4OUvpWbr6Vq3tg5nT6o-aRbTW3U3ldt9KhOoU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDk3MjA5NDg3LmpwZw==",
+        "fetch_time": "2026-06-06T08:27:15.941422",
+        "score": 0.425
+      }
+    ]
+  }
 }

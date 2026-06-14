@@ -1,104 +1,104 @@
 {
-  "generated_at": "2026-06-13T05:21:16.607125+00:00",
+  "generated_at": "2026-06-14T05:48:57.736442+00:00",
   "total_articles": 522,
   "china": {
     "count": 10,
     "articles": [
       {
-        "title": "摩尔线程：完成MiniMax M3大模型适配",
-        "link": "https://36kr.com/newsflashes/3851097260004610?f=rss",
+        "title": "【数智周报】  钉钉换帅，92年技术极客陈宇森接任钉钉CEO；OpenAI向美国证监会秘密提交IPO的S-1草案；苹果、谷歌、英伟达合作开发新一代AI模型；Anthropic发布Mythos系列新模型",
+        "link": "https://www.tmtpost.com/8027129.html",
+        "source": "钛媒体",
+        "source_weight": 0.9,
+        "category": "tech",
+        "region": "china",
+        "published": "Sun, 14 Jun 2026 12:59:50 +0800",
+        "summary": "（6月8日~6月13日）微信宣布面向开发者提供接入微信AI生态的能力；Kimi估值飙升至300亿美元，半年猛增6倍",
+        "fetch_time": "2026-06-14T05:46:45.836464",
+        "score": 0.596
+      },
+      {
+        "title": "全球首条百万片级体全息光波导自动化产线在天津投产",
+        "link": "https://36kr.com/newsflashes/3852424819807235?f=rss",
         "source": "36氪",
         "source_weight": 1.0,
         "category": "tech",
         "region": "china",
-        "published": "2026-06-13 12:40:39  +0800",
-        "summary": "36氪获悉，6月12日，MiniMax新一代原生多模态旗舰模型M3正式开源。同日，摩尔线程旗舰级AI训推一体智算卡MTT S5000已完成对该模型的Day-0极速适配。据介绍，摩尔线程已具备覆盖前沿模型“适配—部署—优化”的完整工程能力，帮助开发者以更快响应、更稳运行、更低迁移成本接入最新模型，加速大模型创新落地与规模化应用。",
-        "fetch_time": "2026-06-13T05:18:57.803337",
-        "score": 0.628
+        "published": "2026-06-14 11:30:59  +0800",
+        "summary": "6月13日，尼卡光学（天津）有限公司设计建设的全球首条百万片级体全息光波导自动化产线正式投产，标志着我国在消费级AR（增强现实）核心显示产品规模化量产方面实现突破，可为AR智能终端稳定供给核心元件。此次尼卡光学投产的产线年产能达100万片，配套建成千级洁净车间和精密环境控制系统，全线采用企业自研的全息光刻设备与工艺平台。",
+        "fetch_time": "2026-06-14T05:46:43.416539",
+        "score": 0.583
       },
       {
-        "title": "迭代快韧性足，A股出口企业估值静待重构",
-        "link": "https://36kr.com/newsflashes/3851094130676997?f=rss",
+        "title": "成渝中线与成达万高铁枢纽连接工程取得关键突破",
+        "link": "https://36kr.com/newsflashes/3852506110645506?f=rss",
         "source": "36氪",
         "source_weight": 1.0,
         "category": "tech",
         "region": "china",
-        "published": "2026-06-13 13:14:27  +0800",
-        "summary": "在全球经济增长乏力、地缘冲突此起彼伏等多重压力交织的背景下，A股上市公司出口业务非但没有收缩，反而实现量质同升。以沪市主板公司为例，2025年实现海外收入7.3万亿元，同比增长14%，海外创利0.9万亿元，同比增长21%，两项指标增速较上年分别加快7个百分点和12个百分点。 然而，出口业务的韧性，并未体现在二级市场的股价上。今年以来，A股不少出口类公司股价持续走弱，业绩稳健与股价低迷形成鲜明背离。",
-        "fetch_time": "2026-06-13T05:18:57.803330",
-        "score": 0.602
+        "published": "2026-06-14 12:30:44  +0800",
+        "summary": "今天（6月14日）上午，位于四川资阳乐至站的两条关键联络线隧道——宋家湾下行隧道与蒲家沟上行隧道相继贯通，标志着成渝中线高铁与成达万高铁的枢纽连接工程取得关键突破。成渝中线与成达万高铁均为国家“八纵八横”高铁网沿江通道的重要组成部分。在乐至实现互联互通后，将提升西南地区铁路运输效率，推动成渝地区双城经济圈与全国高铁网深度融合。",
+        "fetch_time": "2026-06-14T05:46:43.416527",
+        "score": 0.552
       },
       {
-        "title": "11部门发文推动新能源重卡应用",
-        "link": "https://36kr.com/newsflashes/3851093396886529?f=rss",
+        "title": "中老铁路今年以来运输货物突破1000万吨",
+        "link": "https://36kr.com/newsflashes/3852441250780169?f=rss",
         "source": "36氪",
         "source_weight": 1.0,
         "category": "tech",
         "region": "china",
-        "published": "2026-06-13 12:55:42  +0800",
-        "summary": "近日，交通运输部、国家发展改革委、工业和信息化部等11个部门联合发布《推动新能源重卡规模化应用实施方案》，明确提出到2030年，新能源重卡渗透率达到40%，保有量突破160万辆，占总保有量的20%左右。此举旨在加快交通运输领域的绿色低碳转型。《方案》明确，将在全国重点高速公路打造3万公里零碳公路运输通道，同步布局约3000个重卡充换电站，推动京津冀、汾渭平原等大气污染防治重点区域的固定线路短倒运输",
-        "fetch_time": "2026-06-13T05:18:57.803334",
-        "score": 0.597
+        "published": "2026-06-14 12:00:47  +0800",
+        "summary": "截至6月13日，今年以来中老铁路全线累计运输货物突破1000万吨，日均运输货物超6.7万吨，运输跨境货物突破250万吨。跨境货物列车每日开行数量由开通初期的2列增至最高23列，列车牵引吨位由2000吨提升至2800吨，单列运能提升40%。",
+        "fetch_time": "2026-06-14T05:46:43.416533",
+        "score": 0.552
       },
       {
-        "title": "魔法原子上交会首秀VLA K02大模型",
-        "link": "https://36kr.com/newsflashes/3850998799373319?f=rss",
+        "title": "这个开源项目把 ChatGPT 搬进本地电脑，每月省下上百美元",
+        "link": "https://www.tmtpost.com/8025236.html",
+        "source": "钛媒体",
+        "source_weight": 0.9,
+        "category": "tech",
+        "region": "china",
+        "published": "Sun, 14 Jun 2026 11:24:00 +0800",
+        "summary": "GitHub 账号 pewdiepie-archdaemon 开源了自托管 AI 工作台 Odysseus——外界普遍将其与坐拥超 1 亿粉丝的 YouTuber PewDiePie 关联。上线一周 Star 数突破六万五，把 ChatGPT 级别的能力完整搬进你的本地电脑——数据不出门，模型随便换，订阅费全免。",
+        "fetch_time": "2026-06-14T05:46:45.836483",
+        "score": 0.532
+      },
+      {
+        "title": "增长停滞两年后，H&M重组全球架构，大中华区降级｜独家",
+        "link": "https://36kr.com/p/3850942780838912?f=rss",
         "source": "36氪",
         "source_weight": 1.0,
         "category": "tech",
         "region": "china",
-        "published": "2026-06-13 10:52:27  +0800",
-        "summary": "6月13日，第十二届中国（上海）国际技术进出口交易会（CSITF）在上海闭幕。活动上，魔法原子（MagicLab）携全栈技术矩阵亮相，并首次在国内公开发布两大核心技术成果：自研Magic-VLA K02大模型与Magic-Mix世界模型。",
-        "fetch_time": "2026-06-13T05:18:57.803370",
-        "score": 0.58
+        "published": "2026-06-14 13:38:42  +0800",
+        "summary": "<p><span style=\"letter-spacing: 0px;\">文｜贺哲馨</span></p>\n  <p><span style=\"letter-spacing: 0px;\">编辑｜乔芊</span></p>\n  <p><span style=\"letter-spacing: 0px;\">36氪独家获悉，瑞典快时尚巨头H&amp;M正在推进一场波及全球的组织架构调整：原本按地理划分的",
+        "fetch_time": "2026-06-14T05:46:43.416464",
+        "score": 0.53
       },
       {
-        "title": "网传阿里合伙人周靖人拟离职，刚出任阿里首席科学家6天",
-        "link": "https://36kr.com/newsflashes/3851006669427716?f=rss",
-        "source": "36氪",
-        "source_weight": 1.0,
-        "category": "tech",
-        "region": "china",
-        "published": "2026-06-13 10:46:33  +0800",
-        "summary": "据报道，阿里合伙人周靖人近日已提交离职申请。对于前述消息，截至发稿阿里方面并未回应媒体问询。值得注意的是，6月8日，阿里刚宣布周靖人出任阿里巴巴首席科学家，牵头成立阿里巴巴AI未来研究院，专注前沿AI科技的探索与突破。与此同时，阿里也宣布合并通义大模型事业部和未来生活实验室，成立Token Foundry事业部，由集团 CEO吴泳铭直接负责。刚出任阿里巴巴首席科学家6天便传出离职消息，此举被业内解",
-        "fetch_time": "2026-06-13T05:18:57.803375",
-        "score": 0.575
-      },
-      {
-        "title": "十一部门：到2030年，新能源重卡渗透率达到40%，保有量突破160万辆",
-        "link": "https://www.jiemian.com/article/14582823.html",
+        "title": "中际旭创：受汇兑影响业绩暴雷传闻不属实",
+        "link": "https://www.jiemian.com/article/14584178.html",
         "source": "界面新闻",
         "source_weight": 0.85,
         "category": "business",
         "region": "china",
-        "published": "Sat, 13 Jun 2026 12:24:16 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664251748738900_a580x330.png\" /><p>近日，交通运输部、国家发展改革委、工业和信息化部等11个部门联合发布《推动新能源重卡规模化应用实施方案》。方案提出，到2030年，新能源重卡渗透率达到40%，保有量突破1",
-        "fetch_time": "2026-06-13T05:21:03.080809",
-        "score": 0.567
+        "published": "Sun, 14 Jun 2026 13:22:41 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220712/165760844893303600_a580x330.png\" /><p></p>",
+        "fetch_time": "2026-06-14T05:48:47.099429",
+        "score": 0.5
       },
       {
-        "title": "36氪首发 | 核心材料成本降至进口材料五分之一，电致变色技术厂商获投，车规级产线建设中",
-        "link": "https://36kr.com/p/3850904887268611?f=rss",
-        "source": "36氪",
-        "source_weight": 1.0,
-        "category": "tech",
-        "region": "china",
-        "published": "2026-06-13 09:04:10  +0800",
-        "summary": "<p>硬氪获悉，中科电墨近日完成数千万元Pre-A轮融资，由西安龙鼎投资独家投资。本轮融资将主要用于车规级电致变色产线建设、核心材料研发迭代以及汽车领域市场拓展。</p>\n  <p>伴随新能源汽车向智能化、舒适化方向升级，汽车玻璃正从传统结构件逐步演变为集隔热、防晒、隐私保护和交互体验于一体的功能件。尤其是全景天幕快速普及后，调光玻璃开始成为车企提升产品差异化的重要配置之一。</p>\n  <p>目",
-        "fetch_time": "2026-06-13T05:18:57.803301",
-        "score": 0.557
-      },
-      {
-        "title": "上海航交所：本周出口集装箱运输市场行情保持稳中向好，远洋航线市场运价继续上行",
-        "link": "https://www.jiemian.com/article/14582778.html",
+        "title": "特朗普拟提名其私人律师为联邦检察官",
+        "link": "https://www.jiemian.com/article/14584173.html",
         "source": "界面新闻",
         "source_weight": 0.85,
         "category": "business",
         "region": "china",
-        "published": "Sat, 13 Jun 2026 12:08:55 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664251748738900_a580x330.png\" /><p></p>",
-        "fetch_time": "2026-06-13T05:21:03.080824",
-        "score": 0.55
+        "published": "Sun, 14 Jun 2026 13:12:11 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664253426029700_a580x330.png\" /><p>美国总统特朗普6月13日说，将提名其私人律师詹姆斯·麦克唐纳出任纽约南区联邦检察官，接替此前被他提名出任国家情报总监的杰伊·克莱顿。不过，即便特朗普正式提名，也需递交美国",
+        "fetch_time": "2026-06-14T05:48:47.099437",
+        "score": 0.5
       },
       {
         "title": "Satellite lofted for first Arab country",
@@ -109,7 +109,7 @@
         "region": "china",
         "published": "2017-12-12T00:27:08.000+0000",
         "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
-        "fetch_time": "2026-06-13T05:21:07.102949",
+        "fetch_time": "2026-06-14T05:48:50.478255",
         "score": 0.309
       },
       {
@@ -121,7 +121,7 @@
         "region": "china",
         "published": "2017-12-12T00:46:57.000+0000",
         "summary": "A high-level international advisory body applauded China's efforts to improve the environment and suggested a 15-year strategy against pollution in a draft recommendation report on Monday.",
-        "fetch_time": "2026-06-13T05:21:07.102884",
+        "fetch_time": "2026-06-14T05:48:50.478198",
         "score": 0.24
       }
     ]
@@ -130,76 +130,88 @@
     "count": 10,
     "articles": [
       {
-        "title": "‘Fast-track’ regulation could expose Britons to harmful chemicals, say campaigners",
-        "link": "https://www.theguardian.com/environment/2026/jun/13/fast-track-regulation-could-expose-britons-to-harmful-chemicals-say-campaigners",
+        "title": "As Donald Trump turns 80, he faces a foe he can never defeat: Father Time. That’s a problem for us all",
+        "link": "https://www.theguardian.com/news/ng-interactive/2026/jun/14/donald-trump-turns-80-faces-foe-father-time",
         "source": "The Guardian",
         "source_weight": 0.9,
         "category": "politics",
         "region": "global",
-        "published": "Sat, 13 Jun 2026 05:00:05 GMT",
-        "summary": "<p>Exclusive: Fighting Dirty taking legal action against government over proposal it says could import weaker standards</p><p>An environmental campaign group is taking legal action against the governm",
-        "fetch_time": "2026-06-13T05:21:14.046784",
-        "score": 0.579
+        "published": "Sun, 14 Jun 2026 05:00:33 GMT",
+        "summary": "<p>Alarm over the judgment and behaviour of the world’s most powerful man, and the consequent risks to the world, can only get worse</p><p>The main Nuremberg trial ended, Winston Churchill warned of a",
+        "fetch_time": "2026-06-14T05:48:55.481762",
+        "score": 0.53
       },
       {
-        "title": "Valve just imported 13 tons of VR headsets in one day",
-        "link": "https://www.theverge.com/news/949517/valve-vr-headset-import-records-steam-frame-steam-machine-game-console",
+        "title": "Starmer to Meet Japan’s Takaichi as Fighter Jet Funding Sputters",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-14/starmer-to-meet-japan-s-takaichi-as-fighter-jet-funding-sputters",
+        "source": "Bloomberg Tech",
+        "source_weight": 1.0,
+        "category": "business",
+        "region": "global",
+        "published": "Sun, 14 Jun 2026 05:02:00 GMT",
+        "summary": "British Prime Minister Keir Starmer will meet his Japanese counterpart Sanae Takaichi on Sunday as uncertainty mounts over their joint fighter jet program with Italy because of doubts about the UK’s c",
+        "fetch_time": "2026-06-14T05:48:57.558803",
+        "score": 0.53
+      },
+      {
+        "title": "Tribblix: the retro illumos distribution",
+        "link": "http://tribblix.org/",
+        "source": "Hacker News",
+        "source_weight": 0.95,
+        "category": "tech",
+        "region": "global",
+        "published": "Sun, 14 Jun 2026 05:23:12 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=48524434\">Comments</a>",
+        "fetch_time": "2026-06-14T05:48:53.742793",
+        "score": 0.52
+      },
+      {
+        "title": "Angus Taylor using NDIS cuts as ‘pawn in bigger chess game’, Mark Butler warns",
+        "link": "https://www.theguardian.com/australia-news/2026/jun/14/butler-warns-coalition-against-using-ndis-cuts-as-pawn-in-bigger-game-and-says-bill-delays-could-cost-billions",
+        "source": "The Guardian",
+        "source_weight": 0.9,
+        "category": "politics",
+        "region": "global",
+        "published": "Sun, 14 Jun 2026 05:21:58 GMT",
+        "summary": "<p>Opposition and Greens could team up to extend inquiry into changes but health minister ‘utterly convinced’ federal government’s plan is right</p><ul><li><p><a href=\"https://www.theguardian.com/aust",
+        "fetch_time": "2026-06-14T05:48:55.481685",
+        "score": 0.51
+      },
+      {
+        "title": "Amazon security research reportedly led to the White House’s Anthropic Fable ban",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
         "source": "The Verge",
         "source_weight": 0.9,
         "category": "tech",
         "region": "global",
-        "published": "2026-06-12T21:32:18-04:00",
-        "summary": "On June 10th, the German container ship Posen docked in Los Angeles after a two-week voyage from Shanghai. As Valve watcher Brad Lynch notes, it was almost certainly carrying the first mass production",
-        "fetch_time": "2026-06-13T05:21:11.644227",
-        "score": 0.578
+        "published": "2026-06-13T17:39:26-04:00",
+        "summary": "According to the Wall Street Journal, the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conv",
+        "fetch_time": "2026-06-14T05:48:53.939428",
+        "score": 0.506
       },
       {
-        "title": "OpenAI Probed by Coalition of State Attorneys General",
-        "link": "https://www.bloomberg.com/news/articles/2026-06-13/openai-probed-by-coalition-of-state-attorneys-general",
+        "title": "We’re All on Starship Elon Now",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-13/spacex-ipo-shows-wall-street-still-can-t-get-enough-of-elon-musk",
         "source": "Bloomberg Tech",
         "source_weight": 1.0,
         "category": "business",
         "region": "global",
-        "published": "Sat, 13 Jun 2026 00:27:02 GMT",
-        "summary": "OpenAI is under investigation by a coalition of state attorneys general who requested information from the artificial intelligence company on a wide range of topics.",
-        "fetch_time": "2026-06-13T05:21:16.338804",
-        "score": 0.543
+        "published": "Sat, 13 Jun 2026 12:00:19 GMT",
+        "summary": "<p>SpaceX is coming to a mutual fund or 401(k) near you.</p>",
+        "fetch_time": "2026-06-14T05:48:57.558818",
+        "score": 0.479
       },
       {
-        "title": "Trump says leader of Venezuelan Tren de Aragua gang killed in US strike",
-        "link": "https://www.theguardian.com/us-news/2026/jun/12/trump-venezuela-tren-de-aragua-leader-killed",
-        "source": "The Guardian",
-        "source_weight": 0.9,
-        "category": "politics",
+        "title": "LTL’s paper gains",
+        "link": "https://www.freightwaves.com/news/ltls-paper-gains",
+        "source": "FreightWaves",
+        "source_weight": 0.95,
+        "category": "supply_chain",
         "region": "global",
-        "published": "Sat, 13 Jun 2026 01:51:16 GMT",
-        "summary": "<p>President says Hector Rusthenford Guerrero Flores killed in ‘swift and lethal’ military strike with help from Venezuela</p><p>The US military has killed a leader in the Venezuelan street gang Tren ",
-        "fetch_time": "2026-06-13T05:21:14.046676",
-        "score": 0.534
-      },
-      {
-        "title": "SpaceX Isn’t in the S&P 500. That's Good.",
-        "link": "https://www.bloomberg.com/news/videos/2026-06-12/opinion-spacex-isn-t-in-the-s-p-500-that-s-good-video",
-        "source": "Bloomberg Tech",
-        "source_weight": 1.0,
-        "category": "business",
-        "region": "global",
-        "published": "Fri, 12 Jun 2026 16:08:52 GMT",
-        "summary": "The S&amp;P 500 shouldn’t make exceptions for big tech companies like SpaceX, Anthropic or OpenAI. Keeping its criteria for admission is more important, says Bloomberg Opinion columnist Nir Kaissar. (",
-        "fetch_time": "2026-06-13T05:21:16.338884",
-        "score": 0.515
-      },
-      {
-        "title": "Anthropic’s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI",
-        "link": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
-        "source": "TechCrunch",
-        "source_weight": 1.0,
-        "category": "tech",
-        "region": "global",
-        "published": "Sat, 13 Jun 2026 02:26:30 +0000",
-        "summary": "Anthropic isn't hiding its frustration. \"We disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people,\" the ",
-        "fetch_time": "2026-06-13T05:21:10.974292",
-        "score": 0.505
+        "published": "Sun, 14 Jun 2026 00:30:00 +0000",
+        "summary": "<p>LTL revenues appear to be strengthening in Q2, but is this a product of fuel or something more structural?</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/ltls-paper-gains\">LTL&#8217;s p",
+        "fetch_time": "2026-06-14T05:48:54.788725",
+        "score": 0.475
       },
       {
         "title": "Mid-term money-saver: DOT wants to pre-screen containers to speed supply chain",
@@ -210,20 +222,8 @@
         "region": "global",
         "published": "Fri, 12 Jun 2026 21:03:12 +0000",
         "summary": "<p>The Trump administration unveiled a program to pre-screen import containers and streamline connections through the supply chain.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/mid-term-",
-        "fetch_time": "2026-06-13T05:21:12.651407",
-        "score": 0.505
-      },
-      {
-        "title": "Like trucking and railroads, shipping struggles in fight for talent, aging workforce",
-        "link": "https://www.freightwaves.com/news/like-trucking-and-railroads-shipping-struggles-in-fight-for-talent-aging-workforce",
-        "source": "FreightWaves",
-        "source_weight": 0.95,
-        "category": "supply_chain",
-        "region": "global",
-        "published": "Fri, 12 Jun 2026 15:00:00 +0000",
-        "summary": "<p>Shipowners are confronting a crisis in how to sustain a workforce of 2 million crewing the global commercial fleet.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/like-trucking-and-rail",
-        "fetch_time": "2026-06-13T05:21:12.651415",
-        "score": 0.489
+        "fetch_time": "2026-06-14T05:48:54.788731",
+        "score": 0.415
       },
       {
         "title": "New OpenAI Academy courses for the next era of work",
@@ -234,8 +234,8 @@
         "region": "global",
         "published": "Fri, 12 Jun 2026 10:00:00 GMT",
         "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
-        "fetch_time": "2026-06-13T05:21:15.100290",
-        "score": 0.483
+        "fetch_time": "2026-06-14T05:48:56.271371",
+        "score": 0.393
       },
       {
         "title": "How Preply combines AI and human tutors to personalize learning",
@@ -246,7 +246,7 @@
         "region": "global",
         "published": "Fri, 12 Jun 2026 00:00:00 GMT",
         "summary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
-        "fetch_time": "2026-06-13T05:21:15.100305",
+        "fetch_time": "2026-06-14T05:48:56.271381",
         "score": 0.393
       }
     ]

@@ -1,104 +1,104 @@
 {
-  "generated_at": "2026-07-03T04:41:59.296781+00:00",
-  "total_articles": 575,
+  "generated_at": "2026-07-04T04:35:33.812769+00:00",
+  "total_articles": 523,
   "china": {
     "count": 10,
     "articles": [
       {
-        "title": "苹果iOS 27 Beta版操作系统最新SDK包括Apple智能功能",
-        "link": "https://36kr.com/newsflashes/3879365257719810?f=rss",
+        "title": "印度政府：正调查苹果手机信息泄露事件",
+        "link": "https://36kr.com/newsflashes/3880789908631558?f=rss",
         "source": "36氪",
         "source_weight": 1.0,
         "category": "tech",
         "region": "china",
-        "published": "2026-07-03 11:47:20  +0800",
-        "summary": "36氪获悉，苹果开发者微信公众号发文宣布，iOS 27 Beta版操作系统现可下载。最新SDK带来新功能，包括平台设计优化、Apple智能功能，以及新的AI开发框架。",
-        "fetch_time": "2026-07-03T04:39:42.434174",
+        "published": "2026-07-04 12:12:33  +0800",
+        "summary": "印度电子和信息技术部秘书克里希南2日表示，政府正就塔塔电子大规模数据泄露事件展开调查。这也是印度政府首次就这起事件发声。克里希南说：“我们正在调查。”按他的说法，相关事件已上报负责印度网络安全的下属机构计算机应急响应小组。塔塔电子是苹果公司的零部件供应商，也是苹果手机在印度的主要代工厂之一。据路透社报道，一个团伙日前从塔塔电子窃取大量未公开机密数据并上传至暗网，包括未发布的iPhone 18 Pr",
+        "fetch_time": "2026-07-04T04:33:12.824666",
         "score": 0.591
       },
       {
-        "title": "8点1氪丨“具身智能第一股” 宇树科技上市申请通过；SK海力士单日市值蒸发10000亿元；配置失误引发0元抢购潮，霸王茶姬致歉",
-        "link": "https://36kr.com/p/3879158039834629?f=rss",
-        "source": "36氪",
-        "source_weight": 1.0,
-        "category": "tech",
-        "region": "china",
-        "published": "2026-07-03 08:06:38  +0800",
-        "summary": "<h2>今日热点导览</h2>\n  <p>苹果拟于今明两年推出至少五款新iPhone</p>\n  <p>AI版支付宝开放公测，上线72项办事技能</p>\n  <p>特朗普回应“利用职位牟利”：股市在涨，大家都在赚钱</p>\n  <p>LV起诉茉莉奶白，茉莉奶白被判赔1030万元</p>\n  <p>6月赴日航班取消1488个</p>\n  <p>安克创新港股上市首日破发</p>\n  <h2>TOP3大",
-        "fetch_time": "2026-07-03T04:39:42.434123",
-        "score": 0.583
-      },
-      {
-        "title": "国铁集团常态化开行疆棉外运、北粮南运、进口化肥班列",
-        "link": "https://www.jiemian.com/article/14696021.html",
+        "title": "最高涨3500元，苹果突然大涨，二手苹果贵过此前新机价",
+        "link": "https://www.jiemian.com/article/14700547.html",
         "source": "界面新闻",
         "source_weight": 0.85,
         "category": "business",
         "region": "china",
-        "published": "Fri, 03 Jul 2026 12:26:57 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664251748738900_a580x330.png\" /><p>7月3日，国铁集团与中华全国供销合作总社在北京签署战略合作协议。当天上午，疆棉外运、北粮南运、进口化肥三趟班列分别从新疆乌兰乌苏站、黑龙江佳木斯站、广西防城港站发车，开往",
-        "fetch_time": "2026-07-03T04:41:47.836306",
-        "score": 0.572
+        "published": "Sat, 04 Jul 2026 12:17:20 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/jiemian/original/coze/20260704/178313860359869200_a580x330.jpg\" /><p>在持续涨价的背景下，消费者的换机逻辑也正在发生变化。</p>",
+        "fetch_time": "2026-07-04T04:35:19.332947",
+        "score": 0.561
       },
       {
-        "title": "腾讯游戏暑期未保行动：每周限玩3小时",
-        "link": "https://36kr.com/newsflashes/3879352352731139?f=rss",
+        "title": "Edge AI Daily 早报（7月4日）",
+        "link": "https://www.tmtpost.com/8052685.html",
+        "source": "钛媒体",
+        "source_weight": 0.9,
+        "category": "tech",
+        "region": "china",
+        "published": "Sat, 04 Jul 2026 08:08:13 +0800",
+        "summary": "OpenAI在悉尼投资70亿澳元建设数据中心，标志全球AI算力竞争进入新阶段。英伟达开源双塔模型将文本生成吞吐量提升2.42倍，微软Project Aion重新定义操作系统交互范式。Meta面临超级智能研发瓶颈但仍持续投入AI应用矩阵建设。开源框架Browser Use CLI 3.0赋予AI编程工具原生浏览器操控能力，PACE框架将Agent评估成本降至1%以下。",
+        "fetch_time": "2026-07-04T04:33:15.332401",
+        "score": 0.56
+      },
+      {
+        "title": "OpenAI要怎么卖广告？",
+        "link": "https://www.jiemian.com/article/14700512.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Sat, 04 Jul 2026 12:34:29 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/jiemian/original/coze/20260704/178313952624254400_a580x330.jpg\" /><p>OpenAI开始正式向广告主推介ChatGPT的广告生意了。</p>",
+        "fetch_time": "2026-07-04T04:35:19.332927",
+        "score": 0.558
+      },
+      {
+        "title": "蜂巢能源1-5月全球动力电池装车量12.1GWh，连续两月蝉联全球第九",
+        "link": "https://36kr.com/newsflashes/3880684542963721?f=rss",
         "source": "36氪",
         "source_weight": 1.0,
         "category": "tech",
         "region": "china",
-        "published": "2026-07-03 11:21:16  +0800",
-        "summary": "36氪获悉，7月3日，腾讯游戏发布“2026年暑期未成年人保护专项行动”，每周限玩3小时，升级“AI双引擎防沉迷”模式：游戏外，成长守护焕新AI版本，接入腾讯混元与DeepSeek双模型，家长可通过对话式交互完成信息查询与账号管控，提升管理便捷度；游戏内，健康系统推出AI巡航功能，内置“AI守卫”，基于玩家行为进行动态风险分级，并在人脸识别基础上，新增声纹检测、年龄识别等多模态验证，实现全链路干预",
-        "fetch_time": "2026-07-03T04:39:42.434187",
-        "score": 0.562
+        "published": "2026-07-04 09:56:27  +0800",
+        "summary": "韩国研究机构SNE Research发布的最新数据显示，2026年1-5月全球动力电池装车量达469.2GWh，同比增长16.3%。蜂巢能源以12.1GWh的装车量连续两个统计周期稳居全球第九位，同比增长35.3%。蜂巢能源以叠片短刀超百万套的规模交付、三季度量产的混合固液技术以及覆盖户储、工商储、大储及AIDC的全栈储能布局，在区域分化加剧的市场中保持高增长态势，其中AIDC储能系统成为新增长极",
+        "fetch_time": "2026-07-04T04:33:12.824702",
+        "score": 0.557
       },
       {
-        "title": "华为技术公司增资至约411.4亿",
-        "link": "https://36kr.com/newsflashes/3879302367637760?f=rss",
+        "title": "9点1氪｜阿里内部全面禁用Claude Code；FF洛杉矶总部人去楼空？公司回应：不实；微软砸25亿美元组建6000人AI新公司",
+        "link": "https://36kr.com/p/3880629882679301?f=rss",
         "source": "36氪",
         "source_weight": 1.0,
         "category": "tech",
         "region": "china",
-        "published": "2026-07-03 10:30:26  +0800",
-        "summary": "36氪获悉，天眼查App显示，近日，华为技术有限公司发生工商变更，注册资本由约410.4 亿人民币增至约411.4亿人民币。该公司成立于1987年9月，法定代表人为赵明路，经营范围包括信息系统设计、集成、运行维护等，由华为投资控股有限公司全资持股。",
-        "fetch_time": "2026-07-03T04:39:42.434215",
+        "published": "2026-07-04 09:03:44  +0800",
+        "summary": "<h2>今日热点导览</h2>\n  <ul>\n   <li>三部门：调整节能汽车、新能源汽车车船税优惠政策</li>\n   <li>三星传获Meta超10万亿韩元AI芯片代工订单</li>\n   <li>茉莉奶白小程序更换彩色Logo</li>\n   <li>Meta打算出售富余算力引发科技股回落</li>\n   <li>英伟达前光互连技术高管Ashkan Seyedi加入艾迈斯欧司朗</li>\n",
+        "fetch_time": "2026-07-04T04:33:12.824628",
         "score": 0.546
       },
       {
-        "title": "沪深两市成交额突破2万亿",
-        "link": "https://36kr.com/newsflashes/3879353568194568?f=rss",
+        "title": "美加墨世界杯16强已全部确定",
+        "link": "https://36kr.com/newsflashes/3880792300908547?f=rss",
         "source": "36氪",
         "source_weight": 1.0,
         "category": "tech",
         "region": "china",
-        "published": "2026-07-03 11:22:31  +0800",
-        "summary": "36氪获悉，沪深两市成交额突破2万亿。",
-        "fetch_time": "2026-07-03T04:39:42.434184",
-        "score": 0.532
+        "published": "2026-07-04 11:46:37  +0800",
+        "summary": "北京时间7月4日，2026美加墨世界杯1/16决赛。哥伦比亚1-0战胜加纳，晋级16强。截至目前，本届世界杯16强已全部确定。\n16强：加拿大、巴西、巴拉圭、摩洛哥、挪威、法国、墨西哥、英格兰、比利时、美国、西班牙、葡萄牙、瑞士、埃及、阿根廷、哥伦比亚。（央视新闻）",
+        "fetch_time": "2026-07-04T04:33:12.824672",
+        "score": 0.53
       },
       {
-        "title": "沪深两市成交额突破1.5万亿",
-        "link": "https://36kr.com/newsflashes/3879305411440640?f=rss",
+        "title": "福建：未来5年力争数字经济核心产业增加值年均增长8%以上",
+        "link": "https://36kr.com/newsflashes/3880724958752777?f=rss",
         "source": "36氪",
         "source_weight": 1.0,
         "category": "tech",
         "region": "china",
-        "published": "2026-07-03 10:33:31  +0800",
-        "summary": "36氪获悉，沪深两市成交额突破1.5万亿。",
-        "fetch_time": "2026-07-03T04:39:42.434212",
-        "score": 0.532
-      },
-      {
-        "title": "中国驻泰国大使馆：警惕非法中介“保关”骗局",
-        "link": "https://www.jiemian.com/article/14696028.html",
-        "source": "界面新闻",
-        "source_weight": 0.85,
-        "category": "business",
-        "region": "china",
-        "published": "Fri, 03 Jul 2026 12:31:53 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664253426029700_a580x330.png\" /><p>近期，泰国有关部门针对网络流传的所谓“保关”“包通关”“内部关系协助通关”等信息启动调查。据了解，有不法中介借泰方依法加强口岸风险防控之机，故意散布、炒作“付费即可保证通",
-        "fetch_time": "2026-07-03T04:41:47.836298",
-        "score": 0.5
+        "published": "2026-07-04 11:37:45  +0800",
+        "summary": "36氪获悉，福建省政府近日印发《“十五五”数字福建规划》，进一步细化“十五五”时期数字福建建设的发展目标、重点任务。《规划》提出到2030年，全省数智化发展水平达到国内领先，持续巩固数据要素市场化配置改革、产业数字化、数字政府建设、数智发展环境等方面优势，将数字福建打造成数字中国建设标杆。其中明确，未来5年，力争数字经济核心产业增加值年均增长8%以上。",
+        "fetch_time": "2026-07-04T04:33:12.824675",
+        "score": 0.53
       },
       {
         "title": "Satellite lofted for first Arab country",
@@ -109,7 +109,7 @@
         "region": "china",
         "published": "2017-12-12T00:27:08.000+0000",
         "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
-        "fetch_time": "2026-07-03T04:41:51.361642",
+        "fetch_time": "2026-07-04T04:35:22.672884",
         "score": 0.309
       },
       {
@@ -121,7 +121,7 @@
         "region": "china",
         "published": "2017-12-12T00:46:57.000+0000",
         "summary": "A high-level international advisory body applauded China's efforts to improve the environment and suggested a 15-year strategy against pollution in a draft recommendation report on Monday.",
-        "fetch_time": "2026-07-03T04:41:51.361583",
+        "fetch_time": "2026-07-04T04:35:22.672816",
         "score": 0.24
       }
     ]
@@ -130,76 +130,76 @@
     "count": 10,
     "articles": [
       {
-        "title": "Meta-Benchmarks for Financial-Services LLM Evaluation",
-        "link": "https://arxiv.org/abs/2607.01740",
-        "source": "ArXiv CS.AI",
-        "source_weight": 0.85,
-        "category": "ai",
-        "region": "global",
-        "published": "Fri, 03 Jul 2026 00:00:00 -0400",
-        "summary": "arXiv:2607.01740v1 Announce Type: new \nAbstract: Public LLM leaderboards optimise for global average performance and do not capture the specific cognitive demands of financial-services work: a model t",
-        "fetch_time": "2026-07-03T04:41:55.101860",
-        "score": 0.586
-      },
-      {
-        "title": "Pre-Flight: A Benchmark for Evaluating Large Language Models on Aviation Operational Knowledge",
-        "link": "https://arxiv.org/abs/2607.01829",
-        "source": "ArXiv CS.AI",
-        "source_weight": 0.85,
-        "category": "ai",
-        "region": "global",
-        "published": "Fri, 03 Jul 2026 00:00:00 -0400",
-        "summary": "arXiv:2607.01829v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly proposed for aviation business operations, from documentation and training generation to customer facing ",
-        "fetch_time": "2026-07-03T04:41:55.101887",
-        "score": 0.586
-      },
-      {
-        "title": "Australia news live: minister says it’s safe to ‘keep buying eggs, keep buying chicken’ as east coast records first suspected bird flu case",
-        "link": "https://www.theguardian.com/australia-news/live/2026/jul/03/politics-anthony-albanese-labor-angus-taylor-liberal-party-coalition-antisemitism-royal-commission-nsw-victorian-alps-snow-weather-ntwnfb",
+        "title": "Chris Minns admits NSW Labor needs to ‘climb Everest’ to stay in power as protesters interrupt state conference",
+        "link": "https://www.theguardian.com/australia-news/2026/jul/04/chris-minns-admits-nsw-labor-needs-to-climb-everest-to-stay-in-power-as-protesters-interrupt-state-conference-ntwnfb",
         "source": "The Guardian",
         "source_weight": 0.9,
         "category": "politics",
         "region": "global",
-        "published": "Fri, 03 Jul 2026 04:19:50 GMT",
-        "summary": "<p>Follow the day’s latest updates</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app",
-        "fetch_time": "2026-07-03T04:41:56.556075",
+        "published": "Sat, 04 Jul 2026 04:15:38 GMT",
+        "summary": "<p>The New South Wales premier warns of One Nation threat as he addresses party conference</p><p>The New South Wales premier, Chris Minns, admits the Labor party needs to “climb Everest” to stay in po",
+        "fetch_time": "2026-07-04T04:35:31.425072",
         "score": 0.53
       },
       {
-        "title": "The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't",
-        "link": "https://stefan.schueller.net/posts/the-free-market-lie/",
-        "source": "Hacker News",
-        "source_weight": 0.95,
+        "title": "The only AI glossary you’ll need this year",
+        "link": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+        "source": "TechCrunch",
+        "source_weight": 1.0,
         "category": "tech",
         "region": "global",
-        "published": "Fri, 03 Jul 2026 04:16:17 +0000",
-        "summary": "<a href=\"https://news.ycombinator.com/item?id=48770647\">Comments</a>",
-        "fetch_time": "2026-07-03T04:41:54.590225",
-        "score": 0.52
+        "published": "Fri, 03 Jul 2026 21:20:00 +0000",
+        "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+        "fetch_time": "2026-07-04T04:35:29.314592",
+        "score": 0.494
       },
       {
-        "title": "NSW records first suspected case of deadly H5 bird flu as virus reaches Australia’s east coast",
-        "link": "https://www.theguardian.com/world/2026/jul/03/bird-flu-australia-first-suspected-case-nsw-deadly-h5n1-virus",
-        "source": "The Guardian",
-        "source_weight": 0.9,
-        "category": "politics",
-        "region": "global",
-        "published": "Fri, 03 Jul 2026 03:57:00 GMT",
-        "summary": "<p>Migratory giant petrel discovered near Hawks Nest north of Newcastle infected with H5. Testing under way to determine if it’s highly pathogenic H5N1 strain</p><ul><li><p><a href=\"https://www.thegua",
-        "fetch_time": "2026-07-03T04:41:56.556079",
-        "score": 0.51
-      },
-      {
-        "title": "Tesla Deliveries Jump 25% | Bloomberg Tech 7/02/2026",
-        "link": "https://www.bloomberg.com/news/videos/2026-07-02/bloomberg-tech-7-02-2026-video",
+        "title": "SK Hynix Is Said to Weigh 0.5% Fee Payout in Mega ADR Offering",
+        "link": "https://www.bloomberg.com/news/articles/2026-07-04/sk-hynix-is-said-to-weigh-0-5-fee-payout-in-mega-adr-offering",
         "source": "Bloomberg Tech",
         "source_weight": 1.0,
         "category": "business",
         "region": "global",
-        "published": "Thu, 02 Jul 2026 17:57:19 GMT",
-        "summary": "Bloomberg’s Ed Ludlow breaks down reports that OpenAI is holding early-stage discussions about giving the US government a 5% equity stake. Plus, Tesla's delivery numbers rose 25% from a year ago, beat",
-        "fetch_time": "2026-07-03T04:41:58.979135",
-        "score": 0.507
+        "published": "Sat, 04 Jul 2026 03:27:42 GMT",
+        "summary": "SK Hynix Inc. is considering paying about 0.5% of the proceeds from its US listing &mdash; one of the largest share sales ever &mdash; to banks working on the deal, according to people familiar with t",
+        "fetch_time": "2026-07-04T04:35:33.399806",
+        "score": 0.485
+      },
+      {
+        "title": "China Proposes Expanding E-Commerce Law Scope, Platform Rules",
+        "link": "https://www.bloomberg.com/news/articles/2026-07-04/china-proposes-expanding-e-commerce-law-scope-platform-rules",
+        "source": "Bloomberg Tech",
+        "source_weight": 1.0,
+        "category": "business",
+        "region": "global",
+        "published": "Sat, 04 Jul 2026 02:38:53 GMT",
+        "summary": "China released draft amendments to its E-Commerce Law that would expand coverage beyond platforms and merchants, and revise rules governing the digital economy.",
+        "fetch_time": "2026-07-04T04:35:33.399819",
+        "score": 0.485
+      },
+      {
+        "title": "International chess federation sanctions Kramnik",
+        "link": "https://www.fide.com/fide-ethics-disciplinary-commission-issues-a-decision-in-case-involving-gm-vladimir-kramnik/",
+        "source": "Hacker News",
+        "source_weight": 0.95,
+        "category": "tech",
+        "region": "global",
+        "published": "Fri, 03 Jul 2026 17:04:08 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=48777266\">Comments</a>",
+        "fetch_time": "2026-07-04T04:35:29.624401",
+        "score": 0.484
+      },
+      {
+        "title": "NSW government ‘absolutely thrilled’ to welcome OpenAI ... until someone mentioned the Terminator films",
+        "link": "https://www.theguardian.com/technology/2026/jul/03/nsw-government-openai-arrives-sydney-terminator-films",
+        "source": "The Guardian",
+        "source_weight": 0.9,
+        "category": "politics",
+        "region": "global",
+        "published": "Fri, 03 Jul 2026 14:54:59 GMT",
+        "summary": "<p>Emails sent between MP Anoulak Chanthivong’s staff take cautious approach to AI giant arriving in Sydney – despite the government’s encouragement</p><ul><li><p>Get our <a href=\"https://www.theguard",
+        "fetch_time": "2026-07-04T04:35:31.425090",
+        "score": 0.483
       },
       {
         "title": "Hormuz in the rearview as Asia-US ocean container rates soar past $7,900",
@@ -210,32 +210,20 @@
         "region": "global",
         "published": "Thu, 02 Jul 2026 17:14:20 +0000",
         "summary": "<p>Ocean shipping rates continue their upward climb as peak-season demand, and not crude oil, are driving higher prices.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/hormuz-in-the-rearvi",
-        "fetch_time": "2026-07-03T04:41:55.591655",
-        "score": 0.497
+        "fetch_time": "2026-07-04T04:35:30.473811",
+        "score": 0.407
       },
       {
-        "title": "Last chance to apply — Startup Battlefield Australia applications close July 6",
-        "link": "https://techcrunch.com/2026/07/02/last-chance-to-apply-startup-battlefield-australia-applications-close-july-6-2/",
-        "source": "TechCrunch",
-        "source_weight": 1.0,
-        "category": "tech",
+        "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+        "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+        "source": "DeepMind Blog",
+        "source_weight": 0.95,
+        "category": "ai",
         "region": "global",
-        "published": "Fri, 03 Jul 2026 00:00:00 +0000",
-        "summary": "If you're going to apply for Startup Battlefield Australia, now is the time. Applications close July 6, and once the deadline passes, the opportunity is gone.",
-        "fetch_time": "2026-07-03T04:41:54.368874",
-        "score": 0.485
-      },
-      {
-        "title": "Kioxia Ships Samples of New Flash Memory for AI Data Centers",
-        "link": "https://www.bloomberg.com/news/articles/2026-07-02/kioxia-ships-samples-of-newest-flash-memory-for-ai-data-centers",
-        "source": "Bloomberg Tech",
-        "source_weight": 1.0,
-        "category": "business",
-        "region": "global",
-        "published": "Thu, 02 Jul 2026 23:53:47 GMT",
-        "summary": "Kioxia Holdings Corp. has started shipping samples of its next-generation flash memory chips to AI data center operators, seeking to gain ground in the lucrative business against rivals.",
-        "fetch_time": "2026-07-03T04:41:58.979061",
-        "score": 0.485
+        "published": "Fri, 03 Jul 2026 14:25:43 +0000",
+        "summary": "",
+        "fetch_time": "2026-07-04T04:35:33.228592",
+        "score": 0.395
       },
       {
         "title": "Tenney Group: Transportation M&A to see ‘record-breaking’ 2027",
@@ -246,8 +234,20 @@
         "region": "global",
         "published": "Thu, 02 Jul 2026 17:24:05 +0000",
         "summary": "<p>Advisory firm Tenney Group said transportation M&#038;A activity is heating up and that next year could set a record for deal flow. </p>\n<p>The post <a href=\"https://www.freightwaves.com/news/tenne",
-        "fetch_time": "2026-07-03T04:41:55.591652",
-        "score": 0.484
+        "fetch_time": "2026-07-04T04:35:30.473807",
+        "score": 0.394
+      },
+      {
+        "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+        "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
+        "source": "OpenAI Blog",
+        "source_weight": 1.0,
+        "category": "ai",
+        "region": "global",
+        "published": "Thu, 18 Jun 2026 08:00:00 GMT",
+        "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+        "fetch_time": "2026-07-04T04:35:32.510966",
+        "score": 0.354
       }
     ]
   }

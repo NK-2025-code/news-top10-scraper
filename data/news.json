@@ -1,104 +1,104 @@
 {
-  "generated_at": "2026-07-04T04:35:33.812769+00:00",
+  "generated_at": "2026-07-05T04:56:11.360922+00:00",
   "total_articles": 523,
   "china": {
     "count": 10,
     "articles": [
       {
-        "title": "印度政府：正调查苹果手机信息泄露事件",
-        "link": "https://36kr.com/newsflashes/3880789908631558?f=rss",
+        "title": "加速走向全球，今年前5个月我国机器人出口近200亿元",
+        "link": "https://36kr.com/newsflashes/3882054748090626?f=rss",
         "source": "36氪",
         "source_weight": 1.0,
         "category": "tech",
         "region": "china",
-        "published": "2026-07-04 12:12:33  +0800",
-        "summary": "印度电子和信息技术部秘书克里希南2日表示，政府正就塔塔电子大规模数据泄露事件展开调查。这也是印度政府首次就这起事件发声。克里希南说：“我们正在调查。”按他的说法，相关事件已上报负责印度网络安全的下属机构计算机应急响应小组。塔塔电子是苹果公司的零部件供应商，也是苹果手机在印度的主要代工厂之一。据路透社报道，一个团伙日前从塔塔电子窃取大量未公开机密数据并上传至暗网，包括未发布的iPhone 18 Pr",
-        "fetch_time": "2026-07-04T04:33:12.824666",
-        "score": 0.591
+        "published": "2026-07-05 09:10:18  +0800",
+        "summary": "今年以来，我国机器人出口规模持续扩大，品类结构不断优化，为高端制造出海注入新动能。据海关统计，今年前5个月，国产机器人加速走向全球。各类单独列名的机器人合计出口1037.7万台，出口总值达199.9亿元，产品远销全球150多个国家和地区。其中，欧盟和东盟为主要出口目的地。从细分品类看，我国机器人出口已形成多元矩阵格局。清洁机器人领跑全品类，出口额达140亿元，占机器人出口总值的七成以上。依托自主导",
+        "fetch_time": "2026-07-05T04:53:54.762565",
+        "score": 0.557
       },
       {
-        "title": "最高涨3500元，苹果突然大涨，二手苹果贵过此前新机价",
-        "link": "https://www.jiemian.com/article/14700547.html",
-        "source": "界面新闻",
-        "source_weight": 0.85,
-        "category": "business",
+        "title": "光大证券：半导体与AI浪潮驱动含氟新材料进入高速成长期",
+        "link": "https://36kr.com/newsflashes/3882063262068998?f=rss",
+        "source": "36氪",
+        "source_weight": 1.0,
+        "category": "tech",
         "region": "china",
-        "published": "Sat, 04 Jul 2026 12:17:20 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/jiemian/original/coze/20260704/178313860359869200_a580x330.jpg\" /><p>在持续涨价的背景下，消费者的换机逻辑也正在发生变化。</p>",
-        "fetch_time": "2026-07-04T04:35:19.332947",
-        "score": 0.561
+        "published": "2026-07-05 09:18:57  +0800",
+        "summary": "7月5日消息，光大证券研报认为，国内氟化工领军企业正加速布局含氟新材料，聚焦打造第二成长曲线。在半导体领域，高纯度（如G5级）电子级氢氟酸作为芯片制造不可或缺的关键湿电子化学品，过去长期被日美企业垄断。近年来，国内企业凭借产业链一体化优势突破了超净高纯工艺瓶颈，电子级氢氟酸顺利通过国内外一线晶圆代工厂的严苛认证，并进入规模化放量阶段。与此同时，AI、HPC和超大规模数据中心算力的快速攀升致使数据中",
+        "fetch_time": "2026-07-05T04:53:54.762555",
+        "score": 0.552
       },
       {
-        "title": "Edge AI Daily 早报（7月4日）",
-        "link": "https://www.tmtpost.com/8052685.html",
+        "title": "美光科技投资93亿美元扩建先进存储芯片项目，预计2028下半年出货HBM",
+        "link": "https://36kr.com/newsflashes/3882061184413701?f=rss",
+        "source": "36氪",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "china",
+        "published": "2026-07-05 09:16:50  +0800",
+        "summary": "美光科技当地时间周六（7月4日）正式启动其位于日本西部广岛工厂的扩建工程。这项总投资达1.5万亿日元（约合93亿美元）的项目，旨在生产包括高带宽存储器（HBM）在内的先进存储芯片，以满足人工智能（AI）浪潮带来的旺盛需求。HBM是英伟达AI处理器的关键组件，工厂预计将于2028年夏季左右开始出货。近期，美光、三星电子和SK海力士各自都宣布了扩充制造能力的计划。本周早些时候，SK海力士宣布，计划投资",
+        "fetch_time": "2026-07-05T04:53:54.762559",
+        "score": 0.546
+      },
+      {
+        "title": "PC及内存硬盘价格持续高位：硬盘一天三个价，经销商喊出“非刚需别买”",
+        "link": "https://36kr.com/newsflashes/3882059983695877?f=rss",
+        "source": "36氪",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "china",
+        "published": "2026-07-05 09:15:37  +0800",
+        "summary": "数码终端市场正在经历一场看不到尽头的结构性震荡。记者走访上海多个数码城，多位PC（个人电脑）经销商表示，目前零部件和整机的价格已经处于极端高位，但未来还要涨价，且至少在一年内看不到（涨价）尽头。这轮价格持续上涨已经持续相当长一段时间，最近的导火索就是苹果高调官宣涨价。一位PC经销商对记者表示，现在内存和硬盘价格都在疯涨，整机的价格在三年以内都很难下来：“起步涨幅就是800元到1000元。”另一位P",
+        "fetch_time": "2026-07-05T04:53:54.762562",
+        "score": 0.546
+      },
+      {
+        "title": "Edge AI Daily 早报（7月5日）",
+        "link": "https://www.tmtpost.com/8053089.html",
         "source": "钛媒体",
         "source_weight": 0.9,
         "category": "tech",
         "region": "china",
-        "published": "Sat, 04 Jul 2026 08:08:13 +0800",
-        "summary": "OpenAI在悉尼投资70亿澳元建设数据中心，标志全球AI算力竞争进入新阶段。英伟达开源双塔模型将文本生成吞吐量提升2.42倍，微软Project Aion重新定义操作系统交互范式。Meta面临超级智能研发瓶颈但仍持续投入AI应用矩阵建设。开源框架Browser Use CLI 3.0赋予AI编程工具原生浏览器操控能力，PACE框架将Agent评估成本降至1%以下。",
-        "fetch_time": "2026-07-04T04:33:15.332401",
-        "score": 0.56
+        "published": "Sun, 05 Jul 2026 08:39:15 +0800",
+        "summary": "Anthropic发布Claude Fable 5编码模型实现SWE-bench 95.0%突破，同时启动内部药物发现项目Claude Science，标志AI公司从工具提供商向垂直领域深度渗透。OpenAI英国Stargate数据中心300亿英镑承诺暴露基础设施投资泡沫，Meta数据中心污染事件揭示AI扩张的环保监管盲区。",
+        "fetch_time": "2026-07-05T04:53:57.613833",
+        "score": 0.532
       },
       {
-        "title": "OpenAI要怎么卖广告？",
-        "link": "https://www.jiemian.com/article/14700512.html",
+        "title": "张雪称负债接近1亿元，本月将还清全部债务",
+        "link": "https://36kr.com/newsflashes/3882255495311362?f=rss",
+        "source": "36氪",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "china",
+        "published": "2026-07-05 12:34:30  +0800",
+        "summary": "7月4日，张雪发布视频称，这个月就不是亿万“负”翁了。张雪透露自己目前负债接近1亿元，这次卖了一点股份，卖完后就会把债务全部还清，“再也不欠钱了”。（界面新闻）",
+        "fetch_time": "2026-07-05T04:53:54.762512",
+        "score": 0.53
+      },
+      {
+        "title": "当情感陪伴机器人投入量产时，欧洲正在为空调争吵 | 文化周报",
+        "link": "https://www.jiemian.com/article/14701775.html",
         "source": "界面新闻",
         "source_weight": 0.85,
         "category": "business",
         "region": "china",
-        "published": "Sat, 04 Jul 2026 12:34:29 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/jiemian/original/coze/20260704/178313952624254400_a580x330.jpg\" /><p>OpenAI开始正式向广告主推介ChatGPT的广告生意了。</p>",
-        "fetch_time": "2026-07-04T04:35:19.332927",
-        "score": 0.558
+        "published": "Sun, 05 Jul 2026 11:00:00 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20260704/178314264146125500_a580x330.jpg\" /><p>当机器人“化身为人”正在成为现实，我们势必要面对人机关系的新问题。</p>",
+        "fetch_time": "2026-07-05T04:55:59.640947",
+        "score": 0.527
       },
       {
-        "title": "蜂巢能源1-5月全球动力电池装车量12.1GWh，连续两月蝉联全球第九",
-        "link": "https://36kr.com/newsflashes/3880684542963721?f=rss",
-        "source": "36氪",
-        "source_weight": 1.0,
-        "category": "tech",
+        "title": "陕西临渭公安通报“未成年人在电梯内被掌掴”：依法处理",
+        "link": "https://www.jiemian.com/article/14702922.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
         "region": "china",
-        "published": "2026-07-04 09:56:27  +0800",
-        "summary": "韩国研究机构SNE Research发布的最新数据显示，2026年1-5月全球动力电池装车量达469.2GWh，同比增长16.3%。蜂巢能源以12.1GWh的装车量连续两个统计周期稳居全球第九位，同比增长35.3%。蜂巢能源以叠片短刀超百万套的规模交付、三季度量产的混合固液技术以及覆盖户储、工商储、大储及AIDC的全栈储能布局，在区域分化加剧的市场中保持高增长态势，其中AIDC储能系统成为新增长极",
-        "fetch_time": "2026-07-04T04:33:12.824702",
-        "score": 0.557
-      },
-      {
-        "title": "9点1氪｜阿里内部全面禁用Claude Code；FF洛杉矶总部人去楼空？公司回应：不实；微软砸25亿美元组建6000人AI新公司",
-        "link": "https://36kr.com/p/3880629882679301?f=rss",
-        "source": "36氪",
-        "source_weight": 1.0,
-        "category": "tech",
-        "region": "china",
-        "published": "2026-07-04 09:03:44  +0800",
-        "summary": "<h2>今日热点导览</h2>\n  <ul>\n   <li>三部门：调整节能汽车、新能源汽车车船税优惠政策</li>\n   <li>三星传获Meta超10万亿韩元AI芯片代工订单</li>\n   <li>茉莉奶白小程序更换彩色Logo</li>\n   <li>Meta打算出售富余算力引发科技股回落</li>\n   <li>英伟达前光互连技术高管Ashkan Seyedi加入艾迈斯欧司朗</li>\n",
-        "fetch_time": "2026-07-04T04:33:12.824628",
-        "score": 0.546
-      },
-      {
-        "title": "美加墨世界杯16强已全部确定",
-        "link": "https://36kr.com/newsflashes/3880792300908547?f=rss",
-        "source": "36氪",
-        "source_weight": 1.0,
-        "category": "tech",
-        "region": "china",
-        "published": "2026-07-04 11:46:37  +0800",
-        "summary": "北京时间7月4日，2026美加墨世界杯1/16决赛。哥伦比亚1-0战胜加纳，晋级16强。截至目前，本届世界杯16强已全部确定。\n16强：加拿大、巴西、巴拉圭、摩洛哥、挪威、法国、墨西哥、英格兰、比利时、美国、西班牙、葡萄牙、瑞士、埃及、阿根廷、哥伦比亚。（央视新闻）",
-        "fetch_time": "2026-07-04T04:33:12.824672",
-        "score": 0.53
-      },
-      {
-        "title": "福建：未来5年力争数字经济核心产业增加值年均增长8%以上",
-        "link": "https://36kr.com/newsflashes/3880724958752777?f=rss",
-        "source": "36氪",
-        "source_weight": 1.0,
-        "category": "tech",
-        "region": "china",
-        "published": "2026-07-04 11:37:45  +0800",
-        "summary": "36氪获悉，福建省政府近日印发《“十五五”数字福建规划》，进一步细化“十五五”时期数字福建建设的发展目标、重点任务。《规划》提出到2030年，全省数智化发展水平达到国内领先，持续巩固数据要素市场化配置改革、产业数字化、数字政府建设、数智发展环境等方面优势，将数字福建打造成数字中国建设标杆。其中明确，未来5年，力争数字经济核心产业增加值年均增长8%以上。",
-        "fetch_time": "2026-07-04T04:33:12.824675",
-        "score": 0.53
+        "published": "Sun, 05 Jul 2026 12:36:49 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664253426029700_a580x330.png\" /><p></p>",
+        "fetch_time": "2026-07-05T04:55:59.640854",
+        "score": 0.5
       },
       {
         "title": "Satellite lofted for first Arab country",
@@ -109,7 +109,7 @@
         "region": "china",
         "published": "2017-12-12T00:27:08.000+0000",
         "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
-        "fetch_time": "2026-07-04T04:35:22.672884",
+        "fetch_time": "2026-07-05T04:56:02.922213",
         "score": 0.309
       },
       {
@@ -121,7 +121,7 @@
         "region": "china",
         "published": "2017-12-12T00:46:57.000+0000",
         "summary": "A high-level international advisory body applauded China's efforts to improve the environment and suggested a 15-year strategy against pollution in a draft recommendation report on Monday.",
-        "fetch_time": "2026-07-04T04:35:22.672816",
+        "fetch_time": "2026-07-05T04:56:02.922146",
         "score": 0.24
       }
     ]
@@ -130,76 +130,76 @@
     "count": 10,
     "articles": [
       {
-        "title": "Chris Minns admits NSW Labor needs to ‘climb Everest’ to stay in power as protesters interrupt state conference",
-        "link": "https://www.theguardian.com/australia-news/2026/jul/04/chris-minns-admits-nsw-labor-needs-to-climb-everest-to-stay-in-power-as-protesters-interrupt-state-conference-ntwnfb",
-        "source": "The Guardian",
-        "source_weight": 0.9,
-        "category": "politics",
-        "region": "global",
-        "published": "Sat, 04 Jul 2026 04:15:38 GMT",
-        "summary": "<p>The New South Wales premier warns of One Nation threat as he addresses party conference</p><p>The New South Wales premier, Chris Minns, admits the Labor party needs to “climb Everest” to stay in po",
-        "fetch_time": "2026-07-04T04:35:31.425072",
-        "score": 0.53
-      },
-      {
-        "title": "The only AI glossary you’ll need this year",
-        "link": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-        "source": "TechCrunch",
-        "source_weight": 1.0,
-        "category": "tech",
-        "region": "global",
-        "published": "Fri, 03 Jul 2026 21:20:00 +0000",
-        "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-        "fetch_time": "2026-07-04T04:35:29.314592",
-        "score": 0.494
-      },
-      {
-        "title": "SK Hynix Is Said to Weigh 0.5% Fee Payout in Mega ADR Offering",
-        "link": "https://www.bloomberg.com/news/articles/2026-07-04/sk-hynix-is-said-to-weigh-0-5-fee-payout-in-mega-adr-offering",
-        "source": "Bloomberg Tech",
-        "source_weight": 1.0,
-        "category": "business",
-        "region": "global",
-        "published": "Sat, 04 Jul 2026 03:27:42 GMT",
-        "summary": "SK Hynix Inc. is considering paying about 0.5% of the proceeds from its US listing &mdash; one of the largest share sales ever &mdash; to banks working on the deal, according to people familiar with t",
-        "fetch_time": "2026-07-04T04:35:33.399806",
-        "score": 0.485
-      },
-      {
-        "title": "China Proposes Expanding E-Commerce Law Scope, Platform Rules",
-        "link": "https://www.bloomberg.com/news/articles/2026-07-04/china-proposes-expanding-e-commerce-law-scope-platform-rules",
-        "source": "Bloomberg Tech",
-        "source_weight": 1.0,
-        "category": "business",
-        "region": "global",
-        "published": "Sat, 04 Jul 2026 02:38:53 GMT",
-        "summary": "China released draft amendments to its E-Commerce Law that would expand coverage beyond platforms and merchants, and revise rules governing the digital economy.",
-        "fetch_time": "2026-07-04T04:35:33.399819",
-        "score": 0.485
-      },
-      {
-        "title": "International chess federation sanctions Kramnik",
-        "link": "https://www.fide.com/fide-ethics-disciplinary-commission-issues-a-decision-in-case-involving-gm-vladimir-kramnik/",
+        "title": "Mapping with In-Memory Layers to Reduce LLM Overload",
+        "link": "https://ridgetext.com/blog/mapbox-llm-composition",
         "source": "Hacker News",
         "source_weight": 0.95,
         "category": "tech",
         "region": "global",
-        "published": "Fri, 03 Jul 2026 17:04:08 +0000",
-        "summary": "<a href=\"https://news.ycombinator.com/item?id=48777266\">Comments</a>",
-        "fetch_time": "2026-07-04T04:35:29.624401",
-        "score": 0.484
+        "published": "Sat, 04 Jul 2026 23:25:53 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=48789986\">Comments</a>",
+        "fetch_time": "2026-07-05T04:56:06.517086",
+        "score": 0.533
       },
       {
-        "title": "NSW government ‘absolutely thrilled’ to welcome OpenAI ... until someone mentioned the Terminator films",
-        "link": "https://www.theguardian.com/technology/2026/jul/03/nsw-government-openai-arrives-sydney-terminator-films",
+        "title": "NSW Labor to adopt tougher pokies stance as Sydney inner west mayor says ‘momentum for real reform unstoppable’",
+        "link": "https://www.theguardian.com/australia-news/2026/jul/05/nsw-labor-to-adopt-tougher-pokies-stance-as-sydney-inner-west-mayor-says-momentum-for-real-reform-unstoppable",
         "source": "The Guardian",
         "source_weight": 0.9,
         "category": "politics",
         "region": "global",
-        "published": "Fri, 03 Jul 2026 14:54:59 GMT",
-        "summary": "<p>Emails sent between MP Anoulak Chanthivong’s staff take cautious approach to AI giant arriving in Sydney – despite the government’s encouragement</p><ul><li><p>Get our <a href=\"https://www.theguard",
-        "fetch_time": "2026-07-04T04:35:31.425090",
-        "score": 0.483
+        "published": "Sun, 05 Jul 2026 04:35:20 GMT",
+        "summary": "<p>State Labor conference expected to pass a motion which would commit to 50% of machines being removed from operation in next 10 years</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email",
+        "fetch_time": "2026-07-05T04:56:09.028192",
+        "score": 0.53
+      },
+      {
+        "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
+        "link": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+        "source": "TechCrunch",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "global",
+        "published": "Sat, 04 Jul 2026 20:55:25 +0000",
+        "summary": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Google Workspace?",
+        "fetch_time": "2026-07-05T04:56:06.260115",
+        "score": 0.499
+      },
+      {
+        "title": "‘The situation is terrible’: aid workers on life in Sudanese city pummelled by drone strikes",
+        "link": "https://www.theguardian.com/world/2026/jul/04/el-obeid-aid-workers-sudan-war-drone-strikes",
+        "source": "The Guardian",
+        "source_weight": 0.9,
+        "category": "politics",
+        "region": "global",
+        "published": "Sat, 04 Jul 2026 15:14:18 GMT",
+        "summary": "<p>El Obeid becomes key battleground in war between Sudan’s armed forces and their paramilitary enemies, the RSF</p><p>Fatima has lost count of the number of drone attacks on the besieged city of El O",
+        "fetch_time": "2026-07-05T04:56:09.028132",
+        "score": 0.474
+      },
+      {
+        "title": "India’s CG Semi Starts Production With 200 Million Chips",
+        "link": "https://www.bloomberg.com/news/articles/2026-07-04/india-s-cg-semi-starts-production-with-200-million-chips",
+        "source": "Bloomberg Tech",
+        "source_weight": 1.0,
+        "category": "business",
+        "region": "global",
+        "published": "Sat, 04 Jul 2026 13:59:39 GMT",
+        "summary": "India’s CG Power &amp; Industrial Solutions Ltd.’s new semiconductor unit has started production with an annual capacity of 200 million chips, Prime Minister Narendra Modi said Saturday, marking a fre",
+        "fetch_time": "2026-07-05T04:56:11.116829",
+        "score": 0.425
+      },
+      {
+        "title": "China Issues Guide for Registering International Science Groups",
+        "link": "https://www.bloomberg.com/news/articles/2026-07-04/china-issues-guide-for-registering-international-science-groups",
+        "source": "Bloomberg Tech",
+        "source_weight": 1.0,
+        "category": "business",
+        "region": "global",
+        "published": "Sat, 04 Jul 2026 10:58:30 GMT",
+        "summary": "China issued guidance for establishing international scientific organizations in the country, setting out registration requirements for nonprofit groups focused on scientific cooperation, exchange and",
+        "fetch_time": "2026-07-05T04:56:11.116841",
+        "score": 0.425
       },
       {
         "title": "Hormuz in the rearview as Asia-US ocean container rates soar past $7,900",
@@ -210,20 +210,8 @@
         "region": "global",
         "published": "Thu, 02 Jul 2026 17:14:20 +0000",
         "summary": "<p>Ocean shipping rates continue their upward climb as peak-season demand, and not crude oil, are driving higher prices.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/hormuz-in-the-rearvi",
-        "fetch_time": "2026-07-04T04:35:30.473811",
+        "fetch_time": "2026-07-05T04:56:07.277672",
         "score": 0.407
-      },
-      {
-        "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
-        "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
-        "source": "DeepMind Blog",
-        "source_weight": 0.95,
-        "category": "ai",
-        "region": "global",
-        "published": "Fri, 03 Jul 2026 14:25:43 +0000",
-        "summary": "",
-        "fetch_time": "2026-07-04T04:35:33.228592",
-        "score": 0.395
       },
       {
         "title": "Tenney Group: Transportation M&A to see ‘record-breaking’ 2027",
@@ -234,7 +222,7 @@
         "region": "global",
         "published": "Thu, 02 Jul 2026 17:24:05 +0000",
         "summary": "<p>Advisory firm Tenney Group said transportation M&#038;A activity is heating up and that next year could set a record for deal flow. </p>\n<p>The post <a href=\"https://www.freightwaves.com/news/tenne",
-        "fetch_time": "2026-07-04T04:35:30.473807",
+        "fetch_time": "2026-07-05T04:56:07.277669",
         "score": 0.394
       },
       {
@@ -246,7 +234,19 @@
         "region": "global",
         "published": "Thu, 18 Jun 2026 08:00:00 GMT",
         "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-        "fetch_time": "2026-07-04T04:35:32.510966",
+        "fetch_time": "2026-07-05T04:56:10.150405",
+        "score": 0.354
+      },
+      {
+        "title": "Built to benefit everyone: our plan",
+        "link": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+        "source": "OpenAI Blog",
+        "source_weight": 1.0,
+        "category": "ai",
+        "region": "global",
+        "published": "Mon, 08 Jun 2026 01:30:00 GMT",
+        "summary": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
+        "fetch_time": "2026-07-05T04:56:10.150476",
         "score": 0.354
       }
     ]

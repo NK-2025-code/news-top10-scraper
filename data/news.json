@@ -1,104 +1,104 @@
 {
-  "generated_at": "2026-07-13T04:33:34.735728+00:00",
-  "total_articles": 557,
+  "generated_at": "2026-07-14T03:57:01.992024+00:00",
+  "total_articles": 574,
   "china": {
     "count": 10,
     "articles": [
       {
-        "title": "电动载人汽车出海月报|5月出口金额同比增长55.98%，车企全球化纵深布局提速",
-        "link": "https://www.jiemian.com/article/14689358.html",
+        "title": "荣耀与阿里将开展AI智能体终端合作",
+        "link": "https://36kr.com/newsflashes/3894943679167744?f=rss",
+        "source": "36氪",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "china",
+        "published": "2026-07-14 11:41:36  +0800",
+        "summary": "荣耀将于7月18日在2026世界人工智能大会举办“从数字屏幕到具身智能——物理世界新范式”分论坛。除之前已官宣的世界著名科技未来学家凯文·凯利外，阿里巴巴集团副总裁、ATH事业群Token Foundry多模态交互负责人许主洪的加入，也引发了业界对后续各方合作的猜想。记者从荣耀和阿里内部渠道获悉，双方将官宣重磅合作，联手方向极有可能是下一代终端操作系统 Agentic OS 的落地实践。据此前公开",
+        "fetch_time": "2026-07-14T03:54:43.419605",
+        "score": 0.639
+      },
+      {
+        "title": "上半年进口历史同期首次突破10万亿！海关总署：主动扩大进口是必要条件",
+        "link": "https://www.jiemian.com/article/14758385.html",
         "source": "界面新闻",
         "source_weight": 0.85,
         "category": "business",
         "region": "china",
-        "published": "Mon, 13 Jul 2026 12:21:12 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20260702/178297860896442500_a580x330.jpg\" /><p>全球新能源扶持与贸易监管政策加速分化，国内车企同步推进海外建厂、品牌落地与跨国合作，出海模式正从单一整车出口转向本地化生产及研产销全球一体化。</p>",
-        "fetch_time": "2026-07-13T04:33:23.874348",
+        "published": "Tue, 14 Jul 2026 11:30:40 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20260714/178399973611849100_a580x330.jpg\" /><p>上半年进口对外贸增长的贡献大于出口，促进了贸易平衡发展。</p>",
+        "fetch_time": "2026-07-14T03:56:51.077991",
+        "score": 0.622
+      },
+      {
+        "title": "36氪首发 | 浙大系桌面CNC团队获商汤国香、首形科技等近亿元天使轮，要用AI技术降低制造门槛",
+        "link": "https://36kr.com/p/3894935854677249?f=rss",
+        "source": "36氪",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "china",
+        "published": "2026-07-14 11:34:12  +0800",
+        "summary": "<p>作者&nbsp;|&nbsp;张子怡</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，桌面级CNC（数控机床）企业「奇塑科技」于近期完成近亿元人民币天使轮融资。本轮融资由商汤国香、首形科技、全新世、奇绩创坛共同投资。本轮资金将主要用于桌面级CNC软硬件产品的研发、量产以及后续的市场营销。</p>\n  <p>在消费级3D打印机和激光雕刻机已完成大众市场教育，",
+        "fetch_time": "2026-07-14T03:54:43.419543",
+        "score": 0.602
+      },
+      {
+        "title": "A股三大指数午间休盘集体下跌，油气股走强",
+        "link": "https://36kr.com/newsflashes/3894935460527361?f=rss",
+        "source": "36氪",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "china",
+        "published": "2026-07-14 11:33:14  +0800",
+        "summary": "36氪获悉，A股三大指数午间休盘集体下跌，沪指跌0.66%，深成指跌0.42%，创业板指跌0.29%；煤炭、油气、零售板块领涨，大有能源、泰山石油、中百集团涨停；互联网、电脑硬件、航天军工板块跌幅居前，中国长城、中国卫星跌停，卓易信息跌超14%。",
+        "fetch_time": "2026-07-14T03:54:43.419611",
+        "score": 0.591
+      },
+      {
+        "title": "我国外贸“含智量”稳步提升，工业机器人上半年出口62.9亿元",
+        "link": "https://www.jiemian.com/article/14758316.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Tue, 14 Jul 2026 11:22:57 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664251748738900_a580x330.png\" /><p></p>",
+        "fetch_time": "2026-07-14T03:56:51.078001",
         "score": 0.572
       },
       {
-        "title": "8点1氪丨SK海力士CEO称史上最大存储短缺将在明年到来；苹果起诉OpenAI窃取商业机密‌；赛力斯预计上半年净亏损15亿元-18亿元",
-        "link": "https://36kr.com/p/3893305996442118?f=rss",
-        "source": "36氪",
-        "source_weight": 1.0,
-        "category": "tech",
-        "region": "china",
-        "published": "2026-07-13 07:55:49  +0800",
-        "summary": "<h2>今日热点导览</h2>\n  <ul>\n   <li>世界杯决赛一块草皮卖3050元，上架后很快售空</li>\n   <li>中国石化完成对中国航油重组</li>\n   <li>巨力索具因误导性陈述被罚450万元</li>\n   <li>SK海力士考虑“内存即服务”模式，或允许客户租赁而非购买芯片</li>\n   <li>马斯克据悉要求特斯拉员工转向使用Grok</li>\n  </ul>\n ",
-        "fetch_time": "2026-07-13T04:27:53.548652",
-        "score": 0.571
-      },
-      {
-        "title": "对话Om AI赵天成：多年坚守，押注物理AI原生的「流式」未来",
-        "link": "https://36kr.com/p/3893445208717826?f=rss",
-        "source": "36氪",
-        "source_weight": 1.0,
-        "category": "tech",
-        "region": "china",
-        "published": "2026-07-13 10:39:18  +0800",
-        "summary": "<p>一个从未见过监控画面的多模态模型，却比在监控数据上练了多年的小模型“老将”更懂监控。这不是科幻电影，这是2023年Om AI联汇的一场“无心插柳”，也是CEO兼首席科学家赵天成博士更加坚信“多模态训练方式能为物理开放世界带来泛化性”的关键节点。彼时，AI行业正在追求以大语言模型为核心的生成式AI。</p>\n  <p>三年后，这个多模态模型演变成了VLX——全球首个面向物理AI的端侧流式多模态",
-        "fetch_time": "2026-07-13T04:27:53.548639",
-        "score": 0.562
-      },
-      {
-        "title": "头部人形机器人关节公司半年再获新融资，同创伟业领投数亿元｜硬氪首发",
-        "link": "https://36kr.com/p/3885232033378308?f=rss",
-        "source": "36氪",
-        "source_weight": 1.0,
-        "category": "tech",
-        "region": "china",
-        "published": "2026-07-13 10:37:39  +0800",
-        "summary": "<p>作者｜黄楠</p>\n  <p>编辑｜袁斯来</p>\n  <p>硬氪获悉，零差云控（深圳）科技股份有限公司（以下简称“零差云控”）近日完成C++轮融资数亿元，本轮由同创伟业领投、国泰君安创新投资跟投，老股东华控基金追加投资。本轮资金将用于产能扩张和全球市场布局。源式资本担任本轮独家财务顾问，并由一苇资本和源式资本共同担任后续融资财务顾问。</p>\n  <p>人形机器人赛道在经历了概念爆火与资本",
-        "fetch_time": "2026-07-13T04:27:53.548643",
-        "score": 0.562
-      },
-      {
-        "title": "美股AI半导体投资痛点解析：如何通过主动管理QDII产品应对高波动？",
-        "link": "https://www.jiemian.com/article/14750416.html",
+        "title": "27%！AI投资热潮带动，6月中国出口继续高增",
+        "link": "https://www.jiemian.com/article/14758288.html",
         "source": "界面新闻",
         "source_weight": 0.85,
         "category": "business",
         "region": "china",
-        "published": "Mon, 13 Jul 2026 12:22:50 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/ai/20260713/178391501177586900_a580x330.png\" /><p>2026年7月7日，美股费城半导体指数单日大跌4.65%，收于12300.52点，英特尔跌超9%，美光科技、台积电跌超4%。这是该指数连续第四个交易日下跌。</p>",
-        "fetch_time": "2026-07-13T04:33:23.874341",
-        "score": 0.561
+        "published": "Tue, 14 Jul 2026 11:19:49 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20260714/178399897933439800_a580x330.png\" /><p>出口短期仍有望保持一定韧性。</p>",
+        "fetch_time": "2026-07-14T03:56:51.078012",
+        "score": 0.572
       },
       {
-        "title": "AI家庭智能硬件公司获数千万元融资，首款产品今年上线海外｜硬氪首发",
-        "link": "https://36kr.com/p/3879780282495236?f=rss",
-        "source": "36氪",
-        "source_weight": 1.0,
-        "category": "tech",
+        "title": "海关总署谈民企外贸进出口高增：技术能力强叠加市场敏锐度高",
+        "link": "https://www.jiemian.com/article/14758006.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
         "region": "china",
-        "published": "2026-07-13 11:00:00  +0800",
-        "summary": "<p>作者｜黄楠</p>\n  <p>编辑｜袁斯来</p>\n  <p>硬氪获悉，威联机器人科技（深圳）有限公司（以下简称“MOVA LINCO”）近日完成数千万元天使融资。融资资金将主要用于AI算法底层技术研发、完善产品量产体系，以及全球化渠道布局和家庭AI生态的持续建设。</p>\n  <p>MOVA LINCO核心团队来自头部网络通信与智能硬件企业，在路由器、NAS存储及AI算力设备等方面拥有深厚",
-        "fetch_time": "2026-07-13T04:27:53.548630",
-        "score": 0.557
+        "published": "Tue, 14 Jul 2026 11:05:10 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20260714/178399824687544900_a580x330.png\" /><p>民营企业占全国进出口总值的比重提升至57%，贡献了全国近6成的外贸增量。</p>",
+        "fetch_time": "2026-07-14T03:56:51.078054",
+        "score": 0.572
       },
       {
-        "title": "36氪首发 | 港中大博士、前大疆工程师创业消费级四足机器人，天使轮获正轩领投数千万元",
-        "link": "https://36kr.com/p/3893473722514181?f=rss",
-        "source": "36氪",
-        "source_weight": 1.0,
+        "title": "【钛晨报】李强主持召开经济形势专家和企业家座谈会；Meta宣布将追加400亿美元投资路易斯安那州数据中心；字节跳动回应：没有做智能驾驶业务的计划",
+        "link": "https://www.tmtpost.com/8063498.html",
+        "source": "钛媒体",
+        "source_weight": 0.9,
         "category": "tech",
         "region": "china",
-        "published": "2026-07-13 10:47:38  +0800",
-        "summary": "<p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，深圳光之跃迁科技有限公司（Lumisition Robotics）（以下简称“光之跃迁”）近日完成近五千万元天使轮融资，由正轩领投，光点资本、力合资本、松禾资本、恒信未来等机构跟投。本轮资金将主要用于产品研发、算法迭代及量产准备。</p>\n  <p>光之跃迁成立于2026",
-        "fetch_time": "2026-07-13T04:27:53.548636",
-        "score": 0.557
-      },
-      {
-        "title": "沪深两市成交额突破1万亿元",
-        "link": "https://36kr.com/newsflashes/3893432046009095?f=rss",
-        "source": "36氪",
-        "source_weight": 1.0,
-        "category": "tech",
-        "region": "china",
-        "published": "2026-07-13 10:03:53  +0800",
-        "summary": "36氪获悉，沪深两市成交额突破1万亿元，较上一个交易日此时缩量超1100亿元。",
-        "fetch_time": "2026-07-13T04:27:53.548704",
-        "score": 0.532
+        "published": "Tue, 14 Jul 2026 07:20:00 +0800",
+        "summary": "国务院批复同意《扩大消费“十五五”规划》；国务院印发《国民健康“十五五”规划》；中办、国办发布关于完善自然资源资产管理制度体系的意见；民政部等14部门联合发文，推动中国康复辅具产业扩能提质；内部人士：菜鸟供应链定位独立公司，将继续加大投入；阶跃星辰发布大模型原生智能体手机；苹果调整Mac芯片路线图，加速AI芯片研发；中国首个禁售燃油车省份确认：海南",
+        "fetch_time": "2026-07-14T03:54:46.289793",
+        "score": 0.571
       },
       {
         "title": "Satellite lofted for first Arab country",
@@ -109,7 +109,7 @@
         "region": "china",
         "published": "2017-12-12T00:27:08.000+0000",
         "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
-        "fetch_time": "2026-07-13T04:33:26.850981",
+        "fetch_time": "2026-07-14T03:56:54.841624",
         "score": 0.309
       },
       {
@@ -121,7 +121,7 @@
         "region": "china",
         "published": "2017-12-12T00:46:57.000+0000",
         "summary": "A high-level international advisory body applauded China's efforts to improve the environment and suggested a 15-year strategy against pollution in a draft recommendation report on Monday.",
-        "fetch_time": "2026-07-13T04:33:26.850912",
+        "fetch_time": "2026-07-14T03:56:54.841555",
         "score": 0.24
       }
     ]
@@ -129,6 +129,90 @@
   "global": {
     "count": 10,
     "articles": [
+      {
+        "title": "Middle East crisis live: US strikes Iran for third consecutive night; UAE says Tehran has hit tankers in strait of Hormuz",
+        "link": "https://www.theguardian.com/world/live/2026/jul/14/us-iran-war-live-updates-strikes-strait-of-hormuz-middle-east-crisis-trump-latest-news",
+        "source": "The Guardian",
+        "source_weight": 0.9,
+        "category": "politics",
+        "region": "global",
+        "published": "Tue, 14 Jul 2026 03:33:35 GMT",
+        "summary": "<p>Just before the latest strikes Trump said Iran would be hit ‘very hard’; UAE says Iranian cruise missiles hit two oil tankers in strait, killing a crew member and wounding eight</p><ul><li><p><a hr",
+        "fetch_time": "2026-07-14T03:56:59.844285",
+        "score": 0.62
+      },
+      {
+        "title": "Trump says US reinstating blockade on Iranian ports – as it happened",
+        "link": "https://www.theguardian.com/world/live/2026/jul/13/us-iran-strikes-middle-east-strait-of-hormuz-military-latest-news-updates",
+        "source": "The Guardian",
+        "source_weight": 0.9,
+        "category": "politics",
+        "region": "global",
+        "published": "Tue, 14 Jul 2026 03:27:16 GMT",
+        "summary": "<p>This blog is closed – our live coverage <a href=\"https://www.theguardian.com/world/live/2026/jul/14/us-iran-war-live-updates-strikes-strait-of-hormuz-middle-east-crisis-trump-latest-news\">continues",
+        "fetch_time": "2026-07-14T03:56:59.844289",
+        "score": 0.579
+      },
+      {
+        "title": "DP World plans UAE port, container terminal to bypass Strait of Hormuz: Report",
+        "link": "https://www.freightwaves.com/news/dp-world-plans-uae-port-container-terminal-to-bypass-strait-of-hormuz-report",
+        "source": "FreightWaves",
+        "source_weight": 0.95,
+        "category": "supply_chain",
+        "region": "global",
+        "published": "Tue, 14 Jul 2026 03:37:42 +0000",
+        "summary": "<p>DP World is reportedly planning a new UAE port and container terminal away from the Strait of Hormuz. </p>\n<p>The post <a href=\"https://www.freightwaves.com/news/dp-world-plans-uae-port-container-t",
+        "fetch_time": "2026-07-14T03:56:58.585654",
+        "score": 0.578
+      },
+      {
+        "title": "OpenAI’s Feud With xAI Carries On as Apple Secrets Fight Revs Up",
+        "link": "https://www.bloomberg.com/news/articles/2026-07-14/openai-s-feud-with-xai-carries-on-as-apple-secrets-fight-revs-up",
+        "source": "Bloomberg Tech",
+        "source_weight": 1.0,
+        "category": "business",
+        "region": "global",
+        "published": "Tue, 14 Jul 2026 01:47:15 GMT",
+        "summary": "OpenAI asked a judge to find that a lawsuit filed by xAI Corp. accusing the ChatGPT maker of trade secret theft “should never have been filed” and seeks to recoup more than $1 million in legal expense",
+        "fetch_time": "2026-07-14T03:57:01.773562",
+        "score": 0.567
+      },
+      {
+        "title": "Stocks & Bonds Fall as Oil Jump Fuels Fed-Hike Bets | The Close 7/13/2026",
+        "link": "https://www.bloomberg.com/news/videos/2026-07-13/the-close-7-13-2026-video",
+        "source": "Bloomberg Tech",
+        "source_weight": 1.0,
+        "category": "business",
+        "region": "global",
+        "published": "Mon, 13 Jul 2026 22:49:47 GMT",
+        "summary": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Russel Investments Preside",
+        "fetch_time": "2026-07-14T03:57:01.773569",
+        "score": 0.543
+      },
+      {
+        "title": "Building Food Metadata with LLM Juries",
+        "link": "https://careersatdoordash.com/blog/building-food-metadata-with-llm-juries-context-optimization-multimodal-ai/",
+        "source": "Hacker News",
+        "source_weight": 0.95,
+        "category": "tech",
+        "region": "global",
+        "published": "Tue, 14 Jul 2026 01:41:49 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=48901275\">Comments</a>",
+        "fetch_time": "2026-07-14T03:56:57.842172",
+        "score": 0.533
+      },
+      {
+        "title": "Amazon announces 2026 holiday fulfillment fees, advises early shipping",
+        "link": "https://www.supplychaindive.com/news/amazon-announces-2026-holiday-fulfillment-fees-advises-early-shipping/824962/",
+        "source": "Supply Chain Dive",
+        "source_weight": 1.0,
+        "category": "supply_chain",
+        "region": "global",
+        "published": "Mon, 13 Jul 2026 10:06:21 -0400",
+        "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/itJBBQ9x9VeEjSs8fg2x_i-jkFSdZQh5U-T-0GSJlS4/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTg3MzYwMjE0LmpwZw==",
+        "fetch_time": "2026-07-14T03:56:58.311292",
+        "score": 0.519
+      },
       {
         "title": "MedRealMM: A Real-World Multimodal Benchmark for Chinese Online Medical Consultation",
         "link": "https://arxiv.org/abs/2607.09142",
@@ -138,8 +222,20 @@
         "region": "global",
         "published": "Mon, 13 Jul 2026 00:00:00 -0400",
         "summary": "arXiv:2607.09142v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly deployed in online medical consultation, yet existing benchmarks remain poorly aligned with real clinical",
-        "fetch_time": "2026-07-13T04:33:30.442850",
-        "score": 0.613
+        "fetch_time": "2026-07-14T03:56:58.128782",
+        "score": 0.508
+      },
+      {
+        "title": "Apple says former employee exploited ‘rare’ bug to download confidential files after leaving for OpenAI",
+        "link": "https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/",
+        "source": "TechCrunch",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "global",
+        "published": "Mon, 13 Jul 2026 20:00:17 +0000",
+        "summary": "Apple would not comment on the \"security breach,\" which allegedly allowed a former employee to download sensitive files from Apple's network long after he departed the company for rival OpenAI.",
+        "fetch_time": "2026-07-14T03:56:57.628129",
+        "score": 0.507
       },
       {
         "title": "REFORGE: A Method for Benchmarking LLMs' Reverse Engineering Capabilities in Decompiled Binary Function Naming",
@@ -150,104 +246,8 @@
         "region": "global",
         "published": "Mon, 13 Jul 2026 00:00:00 -0400",
         "summary": "arXiv:2607.07738v1 Announce Type: cross \nAbstract: Large language models (LLMs) are increasingly applied to reverse-engineering tasks, and recent threat-intelligence reporting shows them operating ins",
-        "fetch_time": "2026-07-13T04:33:30.442911",
-        "score": 0.606
-      },
-      {
-        "title": "Middle East crisis live: Iran says launching retaliatory actions after fresh wave of US strikes",
-        "link": "https://www.theguardian.com/world/live/2026/jul/13/middle-east-crisis-live-us-launches-new-wave-of-strikes-on-iran-tehran-says-attacks-render-diplomacy-futile",
-        "source": "The Guardian",
-        "source_weight": 0.9,
-        "category": "politics",
-        "region": "global",
-        "published": "Mon, 13 Jul 2026 04:20:38 GMT",
-        "summary": "<p>Iran has sought to establish a permanent system for collecting fees in the strait of Hormuz and warned vessels not to sail without its authorisation</p><p><strong>Bahrain’s interior ministry instru",
-        "fetch_time": "2026-07-13T04:33:32.373815",
-        "score": 0.579
-      },
-      {
-        "title": "Hyundai Motor Workers Strike Over Bonuses, Robot Job Security",
-        "link": "https://www.bloomberg.com/news/articles/2026-07-13/hyundai-hymtf-workers-strike-over-bonuses-ai-robot-job-security",
-        "source": "Bloomberg Tech",
-        "source_weight": 1.0,
-        "category": "business",
-        "region": "global",
-        "published": "Mon, 13 Jul 2026 02:32:53 GMT",
-        "summary": "Hyundai Motor Co. workers began a three-day partial strike on Monday as their union demands bigger bonuses following landmark deals at semiconductor companies, and seek guarantees jobs won’t be lost t",
-        "fetch_time": "2026-07-13T04:33:34.356203",
-        "score": 0.554
-      },
-      {
-        "title": "US launches new wave of strikes against Iran as Tehran says diplomacy has proven ‘futile’",
-        "link": "https://www.theguardian.com/world/2026/jul/13/us-iran-war-missile-strikes-news-attacks-strait-of-hormuz",
-        "source": "The Guardian",
-        "source_weight": 0.9,
-        "category": "politics",
-        "region": "global",
-        "published": "Mon, 13 Jul 2026 02:39:58 GMT",
-        "summary": "<p>American and Iranian forces exchange heavy missile and drone attacks over control of strait of Hormuz, increasing pressure on truce</p><p>The US military has launched a new wave of attacks against ",
-        "fetch_time": "2026-07-13T04:33:32.373818",
-        "score": 0.534
-      },
-      {
-        "title": "Count Binface",
-        "link": "https://countbinface.com",
-        "source": "Hacker News",
-        "source_weight": 0.95,
-        "category": "tech",
-        "region": "global",
-        "published": "Mon, 13 Jul 2026 04:00:54 +0000",
-        "summary": "<a href=\"https://news.ycombinator.com/item?id=48887753\">Comments</a>",
-        "fetch_time": "2026-07-13T04:33:29.996400",
-        "score": 0.5
-      },
-      {
-        "title": "MiniMax Shares Slump After JPMorgan Cuts Target Price Further",
-        "link": "https://www.bloomberg.com/news/articles/2026-07-13/minimax-shares-slump-after-jpmorgan-cuts-target-price-further",
-        "source": "Bloomberg Tech",
-        "source_weight": 1.0,
-        "category": "business",
-        "region": "global",
-        "published": "Mon, 13 Jul 2026 03:23:30 GMT",
-        "summary": "MiniMax Group Inc.’s shares plunged, after JPMorgan Chase &amp; Co. slashed the Chinese AI model maker’s price target for the second time in less than a week on value dilution concerns caused by fresh",
-        "fetch_time": "2026-07-13T04:33:34.356197",
-        "score": 0.485
-      },
-      {
-        "title": "Cyberpunk Comics, Manga and Graphic Novels",
-        "link": "https://shellzine.net/cyberpunk-comics/",
-        "source": "Hacker News",
-        "source_weight": 0.95,
-        "category": "tech",
-        "region": "global",
-        "published": "Sun, 12 Jul 2026 22:45:31 +0000",
-        "summary": "<a href=\"https://news.ycombinator.com/item?id=48885643\">Comments</a>",
-        "fetch_time": "2026-07-13T04:33:29.996358",
-        "score": 0.475
-      },
-      {
-        "title": "Borderlands Mexico: Toyota bets big on Texas, moves Tacoma line to San Antonio",
-        "link": "https://www.freightwaves.com/news/borderlands-mexico-toyota-bets-big-on-texas-moves-tacoma-line-to-san-antonio",
-        "source": "FreightWaves",
-        "source_weight": 0.95,
-        "category": "supply_chain",
-        "region": "global",
-        "published": "Sun, 12 Jul 2026 11:00:00 +0000",
-        "summary": "<p>This week in Borderlands Mexico: Toyota bets big on Texas; RJW Logistics adds fourth Dallas-area warehouse; and Gulf Coast Crating expands with industrial acquisitions.</p>\n<p>The post <a href=\"htt",
-        "fetch_time": "2026-07-13T04:33:30.870492",
-        "score": 0.415
-      },
-      {
-        "title": "How much is trade policy influencing imports?",
-        "link": "https://www.freightwaves.com/news/how-much-is-trade-policy-influencing-imports",
-        "source": "FreightWaves",
-        "source_weight": 0.95,
-        "category": "supply_chain",
-        "region": "global",
-        "published": "Sun, 12 Jul 2026 00:30:00 +0000",
-        "summary": "<p>Container import bookings are riding a prolonged wave as new tariffs are reviewed. How much of this is tariff induced and what does it mean for domestic transportation markets?</p>\n<p>The post <a h",
-        "fetch_time": "2026-07-13T04:33:30.870495",
-        "score": 0.415
+        "fetch_time": "2026-07-14T03:56:58.128856",
+        "score": 0.501
       }
     ]
   }

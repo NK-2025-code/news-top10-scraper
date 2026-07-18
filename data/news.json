@@ -1,104 +1,104 @@
 {
-  "generated_at": "2026-07-17T04:00:26.358225+00:00",
-  "total_articles": 565,
+  "generated_at": "2026-07-18T03:55:11.832024+00:00",
+  "total_articles": 562,
   "china": {
     "count": 10,
     "articles": [
       {
-        "title": "6月份粤港澳大湾区内地9市进出口规模首破万亿元大关",
-        "link": "https://36kr.com/newsflashes/3899138857862790?f=rss",
+        "title": "美股三大指数收盘集体下跌，大型科技股普跌",
+        "link": "https://36kr.com/newsflashes/3900467666077318?f=rss",
         "source": "36氪",
         "source_weight": 1.0,
         "category": "tech",
         "region": "china",
-        "published": "2026-07-17 10:49:09  +0800",
-        "summary": "据海关统计，今年上半年，粤港澳大湾区内地9市进出口5.3万亿元，同比增长20.9%，快于全国整体进出口增速4个百分点，占全国进出口总值的20.8%，对同期全国增长的贡献度达24.9%。其中，出口3.12万亿元，增长11.5%；进口2.18万亿元，增长37.5%。今年1月份，大湾区内地9市进出口增长22%至8728.7亿元，创月度历史新高。随后，3月、4月、5月、6月份连续4个月突破前期高点，其中6",
-        "fetch_time": "2026-07-17T03:58:00.389384",
+        "published": "2026-07-18 09:20:53  +0800",
+        "summary": "36氪获悉，7月18日收盘，美股三大指数集体下跌，道指跌0.77%%，纳指跌1.40%，标普500指数跌1.01%。大型科技股普跌，英伟达跌 2.21%、微软跌 1.82%、谷歌跌2.17%、亚马逊跌 1.06%、Meta跌 2.79%、特斯拉跌 2.61%、苹果微涨 0.14%。热门中概股普跌，腾讯跌4.63%，阿里巴巴跌2.14%，拼多多跌2.93%，百度跌4.95%，理想汽车（LI）跌3.6",
+        "fetch_time": "2026-07-18T03:52:30.785224",
         "score": 0.607
       },
       {
-        "title": "36氪首发 | 港科大博士创业做机器人全身触觉系统，红杉、瓴智、智元共同押注",
-        "link": "https://36kr.com/p/3899128277452681?f=rss",
+        "title": "黄仁勋皮夹克拍出96万美元天价",
+        "link": "https://36kr.com/newsflashes/3900550483216007?f=rss",
         "source": "36氪",
         "source_weight": 1.0,
         "category": "tech",
         "region": "china",
-        "published": "2026-07-17 10:39:17  +0800",
-        "summary": "<p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，全身多模态融合触觉解决方案公司模感科技（MoSense）近日完成数千万元天使轮融资，投资方包括红杉中国、高瓴创投及智元机器人。本轮融资资金将主要用于加速研发、团队扩充、算力投入及量产测试体系建设。</p>\n  <p>模感科技成立于2026年5月，总部注册于上海，在深圳前海",
-        "fetch_time": "2026-07-17T03:58:00.389312",
+        "published": "2026-07-18 11:45:59  +0800",
+        "summary": "据美媒当地时间17日报道，英伟达 CEO 黄仁勋的一件标志性皮夹克以 96 万美元（现汇率约合 651.3 万元人民币）拍出，成交价达到拍前最高估价的 16 倍，全部所得将用于慈善项目。",
+        "fetch_time": "2026-07-18T03:52:30.785193",
         "score": 0.591
       },
       {
-        "title": "中国企业发布全球最大规模的开源模型Kimi K3",
-        "link": "https://www.tmtpost.com/8068506.html",
-        "source": "钛媒体",
-        "source_weight": 0.9,
-        "category": "tech",
-        "region": "china",
-        "published": "Fri, 17 Jul 2026 10:13:00 +0800",
-        "summary": "Kimi K3原生支持视觉理解，具备100万词元上下文窗口，面向软件工程、知识工作、深度研究、多模态理解等复杂任务场景进行优化，进一步提升了大模型复杂任务的处理能力。",
-        "fetch_time": "2026-07-17T03:58:02.744464",
-        "score": 0.587
-      },
-      {
-        "title": "36氪首发 | 前蔚来、华为智驾核心成员联手创业具身世界模型，三个月内完成数亿元融资",
-        "link": "https://36kr.com/p/3899081603483525?f=rss",
+        "title": "国家能源局：将加快构建新型能源体系 赋能AI发展",
+        "link": "https://36kr.com/newsflashes/3900549667456901?f=rss",
         "source": "36氪",
         "source_weight": 1.0,
         "category": "tech",
         "region": "china",
-        "published": "2026-07-17 09:52:16  +0800",
-        "summary": "<p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，具身智能世界模型公司日冕开物（北京日冕机器人有限公司）近期完成连续两轮种子轮融资，融资合计金额达数亿元人民币，由鼎峰科创、远图未来、百度风投、沃衍资本、武岳峰科创、万林国际共同参与投资。同时，新一轮融资也在同步交割中。</p>\n  <p>此前融资资金主要用于自研世界模型 ",
-        "fetch_time": "2026-07-17T03:58:00.389322",
-        "score": 0.583
+        "published": "2026-07-18 11:30:08  +0800",
+        "summary": "2026世界人工智能大会昨天（17日）在上海开幕，在“人工智能与能源双向赋能”分论坛上，国家能源局负责人透露，我国将加快构建新型能源体系，为人工智能发展插上绿色翅膀。据了解，“十五五”时期，推理负荷将超过以往的训练负荷，成为算力的主要消耗。时延敏感、负荷波动大、需求集中等特征，要求算电协同从“空间协同”转向算力负荷与新型电力系统的“多维协同”，必须统筹推进智能算力、大模型、语料资源等核心要素一体化",
+        "fetch_time": "2026-07-18T03:52:30.785197",
+        "score": 0.591
       },
       {
-        "title": "两条AI赛道，一场消耗战：阿里与字节耐力对决",
-        "link": "https://www.tmtpost.com/8068420.html",
-        "source": "钛媒体",
-        "source_weight": 0.9,
+        "title": "日媒：印企越来越依赖中国AI大模型",
+        "link": "https://36kr.com/newsflashes/3900548047177344?f=rss",
+        "source": "36氪",
+        "source_weight": 1.0,
         "category": "tech",
         "region": "china",
-        "published": "Fri, 17 Jul 2026 11:33:00 +0800",
-        "summary": "阿里巴巴依靠云计算现金流反哺全栈AI基建，字节跳动依托广告业务覆盖豆包大模型流量消耗。二者均以核心盈利业务承担AI高额资本开支，现金流、净利润承压显著。",
-        "fetch_time": "2026-07-17T03:58:02.744411",
-        "score": 0.576
+        "published": "2026-07-18 11:15:30  +0800",
+        "summary": "据日本《日经亚洲》杂志网站7月13日报道，印度企业越来越依赖由深度求索（DeepSeek）、阿里巴巴和月之暗面等中国公司开发的大语言模型来控制其人工智能（AI）成本，这加大了印度在尖端技术方面对中国的依赖。 未来资产风险投资（印度）公司首席执行官普尼特·库马尔表示，自2025年中以来，他接触过的几家科技初创企业都在使用此类中国开放权重大语言模型，这有助于它们将成本降低“一个数量级”。",
+        "fetch_time": "2026-07-18T03:52:30.785200",
+        "score": 0.591
       },
       {
-        "title": "Q2手机市场：华为三星苹果吃肉，OPPO小米vivo挨打",
-        "link": "https://www.tmtpost.com/8068435.html",
-        "source": "钛媒体",
-        "source_weight": 0.9,
+        "title": "9点1氪丨ofo停更5年突然发文，运营主体仍处存续状态；苹果市值重返全球第一；乐事回应“蓝色薯片”来源",
+        "link": "https://36kr.com/p/3900449325287305?f=rss",
+        "source": "36氪",
+        "source_weight": 1.0,
         "category": "tech",
         "region": "china",
-        "published": "Fri, 17 Jul 2026 11:09:57 +0800",
-        "summary": "AI抢走内存，手机行业被切成两半。",
-        "fetch_time": "2026-07-17T03:58:02.744434",
-        "score": 0.576
+        "published": "2026-07-18 09:05:45  +0800",
+        "summary": "<h2>今日热点导览</h2>\n  <p>月之暗面正式推出开源模型Kimi K3</p>\n  <p>智谱ARR达到10亿美元，半年增长15倍</p>\n  <p>国际足联：世界杯冠军将有戒指，每枚均有独立编号</p>\n  <p>国内成品油价7月17日晚上调</p>\n  <p>A股存储板块龙头股遭遇两个跌停</p>\n  <h2>TOP3大新闻</h2>\n  <p><strong>ofo停更5年突然发文",
+        "fetch_time": "2026-07-18T03:52:30.785138",
+        "score": 0.58
       },
       {
-        "title": "Kimi K3发布！2.8万亿参数全球最大开源模型，云计算ETF汇添富(159273)重挫超5%，资金连续逢跌加仓！",
-        "link": "https://www.jiemian.com/article/14781696.html",
+        "title": "国星宇航与商汤科技共建太空算力星座",
+        "link": "https://www.jiemian.com/article/14787748.html",
         "source": "界面新闻",
         "source_weight": 0.85,
         "category": "business",
         "region": "china",
-        "published": "Fri, 17 Jul 2026 11:04:22 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/ai/20260717/178425714121036100_a580x330.png\" /><p>7月17，云计算ETF汇添富(159273)大跌超5%！盘中放量成交超3600万，交投活跃！资金面上，盘中资金逢跌布局，再度吸金！值得注意的是，昨日云计算ETF汇添",
-        "fetch_time": "2026-07-17T04:00:04.253802",
-        "score": 0.572
+        "published": "Sat, 18 Jul 2026 11:12:03 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664251748738900_a580x330.png\" /><p>2026世界人工智能大会（WAIC）“基座大模型架构创新与生态合作论坛”上，国星宇航与商汤科技宣布共建商汤算力星座，星座规模将达到千星万P，构建新一代全球化AI基础设施。",
+        "fetch_time": "2026-07-18T03:55:01.540193",
+        "score": 0.561
       },
       {
-        "title": "山西证券10亿元加码香港子公司，券商国际业务成盈利新支柱",
-        "link": "https://www.jiemian.com/article/14774610.html",
+        "title": "黄仁勋标志性皮衣以96万美元成交，达最高估价16倍",
+        "link": "https://www.jiemian.com/article/14787709.html",
         "source": "界面新闻",
         "source_weight": 0.85,
         "category": "business",
         "region": "china",
-        "published": "Fri, 17 Jul 2026 11:25:31 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/jiemian/original/vcgimgtoimg/yuan/20260417/177638587038599600_a580x330.png\" /><p>对中小券商而言，境外业务是突破同质化竞争的差异化方向。</p>",
-        "fetch_time": "2026-07-17T04:00:04.253743",
-        "score": 0.567
+        "published": "Sat, 18 Jul 2026 11:11:47 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664251748738900_a580x330.png\" /><p>7月18日，苏富比最新拍卖结果显示，美国英伟达公司创始人兼首席执行官黄仁勋亲穿并签名的标志性Tom Ford黑色皮衣，在慈善拍卖中最终以960,000美元的金额落槌成交。",
+        "fetch_time": "2026-07-18T03:55:01.540197",
+        "score": 0.561
+      },
+      {
+        "title": "国家智慧教育平台全面深化应用试点推进会召开",
+        "link": "https://36kr.com/newsflashes/3900510413899654?f=rss",
+        "source": "36氪",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "china",
+        "published": "2026-07-18 10:15:15  +0800",
+        "summary": "7月16日，教育部在山东省济南市召开国家智慧教育平台全面深化应用试点推进会。教育部党组成员、副部长王光彦出席会议并讲话。 会议指出，要提高政治站位，以对新形势的准确把握增强国家平台全面深化应用试点的使命感紧迫感，深刻认识人工智能技术发展给教育带来的机遇和挑战，准确理解国家智慧教育平台的战略支撑作用，全面把握国家平台全面深化应用试点工作的重要意义，以点上突破带动教育数字化战略的面上提质和系统跃升，有",
+        "fetch_time": "2026-07-18T03:52:30.785212",
+        "score": 0.552
       },
       {
         "title": "Satellite lofted for first Arab country",
@@ -109,7 +109,7 @@
         "region": "china",
         "published": "2017-12-12T00:27:08.000+0000",
         "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
-        "fetch_time": "2026-07-17T04:00:08.262172",
+        "fetch_time": "2026-07-18T03:55:04.558994",
         "score": 0.309
       },
       {
@@ -121,7 +121,7 @@
         "region": "china",
         "published": "2017-12-12T00:46:57.000+0000",
         "summary": "A high-level international advisory body applauded China's efforts to improve the environment and suggested a 15-year strategy against pollution in a draft recommendation report on Monday.",
-        "fetch_time": "2026-07-17T04:00:08.262110",
+        "fetch_time": "2026-07-18T03:55:04.558925",
         "score": 0.24
       }
     ]
@@ -129,6 +129,42 @@
   "global": {
     "count": 10,
     "articles": [
+      {
+        "title": "China Dismisses Claim that It Illicitly Extracts Foreign AI Tech",
+        "link": "https://www.bloomberg.com/news/articles/2026-07-18/china-dismisses-claim-that-it-illicitly-extracts-foreign-ai-tech",
+        "source": "Bloomberg Tech",
+        "source_weight": 1.0,
+        "category": "business",
+        "region": "global",
+        "published": "Sat, 18 Jul 2026 02:59:20 GMT",
+        "summary": "China brushed off allegations that the country distills foreign technology, after US firms including Anthropic PBC said Chinese rivals illicitly extract results from top American models to advance the",
+        "fetch_time": "2026-07-18T03:55:11.517003",
+        "score": 0.53
+      },
+      {
+        "title": "Agility Robotics plants its flag in Tesla’s backyard",
+        "link": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
+        "source": "TechCrunch",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "global",
+        "published": "Fri, 17 Jul 2026 20:19:49 +0000",
+        "summary": "Agility is opening a new training center for its Digit robots in Fremont, California.",
+        "fetch_time": "2026-07-18T03:55:07.170580",
+        "score": 0.519
+      },
+      {
+        "title": "How Apple’s big lawsuit could disrupt OpenAI’s IPO plans",
+        "link": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+        "source": "TechCrunch",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "global",
+        "published": "Fri, 17 Jul 2026 17:45:46 +0000",
+        "summary": "Apple&#160;filed a trade secrets&#160;lawsuit against OpenAI&#160;last Friday, and&#160;it&#8217;s&#160;not messing around. The complaint alleges a pattern of misconduct reaching all the way up to Ope",
+        "fetch_time": "2026-07-18T03:55:07.170595",
+        "score": 0.507
+      },
       {
         "title": "MemoHarness: Agent Harnesses That Learn from Experience",
         "link": "https://arxiv.org/abs/2607.14159",
@@ -138,8 +174,8 @@
         "region": "global",
         "published": "Fri, 17 Jul 2026 00:00:00 -0400",
         "summary": "arXiv:2607.14159v1 Announce Type: new \nAbstract: An agent harness is the external control layer that turns a base LLM into an executable agent by managing context, tools, orchestration, memory, decodi",
-        "fetch_time": "2026-07-17T04:00:15.685295",
-        "score": 0.594
+        "fetch_time": "2026-07-18T03:55:08.048261",
+        "score": 0.489
       },
       {
         "title": "Automatic Hard Example Synthesis with Multi-Level Agentic Data Curation",
@@ -150,104 +186,68 @@
         "region": "global",
         "published": "Fri, 17 Jul 2026 00:00:00 -0400",
         "summary": "arXiv:2607.14256v1 Announce Type: new \nAbstract: Multimodal Large Language Models (MLLMs) are increasingly deployed for nuanced content safety and moderation tasks, yet they remain vulnerable to adver",
-        "fetch_time": "2026-07-17T04:00:15.685325",
-        "score": 0.594
+        "fetch_time": "2026-07-18T03:55:08.048289",
+        "score": 0.489
       },
       {
-        "title": "Marines board tanker amid blockade of Iranian ports as US expands strikes with attacks on bridges",
-        "link": "https://www.theguardian.com/world/2026/jul/17/us-marines-board-ship-gulf-oman-expanded-airstrikes-iran",
+        "title": "Memphis rallies for progressive Democrat after four fatal shootings by taskforce: ‘Fight of our lives’",
+        "link": "https://www.theguardian.com/us-news/2026/jul/17/justin-pearson-memphis-rally-progressive-democrat-aoc",
         "source": "The Guardian",
         "source_weight": 0.9,
         "category": "politics",
         "region": "global",
-        "published": "Fri, 17 Jul 2026 03:50:21 GMT",
-        "summary": "<p>Boarding of M/T Wen Yao in Gulf of Oman comes as expanded airstrike campaign hits five bridges in southern Iran</p><p>American forces boarded a ship in the Gulf of Oman on Thursday as part of the r",
-        "fetch_time": "2026-07-17T04:00:18.512980",
-        "score": 0.579
+        "published": "Sat, 18 Jul 2026 02:18:08 GMT",
+        "summary": "<p>Alexandra Ocasio-Cortez and Ayanna Pressley join rally to support Justin Pearson’s bid for a seat in Congress</p><p>More than a thousand people rallied for Justin Pearson, a Democratic state repres",
+        "fetch_time": "2026-07-18T03:55:09.567177",
+        "score": 0.485
       },
       {
-        "title": "SpaceX suddenly aborts second Starship V3 launch after ignition",
-        "link": "https://techcrunch.com/2026/07/16/spacex-suddenly-aborts-second-starship-v3-launch-after-ignition/",
-        "source": "TechCrunch",
-        "source_weight": 1.0,
-        "category": "tech",
-        "region": "global",
-        "published": "Thu, 16 Jul 2026 23:01:27 +0000",
-        "summary": "The company didn't immediately say what went wrong. SpaceX's stock plunged more than 4% in after-hours trading before paring losses.",
-        "fetch_time": "2026-07-17T04:00:10.738966",
-        "score": 0.559
-      },
-      {
-        "title": "DeepSeek Champions China’s Bid to Flood the World With Cheap AI",
-        "link": "https://www.bloomberg.com/news/articles/2026-07-17/deepseek-champions-china-s-bid-to-flood-the-world-with-cheap-ai",
-        "source": "Bloomberg Tech",
-        "source_weight": 1.0,
-        "category": "business",
-        "region": "global",
-        "published": "Fri, 17 Jul 2026 00:36:10 GMT",
-        "summary": "On a video conference call from Hangzhou earlier this year, one of China’s hottest startups held a four-hour pitch meeting with potential venture investors that was unusual by almost any measure. Only",
-        "fetch_time": "2026-07-17T04:00:26.039310",
-        "score": 0.543
-      },
-      {
-        "title": "Australia news live: One Nation policy has ‘a bit of cray cray’, says Nationals senator; Telstra outage hit 45% of calls and data, inquiry hears",
-        "link": "https://www.theguardian.com/australia-news/live/2026/jul/17/australia-news-live-telstra-mobile-outage-parliament-inquiry-royal-commission-antisemitism-ai-anthony-albanese-labor-liberals-coalition-politics-ntwnfb",
+        "title": "Experts cast doubt on Trump and DHS chief’s claim 250,000 noncitizens are registered to vote in four US states – as it happened",
+        "link": "https://www.theguardian.com/us-news/live/2026/jul/17/donald-trump-speech-china-midterm-elections-latest-news-updates",
         "source": "The Guardian",
         "source_weight": 0.9,
         "category": "politics",
         "region": "global",
-        "published": "Fri, 17 Jul 2026 03:45:09 GMT",
-        "summary": "<p>‘With One Nation, you get 60% solid policy and a bit of cray cray thrown in’, senator says. Follow today’s news live.</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CM",
-        "fetch_time": "2026-07-17T04:00:18.512948",
-        "score": 0.53
+        "published": "Sat, 18 Jul 2026 01:57:52 GMT",
+        "summary": "<p>This blog is now closed.</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/jul/17/markwayne-mullin-trump-baseless-election-claims\">DHS secretary doubles down on Trump’s baseless 2020 ",
+        "fetch_time": "2026-07-18T03:55:09.567180",
+        "score": 0.485
       },
       {
-        "title": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
-        "link": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
-        "source": "TechCrunch",
-        "source_weight": 1.0,
-        "category": "tech",
-        "region": "global",
-        "published": "Thu, 16 Jul 2026 14:40:00 +0000",
-        "summary": "While everyone in AI is chasing \"superintelligence,\" Alexandre LeBrun, CEO of Yann LeCun’s world model startup, AMI Labs, dismisses the word.",
-        "fetch_time": "2026-07-17T04:00:10.739028",
-        "score": 0.499
-      },
-      {
-        "title": "Walmart bets on AI and digital twins to shape its supply chain strategy",
-        "link": "https://www.supplychaindive.com/news/walmart-bets-on-ai-and-digital-twins-to-shape-its-supply-chain-strategy/825163/",
-        "source": "Supply Chain Dive",
-        "source_weight": 1.0,
+        "title": "Mexico heavy-duty truck production, exports to US rebound in June",
+        "link": "https://www.freightwaves.com/news/mexico-heavy-duty-truck-production-exports-to-us-rebound-in-june",
+        "source": "FreightWaves",
+        "source_weight": 0.95,
         "category": "supply_chain",
         "region": "global",
-        "published": "Thu, 16 Jul 2026 11:05:00 -0400",
-        "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/9nPbAgIis3yCQ-7_rmHITGsp5IjCVGELnp-KxTQkr-Q/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS80YTQyMjMzNC1jYjhkLTRiYmMtYjVhZi0zMTg1",
-        "fetch_time": "2026-07-17T04:00:15.764502",
-        "score": 0.499
+        "published": "Fri, 17 Jul 2026 15:42:51 +0000",
+        "summary": "<p>Mexico’s heavy-duty truck industry posted gains in June production and exports, signaling a recovery led by freight demand in the U.S. market.</p>\n<p>The post <a href=\"https://www.freightwaves.com/",
+        "fetch_time": "2026-07-18T03:55:08.613933",
+        "score": 0.484
       },
       {
-        "title": "Oracle Risks Falling Behind in AI Race as Spending Binge Bites",
-        "link": "https://www.bloomberg.com/news/articles/2026-07-16/oracle-risks-falling-behind-in-ai-race-as-spending-binge-bites",
+        "title": "Freight M&A: Why is Private Equity ‘Bullish’ on the Next 18 Months?",
+        "link": "https://www.freightwaves.com/news/freight-ma-why-is-private-equity-bullish-on-the-next-18-months",
+        "source": "FreightWaves",
+        "source_weight": 0.95,
+        "category": "supply_chain",
+        "region": "global",
+        "published": "Fri, 17 Jul 2026 14:49:12 +0000",
+        "summary": "<p>SummaryView Transcript Despite a recent slowdown, the freight M&#38;A market is buzzing with excitement. Investment banking director Eddie Zukowski explains why he&#8217;s bullish on the next 12-18",
+        "fetch_time": "2026-07-18T03:55:08.613949",
+        "score": 0.484
+      },
+      {
+        "title": "China’s Moonshot Unveils AI Model, Fueling Tech Rout",
+        "link": "https://www.bloomberg.com/news/articles/2026-07-17/china-s-powerful-new-moonshot-ai-model-closes-gap-with-us-rivals",
         "source": "Bloomberg Tech",
         "source_weight": 1.0,
         "category": "business",
         "region": "global",
-        "published": "Thu, 16 Jul 2026 16:00:35 GMT",
-        "summary": "Oracle Corp.’s ambitions to dominate the artificial intelligence buildout are running into a key hurdle: funding a spending spree without further damaging its credit standing.",
-        "fetch_time": "2026-07-17T04:00:26.039346",
-        "score": 0.499
-      },
-      {
-        "title": "US tags Brazil imports with 25% tariff",
-        "link": "https://www.supplychaindive.com/news/us-tags-brazil-imports-with-25-tariff/825397/",
-        "source": "Supply Chain Dive",
-        "source_weight": 1.0,
-        "category": "supply_chain",
-        "region": "global",
-        "published": "Thu, 16 Jul 2026 07:52:00 -0400",
-        "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/wSBkdrbJ89lj1Yo159m9RVWLzKN-T4u0vUyxkIMroks/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjc2NDExOTM0LmpwZw==",
-        "fetch_time": "2026-07-17T04:00:15.764505",
-        "score": 0.494
+        "published": "Fri, 17 Jul 2026 07:01:58 GMT",
+        "summary": "Chinese AI pioneer Moonshot unveiled a new model that it claims performs on par with some of the top-tier platforms from OpenAI and Anthropic PBC, the latest sign that the Asian country’s artificial i",
+        "fetch_time": "2026-07-18T03:55:11.517016",
+        "score": 0.483
       }
     ]
   }

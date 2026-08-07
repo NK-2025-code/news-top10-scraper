@@ -1,104 +1,104 @@
 {
-  "generated_at": "2026-08-06T04:10:54.826730+00:00",
-  "total_articles": 535,
+  "generated_at": "2026-08-07T03:50:00.246685+00:00",
+  "total_articles": 532,
   "china": {
     "count": 10,
     "articles": [
       {
-        "title": "技术创新驱动规模增长，追觅清洁电器全球累计出货量破4000万台",
-        "link": "https://www.jiemian.com/article/14884065.html",
-        "source": "界面新闻",
-        "source_weight": 0.85,
-        "category": "business",
-        "region": "china",
-        "published": "Thu, 06 Aug 2026 11:40:29 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664251748738900_a580x330.png\" /><p>8月5日，追觅科技对外公布，截至2026年7月，其清洁电器中的核心品类扫地机、洗地机、吸尘器全球累计出货量突破了4000万台。立足全球市场，追觅的产品已覆盖了超120个国",
-        "fetch_time": "2026-08-06T04:10:43.855199",
-        "score": 0.567
-      },
-      {
-        "title": "金价突破4300美元，日内涨超1%，易方达黄金矿ETF(02824)涨逾4%",
-        "link": "https://www.jiemian.com/article/14884002.html",
-        "source": "界面新闻",
-        "source_weight": 0.85,
-        "category": "business",
-        "region": "china",
-        "published": "Thu, 06 Aug 2026 11:36:13 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/ai/20260806/178598696743462100_a580x330.png\" /><p>受国际金价提振，截至10:45，易方达黄金矿ETF（02824）涨幅达4.15%，显著跑赢现货黄金，彰显黄金矿企的高弹性特征。</p>",
-        "fetch_time": "2026-08-06T04:10:43.855226",
-        "score": 0.567
-      },
-      {
-        "title": "现货黄金早盘一度突破4300美元/盎司，金ETF嘉实(159831)布局黄金投资机遇",
-        "link": "https://www.jiemian.com/article/14883770.html",
-        "source": "界面新闻",
-        "source_weight": 0.85,
-        "category": "business",
-        "region": "china",
-        "published": "Thu, 06 Aug 2026 11:26:39 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/ai/20260806/178598570180473400_a580x330.png\" /><p>2026年8月6日早盘，A股贵金属板块大涨，金一文化2连板，盛达资源10cm涨停，招金黄金、西部黄金、中金黄金等跟涨。8月以来，金价大幅走强，现货黄金今日早盘一度突",
-        "fetch_time": "2026-08-06T04:10:43.855264",
-        "score": 0.567
-      },
-      {
-        "title": "拒绝降价！国产DRAM硬气回绝苹果！三星zHBM横空出世，消费电子ETF汇添富(159178)低开高走一度涨超2%，盘中获资金净申购！",
-        "link": "https://www.jiemian.com/article/14883988.html",
-        "source": "界面新闻",
-        "source_weight": 0.85,
-        "category": "business",
-        "region": "china",
-        "published": "Thu, 06 Aug 2026 11:37:00 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/ai/20260806/178598682281189200_a580x330.png\" /><p>截至11:14，消费电子ETF汇添富（159178）低开后迅速拉升，一度放量涨超2%，现涨近1%，冲击三连阳，盘中获资金净申购，显示出资金对成长硬件赛道的青睐！</",
-        "fetch_time": "2026-08-06T04:10:43.855216",
-        "score": 0.561
-      },
-      {
-        "title": "美方以吊销签证方式阻止阿根廷企业同华为开展正常合作，中使馆回应",
-        "link": "https://www.jiemian.com/article/14883995.html",
-        "source": "界面新闻",
-        "source_weight": 0.85,
-        "category": "business",
-        "region": "china",
-        "published": "Thu, 06 Aug 2026 11:27:44 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664253426029700_a580x330.png\" /><p>8月6日，据中国驻阿根廷使馆消息，中国驻阿根廷使馆发言人就美方肆意破坏中阿合作发表谈话：近期，美国驻阿根廷使馆蓄意煽炒“中国威胁论”，泛化国家安全概念，以吊销签证方式赤裸",
-        "fetch_time": "2026-08-06T04:10:43.855247",
-        "score": 0.561
-      },
-      {
-        "title": "SpaceX拟部署太空数据中心，独家采用英伟达芯片，科创芯片ETF博时(588990)涨超3%，冲击3连涨",
-        "link": "https://www.jiemian.com/article/14883764.html",
-        "source": "界面新闻",
-        "source_weight": 0.85,
-        "category": "business",
-        "region": "china",
-        "published": "Thu, 06 Aug 2026 11:26:50 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/ai/20260806/178598563612128900_a580x330.png\" /><p>科创芯片ETF博时（588990）涨3.02%，冲击3连涨；近3月涨13.19%，跟踪上证科创板芯片指数（000685），受益AI算力高景气与SpaceX英伟达合作",
-        "fetch_time": "2026-08-06T04:10:43.855259",
-        "score": 0.561
-      },
-      {
-        "title": "30美元一小时的人形机器人保洁，真人躲在屏幕后",
-        "link": "https://www.tmtpost.com/8093480.html",
+        "title": "【钛晨报】工信部印发民爆行业\"十五五\"规划：2030年生产线危险工序实现无人化，培育3—5家大型企业集团；网信办对派拓公司在华销售产品启动网络安全审查；宇树科技IPO定价150.80元，王兴兴身家有望超200亿元",
+        "link": "https://www.tmtpost.com/8094590.html",
         "source": "钛媒体",
         "source_weight": 0.9,
         "category": "tech",
         "region": "china",
-        "published": "Thu, 06 Aug 2026 10:53:53 +0800",
-        "summary": "它在攒的，是一份训练数据。",
-        "fetch_time": "2026-08-06T04:08:41.747464",
-        "score": 0.522
+        "published": "Fri, 07 Aug 2026 07:20:00 +0800",
+        "summary": "自变量已秘密递表，估值已突破200亿人民币｜独家；DeepSeek拟上调API服务定价；DeepSeek、腾讯等获宇树科技战略配售；第八代五粮液市场批价近日持续走强；专家辟谣“车市半年发了五六百款新车”；通宇通讯：佳贤通信与英伟达不存在研发合作关系；部分银行房贷利率降至“2字头”，有银行房贷利率低于2.8%；特斯拉与SpaceX拟在得州建设Terafab芯片工厂，初期投资168亿美元",
+        "fetch_time": "2026-08-07T03:47:39.260250",
+        "score": 0.594
       },
       {
-        "title": "对话KiWear创始人：不硬蹭AI，一枚戒指真能硬控所有屏幕？",
-        "link": "https://www.tmtpost.com/8093224.html",
+        "title": "台积电研发二维晶体管新技术，突破先进半导体材料界面瓶颈",
+        "link": "https://www.jiemian.com/article/14889553.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Fri, 07 Aug 2026 11:07:35 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664251748738900_a580x330.png\" /><p>8月7日消息，台湾阳明交通大学与台积电企业研发团队在二维半导体领域取得新进展，提出一种原子级界面工程技术，可在缩小晶体管尺寸的同时保持高电气性能，有望推动下一代低功耗半导",
+        "fetch_time": "2026-08-07T03:49:45.147726",
+        "score": 0.59
+      },
+      {
+        "title": "多家光伏龙头回应美国加征关税",
+        "link": "https://www.jiemian.com/article/14889701.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Fri, 07 Aug 2026 11:23:58 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220712/165760844893303600_a580x330.png\" /><p>当地时间8月6日，美国总统特朗普签署行政令，依据《1962年贸易扩展法》第232条，对进口多晶硅及其衍生产品采取最低进口价格和额外关税措施，以支持美国国内多晶硅、半导体和",
+        "fetch_time": "2026-08-07T03:49:45.147661",
+        "score": 0.572
+      },
+      {
+        "title": "540亿元交易官宣，核药赛道“史上最大并购”诞生",
+        "link": "https://www.jiemian.com/article/14889585.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Fri, 07 Aug 2026 11:14:36 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/jiemian/original/vcg_new/20250111/3/1736550501174_a580x330.png\" /><p>全球核药领域迎来一笔改写格局的交易。</p>",
+        "fetch_time": "2026-08-07T03:49:45.147707",
+        "score": 0.572
+      },
+      {
+        "title": "全球AI投资热潮叠加基数效应，7月中国出口继续高增",
+        "link": "https://www.jiemian.com/article/14889471.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Fri, 07 Aug 2026 11:02:36 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20260807/178607159177941300_a580x330.jpeg\" /><p>7月出口动能依然强劲。</p>",
+        "fetch_time": "2026-08-07T03:49:45.147744",
+        "score": 0.572
+      },
+      {
+        "title": "恒生科技ETF华夏（513180）盘中成交超11亿，位列同指数第一",
+        "link": "https://www.jiemian.com/article/14889563.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Fri, 07 Aug 2026 11:21:24 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/ai/20260807/178607206861242500_a580x330.png\" /><p>8月7日上午，港股市场窄幅震荡，恒生科技指数一度翻红，内地规模最大的恒生科技ETF华夏（513180）盘中成交活跃，截至11:00，其成交额已突破11亿元，在跟踪恒",
+        "fetch_time": "2026-08-07T03:49:45.147668",
+        "score": 0.567
+      },
+      {
+        "title": "石油ETF平安(159199)冲击4连涨，地缘扰动仍旧主导行情",
+        "link": "https://www.jiemian.com/article/14889572.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Fri, 07 Aug 2026 11:21:16 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/ai/20260807/178607207025792900_a580x330.png\" /><p>截至2026年8月7日 10:58，国证石油天然气指数(399439)上涨0.35%，成分股德龙汇能上涨4.01%，潜能恒信上涨2.03%，洪田股份上涨1.89%，",
+        "fetch_time": "2026-08-07T03:49:45.147671",
+        "score": 0.561
+      },
+      {
+        "title": "Edge AI Daily 早报（8月7日）",
+        "link": "https://www.tmtpost.com/8094750.html",
         "source": "钛媒体",
         "source_weight": 0.9,
         "category": "tech",
         "region": "china",
-        "published": "Thu, 06 Aug 2026 11:22:41 +0800",
-        "summary": "只有无限贴近用户佩戴习惯的产品形态才是可穿戴设备的最终形态。",
-        "fetch_time": "2026-08-06T04:08:41.747441",
-        "score": 0.49
+        "published": "Fri, 07 Aug 2026 08:24:16 +0800",
+        "summary": "Adobe集成ChatGPT开启对话创意；Mirendil押注算力；法国电销禁令；Hugging Face数据危机与对齐裂痕；LG开源回收模型；微软裁员聚焦AI；Prime Agent ARC反超人类；辛顿警告成真，AI自主突破沙箱；谷歌收购Mechanize；苹果Passkey泄露IP；谷歌印度项目环保争议；WindBorne独家数据优势；2.5B模型蒸馏缝合教师优势。",
+        "fetch_time": "2026-08-07T03:47:39.260246",
+        "score": 0.555
       },
       {
         "title": "Satellite lofted for first Arab country",
@@ -109,7 +109,7 @@
         "region": "china",
         "published": "2017-12-12T00:27:08.000+0000",
         "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
-        "fetch_time": "2026-08-06T04:10:47.076676",
+        "fetch_time": "2026-08-07T03:49:51.954099",
         "score": 0.309
       },
       {
@@ -121,7 +121,7 @@
         "region": "china",
         "published": "2017-12-12T00:46:57.000+0000",
         "summary": "A high-level international advisory body applauded China's efforts to improve the environment and suggested a 15-year strategy against pollution in a draft recommendation report on Monday.",
-        "fetch_time": "2026-08-06T04:10:47.076609",
+        "fetch_time": "2026-08-07T03:49:51.954030",
         "score": 0.24
       }
     ]
@@ -129,6 +129,66 @@
   "global": {
     "count": 10,
     "articles": [
+      {
+        "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
+        "link": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+        "source": "TechCrunch",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "global",
+        "published": "Thu, 06 Aug 2026 22:43:53 +0000",
+        "summary": "Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker.",
+        "fetch_time": "2026-08-07T03:49:55.591328",
+        "score": 0.543
+      },
+      {
+        "title": "BMI's Chowdhury on Copper, Gold, Oil Markets",
+        "link": "https://www.bloomberg.com/news/videos/2026-08-07/bmi-s-chowdhury-on-copper-gold-oil-markets-video",
+        "source": "Bloomberg Tech",
+        "source_weight": 1.0,
+        "category": "business",
+        "region": "global",
+        "published": "Fri, 07 Aug 2026 02:43:55 GMT",
+        "summary": "Sabrin Chowdhury, Head of Commodities Research at BMI, discusses the outlook for precious metals and oil markets following reports that Iran attacked “hostile targets” in the Strait of Hormuz. She spe",
+        "fetch_time": "2026-08-07T03:49:59.970709",
+        "score": 0.543
+      },
+      {
+        "title": "AI Data Center Group Firmus Draws $2 Billion From Coatue, Nvidia",
+        "link": "https://www.bloomberg.com/news/articles/2026-08-07/ai-data-center-group-firmus-draws-2-billion-from-coatue-nvidia",
+        "source": "Bloomberg Tech",
+        "source_weight": 1.0,
+        "category": "business",
+        "region": "global",
+        "published": "Fri, 07 Aug 2026 01:48:20 GMT",
+        "summary": "AI data center company Firmus raised $2 billion in a funding round backed by Coatue Management, Nvidia Corp., Blackstone Inc. vehicles and Jane Street, the company said.",
+        "fetch_time": "2026-08-07T03:49:59.970717",
+        "score": 0.543
+      },
+      {
+        "title": "Australia news live: airlines blame lack of traffic controllers for morning of cancellations and long delays at Sydney Airport",
+        "link": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb",
+        "source": "The Guardian",
+        "source_weight": 0.9,
+        "category": "politics",
+        "region": "global",
+        "published": "Fri, 07 Aug 2026 03:35:02 GMT",
+        "summary": "<p>Follow today’s news live</p><p>Federal parliament is returning from winter break next week.</p><p>Do you have a question you’d like to ask Guardian Australia’s team of political reporters in Canber",
+        "fetch_time": "2026-08-07T03:49:58.352342",
+        "score": 0.53
+      },
+      {
+        "title": "Trump administration plans overhaul of antipoverty program for children",
+        "link": "https://www.theguardian.com/us-news/2026/aug/06/trump-administration-head-start-changes",
+        "source": "The Guardian",
+        "source_weight": 0.9,
+        "category": "politics",
+        "region": "global",
+        "published": "Thu, 06 Aug 2026 23:27:43 GMT",
+        "summary": "<p>While officials say proposed revisions to Head Start program will encourage more enrollment, advocates say it will undermine the program</p><p>The Trump administration has said it plans to overhaul",
+        "fetch_time": "2026-08-07T03:49:58.352437",
+        "score": 0.523
+      },
       {
         "title": "AutoProteinEngine: A Large Language Model Driven Agent Framework for Multimodal AutoML in Protein Engineering",
         "link": "https://arxiv.org/abs/2411.04440",
@@ -138,8 +198,32 @@
         "region": "global",
         "published": "Thu, 06 Aug 2026 00:00:00 -0400",
         "summary": "arXiv:2411.04440v1 Announce Type: cross \nAbstract: Protein engineering is important for biomedical applications, but conventional approaches are often inefficient and resource-intensive. While deep le",
-        "fetch_time": "2026-08-06T04:10:50.694319",
-        "score": 0.621
+        "fetch_time": "2026-08-07T03:49:56.494276",
+        "score": 0.516
+      },
+      {
+        "title": "Reopening: Strait of Hormuz awaits Iran-Oman agreement",
+        "link": "https://www.freightwaves.com/news/reopening-strait-of-hormuz-awaits-iran-oman-agreement",
+        "source": "FreightWaves",
+        "source_weight": 0.95,
+        "category": "supply_chain",
+        "region": "global",
+        "published": "Thu, 06 Aug 2026 14:17:55 +0000",
+        "summary": "<p>Iran is tightly managing vessel traffic through the Strait of Hormuz, but says a deal with Oman to re-open the crude oil chokepoint could be near.</p>\n<p>The post <a href=\"https://www.freightwaves.",
+        "fetch_time": "2026-08-07T03:49:57.177838",
+        "score": 0.509
+      },
+      {
+        "title": "OpenAI says Apple’s own security practices undermine its trade secrets case",
+        "link": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/",
+        "source": "TechCrunch",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "global",
+        "published": "Thu, 06 Aug 2026 15:10:32 +0000",
+        "summary": "Newly filed court exhibits show OpenAI’s legal strategy in Apple’s trade secrets lawsuit: argue that Apple’s own security and offboarding practices — including allowing an Apple manager to access a fo",
+        "fetch_time": "2026-08-07T03:49:55.591385",
+        "score": 0.507
       },
       {
         "title": "Leak-Resistant Unlearning: A New Benchmark for Evaluating Multi-Hop Reasoning Consistency and Recovery Robustness",
@@ -150,104 +234,20 @@
         "region": "global",
         "published": "Thu, 06 Aug 2026 00:00:00 -0400",
         "summary": "arXiv:2608.04519v1 Announce Type: new \nAbstract: Benchmarking machine unlearning methods is critical to understand whether sensitive knowledge is removed from large language models (LLMs) or not. Curr",
-        "fetch_time": "2026-08-06T04:10:50.694223",
-        "score": 0.606
+        "fetch_time": "2026-08-07T03:49:56.494182",
+        "score": 0.501
       },
       {
-        "title": "Markets Pause After Record Highs as AI Rally Broadens | The Close 8/5/2026",
-        "link": "https://www.bloomberg.com/news/videos/2026-08-05/the-close-8-5-2026-video",
-        "source": "Bloomberg Tech",
-        "source_weight": 1.0,
-        "category": "business",
-        "region": "global",
-        "published": "Wed, 05 Aug 2026 22:11:58 GMT",
-        "summary": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Scotiabank Managing Direct",
-        "fetch_time": "2026-08-06T04:10:54.463997",
-        "score": 0.559
-      },
-      {
-        "title": "DeepSeek Plans ‘Significant’ Price Increase for AI Services",
-        "link": "https://www.bloomberg.com/news/articles/2026-08-06/deepseek-plans-significant-price-increase-for-its-ai-services",
-        "source": "Bloomberg Tech",
-        "source_weight": 1.0,
-        "category": "business",
-        "region": "global",
-        "published": "Thu, 06 Aug 2026 02:53:33 GMT",
-        "summary": "DeepSeek plans to implement a significant price increase across its AI services, an unusual shift from the disruptive Chinese player that has put pressure on US and domestic rivals.",
-        "fetch_time": "2026-08-06T04:10:54.463920",
-        "score": 0.543
-      },
-      {
-        "title": "LLMs won't break symmetric crypto",
-        "link": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
-        "source": "Hacker News",
-        "source_weight": 0.95,
-        "category": "tech",
-        "region": "global",
-        "published": "Thu, 06 Aug 2026 01:39:06 +0000",
-        "summary": "<a href=\"https://news.ycombinator.com/item?id=49191365\">Comments</a>",
-        "fetch_time": "2026-08-06T04:10:50.228524",
-        "score": 0.533
-      },
-      {
-        "title": "Australia news live: Jean-Claude Perrottet tells Icac inquiry ‘I honestly don’t recall’ why lobbying company sent him monthly $5,000 payments",
-        "link": "https://www.theguardian.com/australia-news/live/2026/aug/06/australia-news-live-nsw-politics-icac-corruption-perrottet-ibac-victoria-daniel-andrews-royal-commission-antisemitism-labor-tax-albanese-ntwnfb",
-        "source": "The Guardian",
-        "source_weight": 0.9,
-        "category": "politics",
-        "region": "global",
-        "published": "Thu, 06 Aug 2026 03:47:54 GMT",
-        "summary": "<p>Follow today’s news live</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or",
-        "fetch_time": "2026-08-06T04:10:52.333094",
-        "score": 0.53
-      },
-      {
-        "title": "Meta says its AI model hacked into another company during testing",
-        "link": "https://www.theguardian.com/technology/2026/aug/05/meta-ai-model-hack-training",
-        "source": "The Guardian",
-        "source_weight": 0.9,
-        "category": "politics",
-        "region": "global",
-        "published": "Thu, 06 Aug 2026 01:27:44 GMT",
-        "summary": "<p>Company is the third to report such an incident after Anthropic and OpenAI reported breaches during training</p><p>Meta said on Wednesday that one of its AI models hacked ⁠another company during cy",
-        "fetch_time": "2026-08-06T04:10:52.333180",
-        "score": 0.523
-      },
-      {
-        "title": "Governments are making a dangerous bet on the AI boom",
-        "link": "https://www.economist.com/leaders/2026/08/05/governments-are-making-a-dangerous-bet-on-the-ai-boom",
-        "source": "Hacker News",
-        "source_weight": 0.95,
-        "category": "tech",
-        "region": "global",
-        "published": "Thu, 06 Aug 2026 03:40:51 +0000",
-        "summary": "<a href=\"https://news.ycombinator.com/item?id=49192160\">Comments</a>",
-        "fetch_time": "2026-08-06T04:10:50.228504",
-        "score": 0.52
-      },
-      {
-        "title": "Port of Virginia adds CSX rail service to Indianapolis",
-        "link": "https://www.supplychaindive.com/news/port-of-virginia-adds-csx-rail-service-to-indianapolis/826997/",
+        "title": "China export frontloading fuels Transpacific trade, Matson says",
+        "link": "https://www.supplychaindive.com/news/china-export-frontloading-fuels-transpacific-trade-matson-says/827131/",
         "source": "Supply Chain Dive",
         "source_weight": 1.0,
         "category": "supply_chain",
         "region": "global",
-        "published": "Wed, 05 Aug 2026 14:41:00 -0400",
-        "summary": "<p>Containers can now move by rail directly into the region, rather than routing through Chicago and trucking south, according to a railroad spokesperson.</p>",
-        "fetch_time": "2026-08-06T04:10:50.860740",
-        "score": 0.483
-      },
-      {
-        "title": "Apple warns memory prices, constraints to keep rising",
-        "link": "https://www.supplychaindive.com/news/apple-warns-memory-prices-constraints-to-keep-rising/826879/",
-        "source": "Supply Chain Dive",
-        "source_weight": 1.0,
-        "category": "supply_chain",
-        "region": "global",
-        "published": "Wed, 05 Aug 2026 07:26:00 -0400",
-        "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/DEgf2z3E8dtHSbz8ET23QBxDk3r3j-es0pZ2MzUVHR0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDQ1MjgxNjY3LmpwZw==",
-        "fetch_time": "2026-08-06T04:10:50.860759",
-        "score": 0.483
+        "published": "Thu, 06 Aug 2026 12:10:00 -0400",
+        "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/kGEQkjwd2YGOHpA2SmN-KteVWK5VQp8nJR8GBFDb4IE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMTg4NTA0MjIyLmpwZw==",
+        "fetch_time": "2026-08-07T03:49:56.574321",
+        "score": 0.494
       }
     ]
   }

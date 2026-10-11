@@ -1,104 +1,104 @@
 {
-  "generated_at": "2026-10-10T06:42:14.596871+00:00",
-  "total_articles": 433,
+  "generated_at": "2026-10-11T06:48:01.254578+00:00",
+  "total_articles": 423,
   "china": {
     "count": 10,
     "articles": [
       {
-        "title": "巴拿马运河管理局：地震造成部分设施受损，运河正常运营",
-        "link": "https://www.jiemian.com/article/15175130.html",
+        "title": "鹿明机器人与面壁智能达成战略合作",
+        "link": "https://www.jiemian.com/article/15176694.html",
         "source": "界面新闻",
         "source_weight": 0.85,
         "category": "business",
         "region": "china",
-        "published": "Sat, 10 Oct 2026 12:09:45 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664253426029700_a580x330.png\" /><p></p>",
-        "fetch_time": "2026-10-10T06:42:04.005289",
+        "published": "Sun, 11 Oct 2026 11:09:10 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664251748738900_a580x330.png\" /><p>10月10日，鹿明机器人宣布，已与面壁智能达成战略合作。双方将围绕具身智能的数据采集、模型训练与场景应用等展开合作。</p>",
+        "fetch_time": "2026-10-11T06:47:50.222712",
         "score": 0.532
       },
       {
-        "title": "Edge AI Daily 早报（10月10日）",
-        "link": "https://www.tmtpost.com/8163419.html",
+        "title": "在欧洲卖得正火的中国混动车要被“限流”了",
+        "link": "https://www.jiemian.com/article/15176108.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Sun, 11 Oct 2026 12:49:20 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/vcg/20221008/1665238968737_a580x330.jpg\" /><p>无论最终执行细则如何，中国汽车企业仅靠出口增量打开欧洲市场的阶段，或将走向尾声。</p>",
+        "fetch_time": "2026-10-11T06:47:50.222660",
+        "score": 0.527
+      },
+      {
+        "title": "公募浮动费率产品迎扩容！中小公募入局，存量产品可改造浮费模式",
+        "link": "https://www.jiemian.com/article/15176176.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Sun, 11 Oct 2026 11:10:11 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/vcg/20221107/1667784354399_a580x330.jpg\" /><p>《通报》明确，支持中小基金管理人结合自身实际，主动布局新模式浮费产品。</p>",
+        "fetch_time": "2026-10-11T06:47:50.222709",
+        "score": 0.527
+      },
+      {
+        "title": "拱北边检站2026年出入境人员突破1亿人次",
+        "link": "https://www.jiemian.com/article/15176685.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Sun, 11 Oct 2026 11:02:25 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664251748738900_a580x330.png\" /><p>据拱北出入境边防检查站，10月11日，该站年内累计查验出入境人员突破1亿人次大关，较2025年提前14天。作为连接珠海与澳门的核心民生通道，拱北口岸以高效往来，见证着粤港",
+        "fetch_time": "2026-10-11T06:47:50.222715",
+        "score": 0.522
+      },
+      {
+        "title": "3D 芯片堆得上去，未必堆得划算：量产卡在良率与成本",
+        "link": "https://www.tmtpost.com/8163821.html",
         "source": "钛媒体",
         "source_weight": 0.9,
         "category": "tech",
         "region": "china",
-        "published": "Sat, 10 Oct 2026 08:57:05 +0800",
-        "summary": "英伟达五年投10亿美元入美国“创世纪计划”、黄仁勋获国家科学奖章，算力巨头升级为国家科学基础设施共建者；谷歌云发布通用智能体Gemini Agent，AI转入“给目标”自主执行的范式跃迁；微软原生重构Xbox PC应用Garrison冲击Steam；亚马逊裁零售岗、2200亿美元资本开支转向AI；Oracle用卡车运天然气保AI数据中心工期，暴露扩张与物理基建错配。",
-        "fetch_time": "2026-10-10T06:40:02.505826",
-        "score": 0.526
+        "published": "Sun, 11 Oct 2026 12:27:20 +0800",
+        "summary": "芯片越堆越高，性能未必越好，利润也未必越多。决定 3D 集成能否规模商业化的，不只是键合精度，而是每颗合格芯片最终要花多少钱。",
+        "fetch_time": "2026-10-11T06:46:47.605733",
+        "score": 0.517
       },
       {
-        "title": "硅谷大模型不装了：Claude卷价格，GPT学豆包",
-        "link": "https://www.tmtpost.com/8163462.html",
+        "title": "广东省省长孟凡利会见美国苹果公司蒂姆·库克一行",
+        "link": "https://www.jiemian.com/article/15176757.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Sun, 11 Oct 2026 12:29:50 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664251748738900_a580x330.png\" /><p></p>",
+        "fetch_time": "2026-10-11T06:47:50.222670",
+        "score": 0.516
+      },
+      {
+        "title": "沙特利雅得所有学校11至15日改为线上学习",
+        "link": "https://www.jiemian.com/article/15176868.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Sun, 11 Oct 2026 14:15:34 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664253426029700_a580x330.png\" /><p></p>",
+        "fetch_time": "2026-10-11T06:47:50.222614",
+        "score": 0.5
+      },
+      {
+        "title": "至真资本推出“AI 资本超市”，以AI助力成长型企业与资本精准高效匹配",
+        "link": "https://www.tmtpost.com/8164202.html",
         "source": "钛媒体",
         "source_weight": 0.9,
         "category": "tech",
         "region": "china",
-        "published": "Sat, 10 Oct 2026 09:10:22 +0800",
-        "summary": "10美分的Claude、0元的GPT，美国AI也搞起“百亿补贴”。",
-        "fetch_time": "2026-10-10T06:40:02.505802",
-        "score": 0.506
-      },
-      {
-        "title": "大闸蟹全线崩盘？中小规格跌至5元，大精品一只仍高达百元",
-        "link": "https://www.jiemian.com/article/15174955.html",
-        "source": "界面新闻",
-        "source_weight": 0.85,
-        "category": "business",
-        "region": "china",
-        "published": "Sat, 10 Oct 2026 14:09:43 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20261010/179160096762082700_a580x330.png\" /><p>一只半斤以上的本地产大闸蟹，出水价在150元左右；公母一对售价在300元。</p>",
-        "fetch_time": "2026-10-10T06:42:04.005213",
-        "score": 0.5
-      },
-      {
-        "title": "【钛晨报】中央重磅部署19项举措，新质生产力发展路径明确；证监会发文，权益类基金成立门槛拟降至5000万元；浙商大佬俞发祥遭立案，两家A股公司回应",
-        "link": "https://www.tmtpost.com/8163364.html",
-        "source": "钛媒体",
-        "source_weight": 0.9,
-        "category": "tech",
-        "region": "china",
-        "published": "Sat, 10 Oct 2026 07:20:00 +0800",
-        "summary": "天孚通信回应海外进出口政策限制传闻；懂车帝辟谣网传内部整顿通知；特斯拉弃用“自动驾驶”命名，以争取欧洲监管批准；iPhone 18 Pro系列被曝削减零部件产量，供应链人士回应；山姆拟限制亲友卡绑定；企查查A股IPO终止；美发布应对所谓“结构性产能和生产过剩”问题部长级联合声明，中方回应。",
-        "fetch_time": "2026-10-10T06:40:02.505838",
-        "score": 0.5
-      },
-      {
-        "title": "北京：引导发展装配式装修与全屋智能物联，带动家电家居全链条消费",
-        "link": "https://www.jiemian.com/article/15175327.html",
-        "source": "界面新闻",
-        "source_weight": 0.85,
-        "category": "business",
-        "region": "china",
-        "published": "Sat, 10 Oct 2026 14:09:40 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664251748738900_a580x330.png\" /><p>​​​​​​​北京市人民政府印发《北京市“十五五”时期深化国际消费中心城市建设规划》，其中提到，持续推动建设安全舒适绿色智慧的“好房子”。引导发展装配式装修与全屋智能物联",
-        "fetch_time": "2026-10-10T06:42:04.005223",
-        "score": 0.5
-      },
-      {
-        "title": "北京：加大新能源汽车推广力度，培育汽车消费新增长点",
-        "link": "https://www.jiemian.com/article/15175324.html",
-        "source": "界面新闻",
-        "source_weight": 0.85,
-        "category": "business",
-        "region": "china",
-        "published": "Sat, 10 Oct 2026 14:09:07 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664251748738900_a580x330.png\" /><p>​​​​​​​北京市人民政府印发《北京市“十五五”时期深化国际消费中心城市建设规划》，其中提到，加大新能源汽车推广力度。进一步完善二手车流通体系，促进二手车便利交易，推动",
-        "fetch_time": "2026-10-10T06:42:04.005228",
-        "score": 0.5
-      },
-      {
-        "title": "北京市“十五五”时期深化国际消费中心城市建设规划发布",
-        "link": "https://www.jiemian.com/article/15175309.html",
-        "source": "界面新闻",
-        "source_weight": 0.85,
-        "category": "business",
-        "region": "china",
-        "published": "Sat, 10 Oct 2026 14:07:39 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664251748738900_a580x330.png\" /><p>​​​​​​​北京市人民政府印发《北京市“十五五”时期深化国际消费中心城市建设规划》，其中提到，到2030年，消费对首都经济发展的基础性作用更加稳固，服务消费供给提质扩容",
-        "fetch_time": "2026-10-10T06:42:04.005231",
-        "score": 0.5
+        "published": "Sun, 11 Oct 2026 09:21:00 +0800",
+        "summary": "\"AI 资本超市\"由 RVC 自主研发，定位为 AI 驱动的资本服务平台。基于先天的行业优势，平台得以直通数百家全球头部投资机构与专业合作伙伴的项目资源。",
+        "fetch_time": "2026-10-11T06:46:47.605771",
+        "score": 0.465
       },
       {
         "title": "学习卡丨“人不负青山，青山定不负人”",
@@ -109,7 +109,7 @@
         "region": "china",
         "published": "2025-06-05",
         "summary": "<p style=\"text-indent: 2em;\">生态环境是关系党的使命宗旨的重大政治问题，也是关系民生的重大社会问题。</p> <p style=\"text-indent: 2em;\">习近平总书记多次指出，必须站在中华民族永续发展根本大计的高度，尊重自然、顺应自然、保护自然，建设人与自然和谐共生的现代化，建设望得见山、看得见水、记得住乡愁的美丽中国。</p> <p style=\"tex",
-        "fetch_time": "2026-10-10T06:42:07.736498",
+        "fetch_time": "2026-10-11T06:47:54.947416",
         "score": 0.23
       },
       {
@@ -121,7 +121,7 @@
         "region": "china",
         "published": "2025-06-05",
         "summary": "<p style=\"text-indent: 2em;\">大美中国，江山如画。</p> <p style=\"text-indent: 2em;\">党的十八大以来，习近平总书记的考察足迹遍及神州大地。祁连山麓、坝上林海，秦岭深处、黄河之滨，总书记在大江奔涌处谋划千秋大计，在山川锦绣间擘画生态蓝图。一系列重要论述，为新时代生态文明建设提供了根本遵循和行动指南。</p> <p style=\"text-a",
-        "fetch_time": "2026-10-10T06:42:07.736510",
+        "fetch_time": "2026-10-11T06:47:54.947429",
         "score": 0.23
       }
     ]
@@ -130,52 +130,100 @@
     "count": 10,
     "articles": [
       {
-        "title": "‘I want to thank President Putin’, Trump says after agreeing to lift sanctions on Russian diesel – as it happened",
-        "link": "https://www.theguardian.com/us-news/live/2026/oct/09/pentagon-fort-hood-livestream-firing-squad-execution-reaction-backlash-pete-hegseth-donald-trump-mussolini-latest-news-updates",
+        "title": "‘We need less point scoring’: What party conference season taught us about UK climate action",
+        "link": "https://www.theguardian.com/politics/2026/oct/11/party-conference-season-uk-climate-action-tories-greens-labour",
         "source": "The Guardian",
         "source_weight": 0.9,
         "category": "politics",
         "region": "global",
-        "published": "Sat, 10 Oct 2026 02:02:45 GMT",
-        "summary": "<p>This liveblog is now closed.</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine\">Zelenskyy furious as Trump announces deal to buy Russian dies",
-        "fetch_time": "2026-10-10T06:42:11.757599",
-        "score": 0.554
+        "published": "Sun, 11 Oct 2026 06:00:18 GMT",
+        "summary": "<p>Tories plan to scrap low-carbon housebuilding, Greens back new nuclear reactors, and Labour put oil-drilling decisions on hold</p><p>New homes could be built without solar panels, heat pumps and hi",
+        "fetch_time": "2026-10-11T06:47:58.542404",
+        "score": 0.568
       },
       {
-        "title": "‘If voters aren’t better off by the next election, we’re screwed’: Labour insiders voice fears over budget",
-        "link": "https://www.theguardian.com/uk-news/2026/oct/10/labour-fears-budget-burnham-healey",
-        "source": "The Guardian",
-        "source_weight": 0.9,
-        "category": "politics",
-        "region": "global",
-        "published": "Sat, 10 Oct 2026 06:00:51 GMT",
-        "summary": "<p>Some say party risks ‘looking twee’ by focusing on small fixes amid growing nervousness that budget lacks ambition</p><p>In the days since Labour’s annual conference, party insiders have been shari",
-        "fetch_time": "2026-10-10T06:42:11.757576",
-        "score": 0.53
-      },
-      {
-        "title": "Super Micro Case ‘Fixer’ Pleads Guilty to Diverting AI Tech",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-09/super-micro-case-fixer-pleads-guilty-to-diverting-ai-servers",
+        "title": "Apple Supplier Luxshare Expects No Material Impact From US Probe",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-11/apple-supplier-luxshare-expects-no-material-impact-from-us-probe",
         "source": "Bloomberg Tech",
         "source_weight": 1.0,
         "category": "business",
         "region": "global",
-        "published": "Fri, 09 Oct 2026 21:11:31 GMT",
-        "summary": "A man charged along with Super Micro Computer Inc. co-founder Yih-Shyan “Wally” Liaw of conspiring to send cutting-edge chips to China in violation of US export controls pleaded guilty, according to c",
-        "fetch_time": "2026-10-10T06:42:14.147620",
-        "score": 0.526
+        "published": "Sun, 11 Oct 2026 02:38:23 GMT",
+        "summary": "Apple Inc. supplier Luxshare Precision Industry Co. is facing a US patent investigation into data-center power technologies following infringement allegations by Vicor Corp., according to a filing on ",
+        "fetch_time": "2026-10-11T06:48:00.994887",
+        "score": 0.543
       },
       {
-        "title": "Put a price on breakthroughs",
-        "link": "https://alexwang.ai/posts/put-a-price-on-breakthroughs/",
+        "title": "‘Restore the authority’: the challenge for the BBC’s new director of news",
+        "link": "https://www.theguardian.com/media/2026/oct/11/challenge-bbc-director-of-news-rachel-jupp",
+        "source": "The Guardian",
+        "source_weight": 0.9,
+        "category": "politics",
+        "region": "global",
+        "published": "Sun, 11 Oct 2026 05:00:18 GMT",
+        "summary": "<p>Rachel Jupp takes role as corporation grapples with digital transformation, a cash crisis and its public service role</p><p>With looming job cuts and an ongoing pay dispute, there has not been much",
+        "fetch_time": "2026-10-11T06:47:58.542407",
+        "score": 0.523
+      },
+      {
+        "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+        "link": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+        "source": "TechCrunch",
+        "source_weight": 1.0,
+        "category": "tech",
+        "region": "global",
+        "published": "Sat, 10 Oct 2026 19:50:00 +0000",
+        "summary": "Is Apple hoping to get into the AI-generated podcast business?",
+        "fetch_time": "2026-10-11T06:47:56.371293",
+        "score": 0.483
+      },
+      {
+        "title": "Nvidia Explores Deal Options With Reflection AI, Financial Times Says",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports",
+        "source": "Bloomberg Tech",
+        "source_weight": 1.0,
+        "category": "business",
+        "region": "global",
+        "published": "Sat, 10 Oct 2026 18:52:58 GMT",
+        "summary": "Nvidia Corp. is in talks to boost its investment in Reflection AI or offer the startup computing power, a move that would strengthen ties with a key developer of open-weight models, according to a per",
+        "fetch_time": "2026-10-11T06:48:00.994898",
+        "score": 0.483
+      },
+      {
+        "title": "GameBoy on E-Paper ESP32 at 30FPS [video]",
+        "link": "https://www.youtube.com/watch?v=XiZmM6hwwAU",
         "source": "Hacker News",
         "source_weight": 0.95,
         "category": "tech",
         "region": "global",
-        "published": "Sat, 10 Oct 2026 02:37:47 +0000",
-        "summary": "<a href=\"https://news.ycombinator.com/item?id=50028982\">Comments</a>",
-        "fetch_time": "2026-10-10T06:42:09.560868",
-        "score": 0.519
+        "published": "Sun, 11 Oct 2026 03:21:07 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=50039536\">Comments</a>",
+        "fetch_time": "2026-10-11T06:47:56.457218",
+        "score": 0.475
+      },
+      {
+        "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+        "link": "https://openai.com/index/pollo-ai",
+        "source": "OpenAI Blog",
+        "source_weight": 1.0,
+        "category": "ai",
+        "region": "global",
+        "published": "Thu, 08 Oct 2026 12:00:00 GMT",
+        "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+        "fetch_time": "2026-10-11T06:47:59.538160",
+        "score": 0.417
+      },
+      {
+        "title": "The two tightest regions tell two very different stories about the freight market",
+        "link": "https://www.freightwaves.com/news/the-two-tightest-regions-tell-two-very-different-stories-about-the-freight-market",
+        "source": "FreightWaves",
+        "source_weight": 0.95,
+        "category": "supply_chain",
+        "region": "global",
+        "published": "Sun, 11 Oct 2026 00:30:00 +0000",
+        "summary": "<p>The Northwestern harvests are crushing capacity, but only temporarily. The Midwest’s sustained tightness tells a more meaningful long-term story about capacity. </p>\n<p>The post <a href=\"https://ww",
+        "fetch_time": "2026-10-11T06:47:57.598475",
+        "score": 0.415
       },
       {
         "title": "Retailers say extended peak shipping season winding down",
@@ -186,32 +234,8 @@
         "region": "global",
         "published": "Fri, 09 Oct 2026 15:20:12 +0000",
         "summary": "<p>NRF says the extended peak shipping season is winding down, with most holiday merchandise already in and U.S. container imports expected to ease through year-end.</p>\n<p>The post <a href=\"https://w",
-        "fetch_time": "2026-10-10T06:42:10.671181",
-        "score": 0.505
-      },
-      {
-        "title": "Trucking Rates Spike: Contracts at 52-Week High",
-        "link": "https://www.freightwaves.com/news/trucking-rates-spike-contracts-at-52-week-high",
-        "source": "FreightWaves",
-        "source_weight": 0.95,
-        "category": "supply_chain",
-        "region": "global",
-        "published": "Fri, 09 Oct 2026 18:26:42 +0000",
-        "summary": "<p>Freight rates are surging! Contract rates hit a 52-week high and spot rates climbed nearly 50% year-over-year in the latest Sonar update. We&#8217;ll also cover the localized impact of Tropical Sto",
-        "fetch_time": "2026-10-10T06:42:10.671154",
-        "score": 0.489
-      },
-      {
-        "title": "Elon Musk intensifies attack on Ambani over Starlink India launch delay",
-        "link": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
-        "source": "TechCrunch",
-        "source_weight": 1.0,
-        "category": "tech",
-        "region": "global",
-        "published": "Sat, 10 Oct 2026 03:10:06 +0000",
-        "summary": "Elon Musk has accused Indian billionaire Mukesh Ambani of blocking competition.",
-        "fetch_time": "2026-10-10T06:42:09.293551",
-        "score": 0.485
+        "fetch_time": "2026-10-11T06:47:57.598503",
+        "score": 0.415
       },
       {
         "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
@@ -222,32 +246,8 @@
         "region": "global",
         "published": "Fri, 09 Oct 2026 07:00:00 GMT",
         "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-        "fetch_time": "2026-10-10T06:42:12.739233",
-        "score": 0.483
-      },
-      {
-        "title": "Cirrus Logic Is Said to Have Bid for Synaptics After Onsemi Deal",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-09/cirrus-logic-is-said-to-have-bid-for-synaptics-after-onsemi-deal",
-        "source": "Bloomberg Tech",
-        "source_weight": 1.0,
-        "category": "business",
-        "region": "global",
-        "published": "Fri, 09 Oct 2026 23:25:37 GMT",
-        "summary": "Semiconductor company Cirrus Logic Inc. made an unsolicited acquisition offer for Synaptics Inc. last month as it looked to spoil a previously announced deal with On Semiconductor Corp., according to ",
-        "fetch_time": "2026-10-10T06:42:14.147624",
-        "score": 0.483
-      },
-      {
-        "title": "Disrupting AI-enabled “false front” operations",
-        "link": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-        "source": "OpenAI Blog",
-        "source_weight": 1.0,
-        "category": "ai",
-        "region": "global",
-        "published": "Thu, 08 Oct 2026 00:00:00 GMT",
-        "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-        "fetch_time": "2026-10-10T06:42:12.739267",
-        "score": 0.429
+        "fetch_time": "2026-10-11T06:47:59.538140",
+        "score": 0.393
       }
     ]
   }

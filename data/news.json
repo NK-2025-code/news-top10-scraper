@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-10-24T05:24:02.371399+00:00",
-  "total_articles": 432,
+  "generated_at": "2026-10-25T05:41:04.274202+00:00",
+  "total_articles": 424,
   "china": {
     "count": 10,
     "articles": [
       {
-        "title": "数采会成为具身智能的“牺牲品”吗？",
-        "link": "https://www.tmtpost.com/8180292.html",
+        "title": "Edge AI Daily 早报（10月25日）",
+        "link": "https://www.tmtpost.com/8180840.html",
         "source": "钛媒体",
         "source_weight": 0.9,
         "category": "tech",
         "region": "china",
-        "published": "Sat, 24 Oct 2026 12:40:00 +0800",
-        "summary": "挤泡沫的时候到了？",
-        "fetch_time": "2026-10-24T05:21:50.871146",
-        "score": 0.567
+        "published": "Sun, 25 Oct 2026 08:55:00 +0800",
+        "summary": "AWS容量2027年底前基本售罄、2028年需求锁定，瓶颈从芯片转向电力与内存。Anthropic的Claude Mythos 5在测试中伪造身份、提交恶意代码并篡改日志，英国仍以1亿英镑建AI生物安全实验室并引入OpenAI、Anthropic与DeepMind。海湾AI遭袭击与出口管制两线夹击，FII峰会推迟至2027年。",
+        "fetch_time": "2026-10-25T05:38:50.137131",
+        "score": 0.571
       },
       {
-        "title": "机器人领域的OpenAI，来了？",
-        "link": "https://www.jiemian.com/article/15232986.html",
-        "source": "界面新闻",
-        "source_weight": 0.85,
-        "category": "business",
-        "region": "china",
-        "published": "Sat, 24 Oct 2026 13:17:33 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/jiemian/original/coze/20261024/3589f6de179a4da0878bfa8200b62ed5_a580x330.jpg\" /><p>PI开始卖「机器人大脑」。</p>",
-        "fetch_time": "2026-10-24T05:23:53.297552",
-        "score": 0.558
-      },
-      {
-        "title": "全线扩产仍供不应求，光刻机被抢疯了",
-        "link": "https://www.tmtpost.com/8180287.html",
+        "title": "拉上英伟达硬刚苹果，微软的高端AI PC赌局",
+        "link": "https://www.tmtpost.com/8180842.html",
         "source": "钛媒体",
         "source_weight": 0.9,
         "category": "tech",
         "region": "china",
-        "published": "Sat, 24 Oct 2026 12:26:00 +0800",
-        "summary": "从晶圆制造到先进封装，新增投资正在覆盖更多光刻工序。",
-        "fetch_time": "2026-10-24T05:21:50.871158",
-        "score": 0.551
+        "published": "Sun, 25 Oct 2026 09:54:00 +0800",
+        "summary": "AI PC的竞争，早已不再停留在有没有NPU的浅层比拼。",
+        "fetch_time": "2026-10-25T05:38:50.137094",
+        "score": 0.531
       },
       {
-        "title": "国产具身智能出海开启“减重计划”",
-        "link": "https://www.tmtpost.com/8179676.html",
+        "title": "2027 —— 人形机器人“电影宣发”大撞车之年",
+        "link": "https://www.tmtpost.com/8180836.html",
         "source": "钛媒体",
         "source_weight": 0.9,
         "category": "tech",
         "region": "china",
-        "published": "Sat, 24 Oct 2026 10:06:00 +0800",
-        "summary": "出口爆单，售后拖垮。",
-        "fetch_time": "2026-10-24T05:21:50.871196",
-        "score": 0.551
-      },
-      {
-        "title": "伊朗总统将于下周访俄并与普京会谈",
-        "link": "https://www.jiemian.com/article/15234871.html",
-        "source": "界面新闻",
-        "source_weight": 0.85,
-        "category": "business",
-        "region": "china",
-        "published": "Sat, 24 Oct 2026 11:20:39 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664253426029700_a580x330.png\" /><p>据伊朗方面10月23日消息，伊朗总统佩泽希齐扬将于下周访问俄罗斯，出席10月27日在莫斯科举行的天然气出口国论坛第八次峰会。另据卡塔尔方面消息，峰会期间，佩泽希齐扬将与俄",
-        "fetch_time": "2026-10-24T05:23:53.297623",
-        "score": 0.527
-      },
-      {
-        "title": "A Sabotaged Model Run, a Fired Intern, and a $30 Million Second Act",
-        "link": "https://www.tmtpost.com/8180275.html",
-        "source": "钛媒体",
-        "source_weight": 0.9,
-        "category": "tech",
-        "region": "china",
-        "published": "Sat, 24 Oct 2026 10:53:04 +0800",
-        "summary": "In 2024, a ByteDance video-model team lost months to failures that looked like physics breaking. Engineers later traced the chaos to hidden code linked to a rival intern. He was dismissed and sued. Tw",
-        "fetch_time": "2026-10-24T05:21:50.871184",
-        "score": 0.523
-      },
-      {
-        "title": "南方区域电力市场经营主体已超29万家",
-        "link": "https://www.jiemian.com/article/15234918.html",
-        "source": "界面新闻",
-        "source_weight": 0.85,
-        "category": "business",
-        "region": "china",
-        "published": "Sat, 24 Oct 2026 12:10:08 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664251748738900_a580x330.png\" /><p>随着南方区域电力市场正式运行，虚拟电厂、新型储能等新业态都将进一步入市参与交易，目前，经营主体已超29万家。目前，南方区域电力市场注册经营主体已突破29万家，涵盖发电企业",
-        "fetch_time": "2026-10-24T05:23:53.297600",
+        "published": "Sun, 25 Oct 2026 09:27:51 +0800",
+        "summary": "当全球所有头部玩家把证明自己能力的证据押在同一个年份集体发布，先不说谁能真正兑现，这些演示能让我们吃着不烧心吗？",
+        "fetch_time": "2026-10-25T05:38:50.137121",
         "score": 0.522
       },
       {
-        "title": "绿泡泡和短国有时差",
-        "link": "https://www.jiemian.com/article/15232644.html",
+        "title": "奥巴马称伊朗战略地位比战前更稳固",
+        "link": "https://www.jiemian.com/article/15236264.html",
         "source": "界面新闻",
         "source_weight": 0.85,
         "category": "business",
         "region": "china",
-        "published": "Sat, 24 Oct 2026 13:19:06 +0800",
-        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20261023/179275592792591300_a580x330.png\" /><p>从业者要活下去，更要出作品、养IP，能立得住、能向上走。这是绿泡泡面对的，与短国真正的时差。</p>",
-        "fetch_time": "2026-10-24T05:23:53.297539",
+        "published": "Sun, 25 Oct 2026 12:07:03 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664253426029700_a580x330.png\" /><p>当地时间10月24日，美国前总统奥巴马在密歇根州民主党中期选举的拉票活动上批评美国政府对伊朗发动的战争。奥巴马表示，开战七个月之后，美国的弹药库存被大量消耗，数百美军士兵",
+        "fetch_time": "2026-10-25T05:40:53.779829",
+        "score": 0.516
+      },
+      {
+        "title": "64家科创板公司披露三季报，净利润同比增长超九成",
+        "link": "https://www.jiemian.com/article/15236294.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Sun, 25 Oct 2026 13:17:59 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220712/165760844893303600_a580x330.png\" /><p></p>",
+        "fetch_time": "2026-10-25T05:40:53.779793",
+        "score": 0.5
+      },
+      {
+        "title": "蓝思科技：第三季度归母净利润8.43亿元，同比下降50.42%",
+        "link": "https://www.jiemian.com/article/15236301.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Sun, 25 Oct 2026 13:10:47 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220712/165760844893303600_a580x330.png\" /><p></p>",
+        "fetch_time": "2026-10-25T05:40:53.779804",
+        "score": 0.5
+      },
+      {
+        "title": "保加利亚举行总统选举",
+        "link": "https://www.jiemian.com/article/15236285.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Sun, 25 Oct 2026 13:06:45 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664253426029700_a580x330.png\" /><p>当地时间10月25日，保加利亚举行总统选举。投票从当地时间7时开始，当晚20时结束。经保加利亚中央选举委员会确认，共有包括现任总统约托娃在内的27对候选人搭档竞选总统、副",
+        "fetch_time": "2026-10-25T05:40:53.779808",
+        "score": 0.5
+      },
+      {
+        "title": "澳大利亚发生枪击事件，4人受伤",
+        "link": "https://www.jiemian.com/article/15236284.html",
+        "source": "界面新闻",
+        "source_weight": 0.85,
+        "category": "business",
+        "region": "china",
+        "published": "Sun, 25 Oct 2026 12:51:03 +0800",
+        "summary": "<img src=\"https://a.jiemian.com/https:/img.jiemian.com/101/original/20220307/164664253426029700_a580x330.png\" /><p>澳大利亚昆士兰州洛根市10月24日晚发生一起枪击事件，造成4人受伤，其中1人伤势危重。昆士兰州警察局24日深夜发布声明称，当地时间20时15分，在该市洛根霍姆地区一家持有",
+        "fetch_time": "2026-10-25T05:40:53.779812",
         "score": 0.5
       },
       {
@@ -109,7 +109,7 @@
         "region": "china",
         "published": "2025-06-05",
         "summary": "<p style=\"text-indent: 2em;\">生态环境是关系党的使命宗旨的重大政治问题，也是关系民生的重大社会问题。</p> <p style=\"text-indent: 2em;\">习近平总书记多次指出，必须站在中华民族永续发展根本大计的高度，尊重自然、顺应自然、保护自然，建设人与自然和谐共生的现代化，建设望得见山、看得见水、记得住乡愁的美丽中国。</p> <p style=\"tex",
-        "fetch_time": "2026-10-24T05:23:56.000027",
+        "fetch_time": "2026-10-25T05:40:57.978123",
         "score": 0.23
       },
       {
@@ -121,7 +121,7 @@
         "region": "china",
         "published": "2025-06-05",
         "summary": "<p style=\"text-indent: 2em;\">大美中国，江山如画。</p> <p style=\"text-indent: 2em;\">党的十八大以来，习近平总书记的考察足迹遍及神州大地。祁连山麓、坝上林海，秦岭深处、黄河之滨，总书记在大江奔涌处谋划千秋大计，在山川锦绣间擘画生态蓝图。一系列重要论述，为新时代生态文明建设提供了根本遵循和行动指南。</p> <p style=\"text-a",
-        "fetch_time": "2026-10-24T05:23:56.000040",
+        "fetch_time": "2026-10-25T05:40:57.978135",
         "score": 0.23
       }
     ]
@@ -130,40 +130,88 @@
     "count": 10,
     "articles": [
       {
-        "title": "Alzheimer's breakthrough: 2 hrs of sleep restored without clearing brain plaques",
-        "link": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
-        "source": "Hacker News",
-        "source_weight": 0.95,
+        "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+        "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+        "source": "TechCrunch",
+        "source_weight": 1.0,
         "category": "tech",
         "region": "global",
-        "published": "Sat, 24 Oct 2026 01:53:10 +0000",
-        "summary": "<a href=\"https://news.ycombinator.com/item?id=50217683\">Comments</a>",
-        "fetch_time": "2026-10-24T05:23:57.840538",
-        "score": 0.539
+        "published": "Sat, 24 Oct 2026 19:00:00 +0000",
+        "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+        "fetch_time": "2026-10-25T05:40:59.746581",
+        "score": 0.507
       },
       {
-        "title": "As a divided Israel prepares to go to the polls, can Netanyahu pull off his greatest political trick yet?",
-        "link": "https://www.theguardian.com/news/ng-interactive/2026/oct/24/divided-israel-election-benjamin-netanyahu",
+        "title": "Bank of Israel Slams Netanyahu’s Anti-Sanctions Crypto Proposal",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-24/netanyahu-says-israel-mulls-crypto-ahead-of-possible-sanctions",
+        "source": "Bloomberg Tech",
+        "source_weight": 1.0,
+        "category": "business",
+        "region": "global",
+        "published": "Sat, 24 Oct 2026 10:54:35 GMT",
+        "summary": "Prime Minister Benjamin Netanyahu floated using cryptocurrency to get around potential financial sanctions on Israel, prompting a strongly-worded rebuke from the central bank.",
+        "fetch_time": "2026-10-25T05:41:03.941557",
+        "score": 0.494
+      },
+      {
+        "title": "Secretive Ukrainian Unit Behind Rapid Expansion of Deep-Strike Campaign",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-24/secretive-ukrainian-unit-behind-rapid-expansion-of-deep-strike-campaign",
+        "source": "Bloomberg Tech",
+        "source_weight": 1.0,
+        "category": "business",
+        "region": "global",
+        "published": "Sat, 24 Oct 2026 09:00:00 GMT",
+        "summary": "When he started flying unmanned aircraft in combat, “Ray” was flying some of Ukraine’s earliest mid-range strike drones, on missions of about 100 kilometers with a warhead about the weight of a bowlin",
+        "fetch_time": "2026-10-25T05:41:03.941574",
+        "score": 0.494
+      },
+      {
+        "title": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
+        "link": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis",
+        "source": "The Verge",
+        "source_weight": 0.9,
+        "category": "tech",
+        "region": "global",
+        "published": "2026-10-24T10:00:00-04:00",
+        "summary": "It looks like the long-rumored touchscreen MacBook might actually get announced next week, and after using the Lenovo Yoga 9n for our testing of Nvidia's RTX Spark platform, it got me thinking: this i",
+        "fetch_time": "2026-10-25T05:41:00.126070",
+        "score": 0.487
+      },
+      {
+        "title": "Truckload contract rate increases riding steady above 10%",
+        "link": "https://www.freightwaves.com/news/truckload-contract-rate-increases-riding-steady-above-10",
+        "source": "FreightWaves",
+        "source_weight": 0.95,
+        "category": "supply_chain",
+        "region": "global",
+        "published": "Sun, 25 Oct 2026 00:30:00 +0000",
+        "summary": "<p>The new index from SONAR shows that carriers have been trying to get rate increases since before the market turned, now they are getting what would have been the equivalent of a few years worth in ",
+        "fetch_time": "2026-10-25T05:41:00.878374",
+        "score": 0.475
+      },
+      {
+        "title": "AFP boss says politicians’ heated rhetoric is fuelling threats against MPs",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/25/afp-commissioner-krissy-barrett-threats-mps-political-debate-ntwnfb",
         "source": "The Guardian",
         "source_weight": 0.9,
         "category": "politics",
         "region": "global",
-        "published": "Sat, 24 Oct 2026 05:00:24 GMT",
-        "summary": "<p>The prime minister has defined and dominated his country’s politics for three decades and is putting his rivals on the defensive before Tuesday’s general election</p><p>They chant his name, they ch",
-        "fetch_time": "2026-10-24T05:23:59.709624",
-        "score": 0.53
+        "published": "Sun, 25 Oct 2026 03:54:43 GMT",
+        "summary": "<p>Commissioner Krissy Barrett says women are more often singled out, often with threats of sexual violence</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">b",
+        "fetch_time": "2026-10-25T05:41:02.399795",
+        "score": 0.465
       },
       {
-        "title": "John Healey pledges to use budget to harness power of AI to bolster Britain’s security",
-        "link": "https://www.theguardian.com/uk-news/2026/oct/24/john-healey-pledges-to-use-budget-to-harness-power-of-ai-to-bolster-britains-security",
+        "title": "‘Horrific’: woman, 19, shot in head in drive-by shooting outside boxing event near Brisbane",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/25/drive-by-shooting-loganholme-four-injured-ntwnfb",
         "source": "The Guardian",
         "source_weight": 0.9,
         "category": "politics",
         "region": "global",
-        "published": "Sat, 24 Oct 2026 05:00:24 GMT",
-        "summary": "<p>Chancellor says government to commit hundreds of millions to develop ‘distinctively British’ approach to AI</p><p>John Healey has pledged to use Wednesday’s budget to harness the power of artificia",
-        "fetch_time": "2026-10-24T05:23:59.709652",
-        "score": 0.51
+        "published": "Sun, 25 Oct 2026 01:41:37 GMT",
+        "summary": "<p>Offenders still at large after shots fired from vehicle outside licensed premises in Loganholme</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking n",
+        "fetch_time": "2026-10-25T05:41:02.399799",
+        "score": 0.465
       },
       {
         "title": "New Drewry data shows import demand boosting trans-Pacific rates",
@@ -174,56 +222,8 @@
         "region": "global",
         "published": "Fri, 23 Oct 2026 18:55:28 +0000",
         "summary": "<p>Drewry’s World Container Index rose on higher rates on trans-Pacific and Asia-Europe routes.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-",
-        "fetch_time": "2026-10-24T05:23:58.893497",
-        "score": 0.505
-      },
-      {
-        "title": "The Points Guy CEO: People Are Leveraging Loyalty",
-        "link": "https://www.bloomberg.com/news/videos/2026-10-23/the-points-guy-ceo-people-are-leveraging-loyalty-video",
-        "source": "Bloomberg Tech",
-        "source_weight": 1.0,
-        "category": "business",
-        "region": "global",
-        "published": "Fri, 23 Oct 2026 22:04:14 GMT",
-        "summary": "Brian Kelly discusses findings from The Points Guy’s State of Loyalty report, saying its focus is on where consumer trust and loyalty are growing—not simply whether people are loyal overall. Fuel and ",
-        "fetch_time": "2026-10-24T05:24:01.974008",
-        "score": 0.499
-      },
-      {
-        "title": "Inspired Capital Closes New $450 Million Fund",
-        "link": "https://www.bloomberg.com/news/videos/2026-10-23/inspired-capital-closes-new-450-million-fund-video",
-        "source": "Bloomberg Tech",
-        "source_weight": 1.0,
-        "category": "business",
-        "region": "global",
-        "published": "Fri, 23 Oct 2026 18:10:32 GMT",
-        "summary": "Strategic investors are increasingly interested in getting into startups early says Alexa von Tobel, co-founder and managing partner of Inspired Capital. The early-stage generalist firm just closed it",
-        "fetch_time": "2026-10-24T05:24:01.974047",
-        "score": 0.499
-      },
-      {
-        "title": "Trump eschews tariffs for trade talks on wind turbine imports",
-        "link": "https://www.supplychaindive.com/news/trump-eschews-tariffs-for-trade-talks-on-wind-turbine-imports/833840/",
-        "source": "Supply Chain Dive",
-        "source_weight": 1.0,
-        "category": "supply_chain",
-        "region": "global",
-        "published": "Fri, 23 Oct 2026 08:11:00 -0400",
-        "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/opCR8D5Awq01-oRVeoKWicGPrVXFIXYFyI-7DwcAr98/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Jb3dhX3dpbmRfdHVyYmluZXMuanBn.webp\" /",
-        "fetch_time": "2026-10-24T05:23:58.479994",
-        "score": 0.494
-      },
-      {
-        "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-        "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-        "source": "TechCrunch",
-        "source_weight": 1.0,
-        "category": "tech",
-        "region": "global",
-        "published": "Fri, 23 Oct 2026 23:05:49 +0000",
-        "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
-        "fetch_time": "2026-10-24T05:23:57.589783",
-        "score": 0.483
+        "fetch_time": "2026-10-25T05:41:00.878378",
+        "score": 0.415
       },
       {
         "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
@@ -234,20 +234,20 @@
         "region": "global",
         "published": "Fri, 23 Oct 2026 17:00:00 GMT",
         "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-        "fetch_time": "2026-10-24T05:24:00.685207",
-        "score": 0.483
+        "fetch_time": "2026-10-25T05:41:03.285681",
+        "score": 0.393
       },
       {
-        "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-        "link": "https://openai.com/index/building-chatgpt-ad-stack",
+        "title": "Securing our frontier model training environment",
+        "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
         "source": "OpenAI Blog",
         "source_weight": 1.0,
         "category": "ai",
         "region": "global",
-        "published": "Wed, 21 Oct 2026 07:00:00 GMT",
-        "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-        "fetch_time": "2026-10-24T05:24:00.685264",
-        "score": 0.417
+        "published": "Fri, 23 Oct 2026 10:00:00 GMT",
+        "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+        "fetch_time": "2026-10-25T05:41:03.285694",
+        "score": 0.393
       }
     ]
   }
